@@ -1,0 +1,494 @@
+prob_type,label,metric,value,lower_95,upper_95
+norm,adipose tissue,vaildOldLen,5000,nan,nan
+norm,adipose tissue,vaildNewLen,5000,nan,nan
+norm,adipose tissue,testOldLen,5000,nan,nan
+norm,adipose tissue,testNewLen,5000,nan,nan
+norm,adipose tissue,testAuroc,0.968472340003745,0.960412611067295,0.97559033036232
+norm,adipose tissue,vaildOptThreshold,0.20181319,nan,nan
+norm,adipose tissue,accuracy_score_thr_05,0.954,0.948199987411499,0.95959997177124
+norm,adipose tissue,f1_score_thr_05,0.780114722753346,0.751730638742447,0.806921660900116
+norm,adipose tissue,precision_score_thr_05,0.754158964879852,0.717693865299225,0.789179794490337
+norm,adipose tissue,recall_score_thr_05,0.807920792079208,0.772549033164978,0.841563761234283
+norm,adipose tissue,specificity_score_thr_05,0.970411568409344,0.965334504842758,0.975183010101318
+norm,adipose tissue,sensitivity_plus_specificity_thr_05,1.778332360488552,1.743062379956245,1.812793597579002
+norm,adipose tissue,accuracy_score_thr_validOpt,0.9402,0.933600008487701,0.946799993515015
+norm,adipose tissue,f1_score_thr_validOpt,0.748104465037911,0.720201279222965,0.775229433178902
+norm,adipose tissue,precision_score_thr_validOpt,0.651026392961877,0.615275749564171,0.686506515741348
+norm,adipose tissue,recall_score_thr_validOpt,0.879207920792079,0.85050505399704,0.907198525965214
+norm,adipose tissue,specificity_score_thr_validOpt,0.947052280311457,0.940411829948425,0.953452110290527
+norm,adipose tissue,sensitivity_plus_specificity_thr_validOpt,1.826260201103536,1.796552395820618,1.855151763558388
+norm,background elements,vaildOldLen,5000,nan,nan
+norm,background elements,vaildNewLen,5000,nan,nan
+norm,background elements,testOldLen,5000,nan,nan
+norm,background elements,testNewLen,5000,nan,nan
+norm,background elements,testAuroc,0.931970899868935,0.921691696345806,0.941886661946774
+norm,background elements,vaildOptThreshold,0.9850429,nan,nan
+norm,background elements,accuracy_score_thr_05,0.109,0.100400000810623,0.117600001394749
+norm,background elements,f1_score_thr_05,0.193956938664737,0.180061966180801,0.207726866006851
+norm,background elements,precision_score_thr_05,0.107393307954318,0.098938517272472,0.115901343524456
+norm,background elements,recall_score_thr_05,1.0,1.0,1.0
+norm,background elements,specificity_score_thr_05,0.002016129032258,0.000891459271952,0.003374578198418
+norm,background elements,sensitivity_plus_specificity_thr_05,1.002016129032258,1.000891441106796,1.003374576568604
+norm,background elements,accuracy_score_thr_validOpt,0.832,0.821600019931793,0.842199981212616
+norm,background elements,f1_score_thr_validOpt,0.528089887640449,0.5,0.555616469681263
+norm,background elements,precision_score_thr_validOpt,0.377813504823151,0.351263186335564,0.404875807464123
+norm,background elements,recall_score_thr_validOpt,0.876865671641791,0.848248149454594,0.903703689575195
+norm,background elements,specificity_score_thr_validOpt,0.826612903225806,0.815507887303829,0.837599292397499
+norm,background elements,sensitivity_plus_specificity_thr_validOpt,1.703478574867598,1.673121073842049,1.732696402072907
+norm,debris,vaildOldLen,5000,nan,nan
+norm,debris,vaildNewLen,5000,nan,nan
+norm,debris,testOldLen,5000,nan,nan
+norm,debris,testNewLen,5000,nan,nan
+norm,debris,testAuroc,0.768944172118515,0.746342885494232,0.790526020526886
+norm,debris,vaildOptThreshold,0.14033625,nan,nan
+norm,debris,accuracy_score_thr_05,0.8968,0.888400018215179,0.905200004577637
+norm,debris,f1_score_thr_05,0.454545454545455,0.415050419420004,0.49312444254756
+norm,debris,precision_score_thr_05,0.56282722513089,0.512886433303356,0.612404669821262
+norm,debris,recall_score_thr_05,0.381205673758865,0.34160304069519,0.42226252630353
+norm,debris,specificity_score_thr_05,0.962353471596032,0.9565709233284,0.967785239219666
+norm,debris,sensitivity_plus_specificity_thr_05,1.343559145354898,1.303864774107933,1.383940735459328
+norm,debris,accuracy_score_thr_validOpt,0.8282,0.817600011825562,0.838599979877472
+norm,debris,f1_score_thr_validOpt,0.411240575736806,0.378639037162065,0.44310692474246
+norm,debris,precision_score_thr_validOpt,0.335195530726257,0.304395586252213,0.366737811267376
+norm,debris,recall_score_thr_validOpt,0.531914893617021,0.490195275098085,0.573359566926956
+norm,debris,specificity_score_thr_validOpt,0.865870153291253,0.855751164257526,0.875797967612743
+norm,debris,sensitivity_plus_specificity_thr_validOpt,1.397785046908275,1.354560935497284,1.440346705913544
+norm,lymphocytes,vaildOldLen,5000,nan,nan
+norm,lymphocytes,vaildNewLen,5000,nan,nan
+norm,lymphocytes,testOldLen,5000,nan,nan
+norm,lymphocytes,testNewLen,5000,nan,nan
+norm,lymphocytes,testAuroc,0.955760650923957,0.950042179226875,0.961244560778141
+norm,lymphocytes,vaildOptThreshold,0.02297737,nan,nan
+norm,lymphocytes,accuracy_score_thr_05,0.8978,0.889400005340576,0.906199991703033
+norm,lymphocytes,f1_score_thr_05,0.349044585987261,0.305039793252945,0.391414135694504
+norm,lymphocytes,precision_score_thr_05,0.64018691588785,0.574876406788826,0.702705888450146
+norm,lymphocytes,recall_score_thr_05,0.239929947460595,0.204816548526287,0.275631400942802
+norm,lymphocytes,specificity_score_thr_05,0.982614585685256,0.978625971078873,0.986344355344772
+norm,lymphocytes,sensitivity_plus_specificity_thr_05,1.222544533145852,1.186972317099571,1.258625090122223
+norm,lymphocytes,accuracy_score_thr_validOpt,0.8766,0.867399990558624,0.885604971647262
+norm,lymphocytes,f1_score_thr_validOpt,0.64065230052417,0.613540336489677,0.666307538747787
+norm,lymphocytes,precision_score_thr_validOpt,0.479930191972077,0.451154341548681,0.508803218603134
+norm,lymphocytes,recall_score_thr_validOpt,0.963222416812609,0.946826300024986,0.977740702033043
+norm,lymphocytes,specificity_score_thr_validOpt,0.865432377511854,0.855245335400105,0.875423927605152
+norm,lymphocytes,sensitivity_plus_specificity_thr_validOpt,1.828654794324463,1.809447249770165,1.846196445822716
+norm,mucus,vaildOldLen,5000,nan,nan
+norm,mucus,vaildNewLen,5000,nan,nan
+norm,mucus,testOldLen,5000,nan,nan
+norm,mucus,testNewLen,5000,nan,nan
+norm,mucus,testAuroc,0.739281409281248,0.717321294546127,0.761184360086918
+norm,mucus,vaildOptThreshold,0.0066928496,nan,nan
+norm,mucus,accuracy_score_thr_05,0.9102,0.902199983596802,0.917999982833862
+norm,mucus,f1_score_thr_05,0.008830022075055,0.0,0.022522522136569
+norm,mucus,precision_score_thr_05,1.0,0.0,1.0
+norm,mucus,recall_score_thr_05,0.004434589800443,0.0,0.011389521881938
+norm,mucus,specificity_score_thr_05,1.0,1.0,1.0
+norm,mucus,sensitivity_plus_specificity_thr_05,1.004434589800443,1.0,1.011389493942261
+norm,mucus,accuracy_score_thr_validOpt,0.745,0.732599973678589,0.756804996728897
+norm,mucus,f1_score_thr_validOpt,0.279253815715093,0.252109599113464,0.306667037308216
+norm,mucus,precision_score_thr_validOpt,0.187405159332322,0.167042770236731,0.208651124686003
+norm,mucus,recall_score_thr_validOpt,0.547671840354767,0.502136090397835,0.593618583679199
+norm,mucus,specificity_score_thr_validOpt,0.764563640360519,0.751774491369724,0.776657032966614
+norm,mucus,sensitivity_plus_specificity_thr_validOpt,1.312235480715286,1.264772453904152,1.360363438725471
+norm,smooth muscle,vaildOldLen,5000,nan,nan
+norm,smooth muscle,vaildNewLen,5000,nan,nan
+norm,smooth muscle,testOldLen,5000,nan,nan
+norm,smooth muscle,testNewLen,5000,nan,nan
+norm,smooth muscle,testAuroc,0.542770764119601,0.520569267868996,0.564819158613682
+norm,smooth muscle,vaildOptThreshold,0.14804718,nan,nan
+norm,smooth muscle,accuracy_score_thr_05,0.6978,0.685199975967407,0.710399985313416
+norm,smooth muscle,f1_score_thr_05,0.199258081611023,0.175135135650635,0.223524199798703
+norm,smooth muscle,precision_score_thr_05,0.15838247683235,0.137901127338409,0.179357022047043
+norm,smooth muscle,recall_score_thr_05,0.268571428571429,0.236172846704721,0.301749259233475
+norm,smooth muscle,specificity_score_thr_05,0.767674418604651,0.754949812591076,0.780143746733665
+norm,smooth muscle,sensitivity_plus_specificity_thr_05,1.03624584717608,1.000783222913742,1.071473506093025
+norm,smooth muscle,accuracy_score_thr_validOpt,0.5678,0.554000020027161,0.581200003623962
+norm,smooth muscle,f1_score_thr_validOpt,0.249392150052101,0.22824938595295,0.26981920003891
+norm,smooth muscle,precision_score_thr_validOpt,0.164754474529601,0.149302155151963,0.180243505910039
+norm,smooth muscle,recall_score_thr_validOpt,0.512857142857143,0.475644707679749,0.54957672059536
+norm,smooth muscle,specificity_score_thr_validOpt,0.576744186046512,0.562052166461945,0.591543108224869
+norm,smooth muscle,sensitivity_plus_specificity_thr_validOpt,1.089601328903655,1.049388301372528,1.129069349169731
+norm,normal colon mucosa,vaildOldLen,5000,nan,nan
+norm,normal colon mucosa,vaildNewLen,5000,nan,nan
+norm,normal colon mucosa,testOldLen,5000,nan,nan
+norm,normal colon mucosa,testNewLen,5000,nan,nan
+norm,normal colon mucosa,testAuroc,0.802688888888889,0.782893620431423,0.821829195320606
+norm,normal colon mucosa,vaildOptThreshold,0.0040701376,nan,nan
+norm,normal colon mucosa,accuracy_score_thr_05,0.8774,0.868399977684021,0.886399984359741
+norm,normal colon mucosa,f1_score_thr_05,0.288037166085947,0.248259449750185,0.327792922407389
+norm,normal colon mucosa,precision_score_thr_05,0.301703163017032,0.25806450843811,0.348148622363806
+norm,normal colon mucosa,recall_score_thr_05,0.275555555555556,0.234513267874718,0.317880809307098
+norm,normal colon mucosa,specificity_score_thr_05,0.936923076923077,0.929905147850513,0.944087040424347
+norm,normal colon mucosa,sensitivity_plus_specificity_thr_05,1.212478632478632,1.170735588669777,1.255305129289627
+norm,normal colon mucosa,accuracy_score_thr_validOpt,0.7008,0.688399970531464,0.71340000629425
+norm,normal colon mucosa,f1_score_thr_validOpt,0.325518485121731,0.300616413354874,0.349841040372849
+norm,normal colon mucosa,precision_score_thr_validOpt,0.204185520361991,0.185850276052952,0.222658780962229
+norm,normal colon mucosa,recall_score_thr_validOpt,0.802222222222222,0.764840185642242,0.837962985038757
+norm,normal colon mucosa,specificity_score_thr_validOpt,0.690769230769231,0.677292038500309,0.704124203324318
+norm,normal colon mucosa,sensitivity_plus_specificity_thr_validOpt,1.492991452991453,1.453075021505356,1.531287732720375
+norm,cancer-associated stroma,vaildOldLen,5000,nan,nan
+norm,cancer-associated stroma,vaildNewLen,5000,nan,nan
+norm,cancer-associated stroma,testOldLen,5000,nan,nan
+norm,cancer-associated stroma,testNewLen,5000,nan,nan
+norm,cancer-associated stroma,testAuroc,0.536499619089419,0.511812216043472,0.561264424026012
+norm,cancer-associated stroma,vaildOptThreshold,0.03514486,nan,nan
+norm,cancer-associated stroma,accuracy_score_thr_05,0.8696,0.860199987888336,0.878799974918365
+norm,cancer-associated stroma,f1_score_thr_05,0.035502958579882,0.017316017299891,0.055964652448893
+norm,cancer-associated stroma,precision_score_thr_05,0.067415730337079,0.032432433217764,0.106382980942726
+norm,cancer-associated stroma,recall_score_thr_05,0.024096385542169,0.011695337644778,0.038298280537128
+norm,cancer-associated stroma,specificity_score_thr_05,0.963127498889382,0.957636545598507,0.968525426089764
+norm,cancer-associated stroma,sensitivity_plus_specificity_thr_05,0.987223884431551,0.973271414637566,1.002395567297935
+norm,cancer-associated stroma,accuracy_score_thr_validOpt,0.4728,0.459199994802475,0.486600011587143
+norm,cancer-associated stroma,f1_score_thr_validOpt,0.185414091470952,0.167618692293763,0.203513292968273
+norm,cancer-associated stroma,precision_score_thr_validOpt,0.109569028487947,0.098103251121938,0.121578838676214
+norm,cancer-associated stroma,recall_score_thr_validOpt,0.602409638554217,0.560079444944859,0.644915033876896
+norm,cancer-associated stroma,specificity_score_thr_validOpt,0.458462905375389,0.443697789311409,0.473039277642965
+norm,cancer-associated stroma,sensitivity_plus_specificity_thr_validOpt,1.060872543929606,1.016364941000938,1.10590226650238
+norm,colorectal adenocarcinoma epithelial cells,vaildOldLen,5000,nan,nan
+norm,colorectal adenocarcinoma epithelial cells,vaildNewLen,5000,nan,nan
+norm,colorectal adenocarcinoma epithelial cells,testOldLen,5000,nan,nan
+norm,colorectal adenocarcinoma epithelial cells,testNewLen,5000,nan,nan
+norm,colorectal adenocarcinoma epithelial cells,testAuroc,0.796293768905021,0.779741063714027,0.812298713624477
+norm,colorectal adenocarcinoma epithelial cells,vaildOptThreshold,0.46879062,nan,nan
+norm,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_05,0.707,0.694400012493134,0.719799995422363
+norm,colorectal adenocarcinoma epithelial cells,f1_score_thr_05,0.425715405723246,0.401278845220804,0.448840191215277
+norm,colorectal adenocarcinoma epithelial cells,precision_score_thr_05,0.2973713033954,0.276523495465517,0.318157811462879
+norm,colorectal adenocarcinoma epithelial cells,recall_score_thr_05,0.748965517241379,0.716778516769409,0.779841208457947
+norm,colorectal adenocarcinoma epithelial cells,specificity_score_thr_05,0.699883040935672,0.686438380181789,0.713648934662342
+norm,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_05,1.448848558177052,1.413536450266838,1.482712116837501
+norm,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_validOpt,0.6984,0.685800015926361,0.71100502461195
+norm,colorectal adenocarcinoma epithelial cells,f1_score_thr_validOpt,0.422664624808576,0.39862002581358,0.445787927508354
+norm,colorectal adenocarcinoma epithelial cells,precision_score_thr_validOpt,0.292527821939587,0.272287677228451,0.312831401824951
+norm,colorectal adenocarcinoma epithelial cells,recall_score_thr_validOpt,0.761379310344828,0.729804900288582,0.791782227158546
+norm,colorectal adenocarcinoma epithelial cells,specificity_score_thr_validOpt,0.687719298245614,0.67399397790432,0.701660133898258
+norm,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_validOpt,1.449098608590442,1.414628404378891,1.482646444439888
+unnorm,adipose tissue,vaildOldLen,5000,nan,nan
+unnorm,adipose tissue,vaildNewLen,5000,nan,nan
+unnorm,adipose tissue,testOldLen,5000,nan,nan
+unnorm,adipose tissue,testNewLen,5000,nan,nan
+unnorm,adipose tissue,testAuroc,0.974011608057358,0.967179194092751,0.979921889305115
+unnorm,adipose tissue,vaildOptThreshold,0.006287271,nan,nan
+unnorm,adipose tissue,accuracy_score_thr_05,0.899,0.890600025653839,0.90719997882843
+unnorm,adipose tissue,f1_score_thr_05,0.0,0.0,0.0
+unnorm,adipose tissue,precision_score_thr_05,0.0,0.0,0.0
+unnorm,adipose tissue,recall_score_thr_05,0.0,0.0,0.0
+unnorm,adipose tissue,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,adipose tissue,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,adipose tissue,accuracy_score_thr_validOpt,0.937,0.930400013923645,0.94379997253418
+unnorm,adipose tissue,f1_score_thr_validOpt,0.746580852775543,0.719435176253319,0.772940495610237
+unnorm,adipose tissue,precision_score_thr_validOpt,0.628726287262873,0.594594597816467,0.66365112811327
+unnorm,adipose tissue,recall_score_thr_validOpt,0.918811881188119,0.894409954547882,0.941668684780598
+unnorm,adipose tissue,specificity_score_thr_validOpt,0.939043381535039,0.932157911360264,0.945946069061756
+unnorm,adipose tissue,sensitivity_plus_specificity_thr_validOpt,1.857855262723158,1.83256411254406,1.881542837619782
+unnorm,background elements,vaildOldLen,5000,nan,nan
+unnorm,background elements,vaildNewLen,5000,nan,nan
+unnorm,background elements,testOldLen,5000,nan,nan
+unnorm,background elements,testNewLen,5000,nan,nan
+unnorm,background elements,testAuroc,0.909245355881881,0.896730840206146,0.92143769711256
+unnorm,background elements,vaildOptThreshold,0.033351853,nan,nan
+unnorm,background elements,accuracy_score_thr_05,0.8928,0.884400010108948,0.901199996471405
+unnorm,background elements,f1_score_thr_05,0.0,0.0,0.0
+unnorm,background elements,precision_score_thr_05,0.0,0.0,0.0
+unnorm,background elements,recall_score_thr_05,0.0,0.0,0.0
+unnorm,background elements,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,background elements,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,background elements,accuracy_score_thr_validOpt,0.8496,0.839800000190735,0.859399974346161
+unnorm,background elements,f1_score_thr_validOpt,0.527638190954774,0.497079629451036,0.557379573583603
+unnorm,background elements,precision_score_thr_validOpt,0.397727272727273,0.368421047925949,0.427599935233593
+unnorm,background elements,recall_score_thr_validOpt,0.783582089552239,0.748514534533024,0.817699585855007
+unnorm,background elements,specificity_score_thr_validOpt,0.85752688172043,0.847197294235229,0.867768678069115
+unnorm,background elements,sensitivity_plus_specificity_thr_validOpt,1.641108971272669,1.604631668329239,1.676183098554611
+unnorm,debris,vaildOldLen,5000,nan,nan
+unnorm,debris,vaildNewLen,5000,nan,nan
+unnorm,debris,testOldLen,5000,nan,nan
+unnorm,debris,testNewLen,5000,nan,nan
+unnorm,debris,testAuroc,0.70662263620027,0.682796424627304,0.729265452921391
+unnorm,debris,vaildOptThreshold,0.003423922,nan,nan
+unnorm,debris,accuracy_score_thr_05,0.8872,0.878199994564056,0.896000027656555
+unnorm,debris,f1_score_thr_05,0.0,0.0,0.0
+unnorm,debris,precision_score_thr_05,0.0,0.0,0.0
+unnorm,debris,recall_score_thr_05,0.0,0.0,0.0
+unnorm,debris,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,debris,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,debris,accuracy_score_thr_validOpt,0.7434,0.731400012969971,0.755400002002716
+unnorm,debris,f1_score_thr_validOpt,0.318640467339352,0.290442799776793,0.345935028791428
+unnorm,debris,precision_score_thr_validOpt,0.227445034116755,0.204350549727678,0.250748684257269
+unnorm,debris,recall_score_thr_validOpt,0.531914893617021,0.489361703395844,0.573237462341785
+unnorm,debris,specificity_score_thr_validOpt,0.770288548241659,0.758027766644955,0.78206003755331
+unnorm,debris,sensitivity_plus_specificity_thr_validOpt,1.30220344185868,1.257962331175804,1.344929531216621
+unnorm,lymphocytes,vaildOldLen,5000,nan,nan
+unnorm,lymphocytes,vaildNewLen,5000,nan,nan
+unnorm,lymphocytes,testOldLen,5000,nan,nan
+unnorm,lymphocytes,testNewLen,5000,nan,nan
+unnorm,lymphocytes,testAuroc,0.928626759073595,0.92153554558754,0.935476368665695
+unnorm,lymphocytes,vaildOptThreshold,0.00028049407,nan,nan
+unnorm,lymphocytes,accuracy_score_thr_05,0.8858,0.876999974250793,0.894599974155426
+unnorm,lymphocytes,f1_score_thr_05,0.0,0.0,0.0
+unnorm,lymphocytes,precision_score_thr_05,0.0,0.0,0.0
+unnorm,lymphocytes,recall_score_thr_05,0.0,0.0,0.0
+unnorm,lymphocytes,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,lymphocytes,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,lymphocytes,accuracy_score_thr_validOpt,0.8454,0.835399985313416,0.855199992656708
+unnorm,lymphocytes,f1_score_thr_validOpt,0.587733333333333,0.560535480082035,0.61352175027132
+unnorm,lymphocytes,precision_score_thr_validOpt,0.422546012269939,0.395603968948126,0.449218822270632
+unnorm,lymphocytes,recall_score_thr_validOpt,0.964973730297723,0.949032035470009,0.979202747344971
+unnorm,lymphocytes,specificity_score_thr_validOpt,0.829984195077896,0.818886788189411,0.841013126075268
+unnorm,lymphocytes,sensitivity_plus_specificity_thr_validOpt,1.794957925375619,1.775239923596382,1.813235557079315
+unnorm,mucus,vaildOldLen,5000,nan,nan
+unnorm,mucus,vaildNewLen,5000,nan,nan
+unnorm,mucus,testOldLen,5000,nan,nan
+unnorm,mucus,testNewLen,5000,nan,nan
+unnorm,mucus,testAuroc,0.783904164507781,0.76269189119339,0.804734936356544
+unnorm,mucus,vaildOptThreshold,8.613988e-05,nan,nan
+unnorm,mucus,accuracy_score_thr_05,0.9098,0.901799976825714,0.917599976062775
+unnorm,mucus,f1_score_thr_05,0.0,0.0,0.0
+unnorm,mucus,precision_score_thr_05,0.0,0.0,0.0
+unnorm,mucus,recall_score_thr_05,0.0,0.0,0.0
+unnorm,mucus,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,mucus,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,mucus,accuracy_score_thr_validOpt,0.6882,0.675000011920929,0.700999975204468
+unnorm,mucus,f1_score_thr_validOpt,0.294250792213671,0.270194324105978,0.319158736616373
+unnorm,mucus,precision_score_thr_validOpt,0.184869169510808,0.167339818179607,0.203179355338216
+unnorm,mucus,recall_score_thr_validOpt,0.720620842572062,0.679067608714104,0.761797846853733
+unnorm,mucus,specificity_score_thr_validOpt,0.684985711145307,0.671223819255829,0.698413668572903
+unnorm,mucus,sensitivity_plus_specificity_thr_validOpt,1.405606553717369,1.361565056443214,1.448595947027207
+unnorm,smooth muscle,vaildOldLen,5000,nan,nan
+unnorm,smooth muscle,vaildNewLen,5000,nan,nan
+unnorm,smooth muscle,testOldLen,5000,nan,nan
+unnorm,smooth muscle,testNewLen,5000,nan,nan
+unnorm,smooth muscle,testAuroc,0.640502657807309,0.618995267152786,0.661283454298973
+unnorm,smooth muscle,vaildOptThreshold,0.0023003903,nan,nan
+unnorm,smooth muscle,accuracy_score_thr_05,0.86,0.850399971008301,0.869799971580505
+unnorm,smooth muscle,f1_score_thr_05,0.0,0.0,0.0
+unnorm,smooth muscle,precision_score_thr_05,0.0,0.0,0.0
+unnorm,smooth muscle,recall_score_thr_05,0.0,0.0,0.0
+unnorm,smooth muscle,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,smooth muscle,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,smooth muscle,accuracy_score_thr_validOpt,0.543,0.52920001745224,0.556800007820129
+unnorm,smooth muscle,f1_score_thr_validOpt,0.301436869458881,0.280373410135508,0.3216742426157
+unnorm,smooth muscle,precision_score_thr_validOpt,0.191754181252431,0.176356526464224,0.20708242803812
+unnorm,smooth muscle,recall_score_thr_validOpt,0.704285714285714,0.66916139870882,0.737009383738041
+unnorm,smooth muscle,specificity_score_thr_validOpt,0.516744186046512,0.501755991578102,0.531675344705582
+unnorm,smooth muscle,sensitivity_plus_specificity_thr_validOpt,1.221029900332226,1.183262559771538,1.257377430796623
+unnorm,normal colon mucosa,vaildOldLen,5000,nan,nan
+unnorm,normal colon mucosa,vaildNewLen,5000,nan,nan
+unnorm,normal colon mucosa,testOldLen,5000,nan,nan
+unnorm,normal colon mucosa,testNewLen,5000,nan,nan
+unnorm,normal colon mucosa,testAuroc,0.781610744810745,0.762675090134144,0.799925090372562
+unnorm,normal colon mucosa,vaildOptThreshold,2.1784288e-05,nan,nan
+unnorm,normal colon mucosa,accuracy_score_thr_05,0.91,0.90200001001358,0.917599976062775
+unnorm,normal colon mucosa,f1_score_thr_05,0.0,0.0,0.0
+unnorm,normal colon mucosa,precision_score_thr_05,0.0,0.0,0.0
+unnorm,normal colon mucosa,recall_score_thr_05,0.0,0.0,0.0
+unnorm,normal colon mucosa,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,normal colon mucosa,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,normal colon mucosa,accuracy_score_thr_validOpt,0.693,0.680599987506866,0.705600023269653
+unnorm,normal colon mucosa,f1_score_thr_validOpt,0.308869878433138,0.284371696412563,0.332888422161341
+unnorm,normal colon mucosa,precision_score_thr_validOpt,0.193675889328063,0.175930708646774,0.211859763786197
+unnorm,normal colon mucosa,recall_score_thr_validOpt,0.762222222222222,0.723255813121796,0.800915360450745
+unnorm,normal colon mucosa,specificity_score_thr_validOpt,0.686153846153846,0.672695119678974,0.699690310657024
+unnorm,normal colon mucosa,sensitivity_plus_specificity_thr_validOpt,1.448376068376068,1.407500600814819,1.489045229554176
+unnorm,cancer-associated stroma,vaildOldLen,5000,nan,nan
+unnorm,cancer-associated stroma,vaildNewLen,5000,nan,nan
+unnorm,cancer-associated stroma,testOldLen,5000,nan,nan
+unnorm,cancer-associated stroma,testNewLen,5000,nan,nan
+unnorm,cancer-associated stroma,testAuroc,0.658914645699636,0.636528764665127,0.680867566168308
+unnorm,cancer-associated stroma,vaildOptThreshold,0.0001024057,nan,nan
+unnorm,cancer-associated stroma,accuracy_score_thr_05,0.9004,0.892000019550323,0.908599972724915
+unnorm,cancer-associated stroma,f1_score_thr_05,0.0,0.0,0.0
+unnorm,cancer-associated stroma,precision_score_thr_05,0.0,0.0,0.0
+unnorm,cancer-associated stroma,recall_score_thr_05,0.0,0.0,0.0
+unnorm,cancer-associated stroma,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,cancer-associated stroma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,cancer-associated stroma,accuracy_score_thr_validOpt,0.535,0.520799994468689,0.548600018024445
+unnorm,cancer-associated stroma,f1_score_thr_validOpt,0.23994769532527,0.219867366552353,0.260136470943689
+unnorm,cancer-associated stroma,precision_score_thr_validOpt,0.143303397110504,0.129753038287163,0.157082324847579
+unnorm,cancer-associated stroma,recall_score_thr_validOpt,0.736947791164659,0.697494758665562,0.775093145668507
+unnorm,cancer-associated stroma,specificity_score_thr_validOpt,0.512661039537983,0.497886538505554,0.527087032794952
+unnorm,cancer-associated stroma,sensitivity_plus_specificity_thr_validOpt,1.249608830702642,1.20746134519577,1.290548691153526
+unnorm,colorectal adenocarcinoma epithelial cells,vaildOldLen,5000,nan,nan
+unnorm,colorectal adenocarcinoma epithelial cells,vaildNewLen,5000,nan,nan
+unnorm,colorectal adenocarcinoma epithelial cells,testOldLen,5000,nan,nan
+unnorm,colorectal adenocarcinoma epithelial cells,testNewLen,5000,nan,nan
+unnorm,colorectal adenocarcinoma epithelial cells,testAuroc,0.778784432345231,0.762359343469143,0.794559043645859
+unnorm,colorectal adenocarcinoma epithelial cells,vaildOptThreshold,0.00081058993,nan,nan
+unnorm,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_05,0.855,0.845200002193451,0.864799976348877
+unnorm,colorectal adenocarcinoma epithelial cells,f1_score_thr_05,0.0,0.0,0.0
+unnorm,colorectal adenocarcinoma epithelial cells,precision_score_thr_05,0.0,0.0,0.0
+unnorm,colorectal adenocarcinoma epithelial cells,recall_score_thr_05,0.0,0.0,0.0
+unnorm,colorectal adenocarcinoma epithelial cells,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_validOpt,0.668,0.655200004577637,0.680800020694733
+unnorm,colorectal adenocarcinoma epithelial cells,f1_score_thr_validOpt,0.409672830725462,0.386339347064495,0.431944687664509
+unnorm,colorectal adenocarcinoma epithelial cells,precision_score_thr_validOpt,0.275994250119789,0.256884755194187,0.295026610046625
+unnorm,colorectal adenocarcinoma epithelial cells,recall_score_thr_validOpt,0.79448275862069,0.765025748312473,0.822559547424316
+unnorm,colorectal adenocarcinoma epithelial cells,specificity_score_thr_validOpt,0.646549707602339,0.632522687315941,0.660819105803967
+unnorm,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_validOpt,1.441032466223029,1.408346709609032,1.472487381100655
+text,adipose tissue,vaildOldLen,5000,nan,nan
+text,adipose tissue,vaildNewLen,5000,nan,nan
+text,adipose tissue,testOldLen,5000,nan,nan
+text,adipose tissue,testNewLen,5000,nan,nan
+text,adipose tissue,testAuroc,0.831406293020848,0.820598444342613,0.841528227925301
+text,adipose tissue,vaildOptThreshold,0.75,nan,nan
+text,adipose tissue,accuracy_score_thr_05,0.7212,0.70880001783371,0.733799993991852
+text,adipose tissue,f1_score_thr_05,0.411814345991561,0.386725450307131,0.436409359425306
+text,adipose tissue,precision_score_thr_05,0.261662198391421,0.24184764623642,0.281623152643442
+text,adipose tissue,recall_score_thr_05,0.966336633663366,0.949473299086094,0.980892312526703
+text,adipose tissue,specificity_score_thr_05,0.693659621802002,0.680017709732056,0.70753883421421
+text,adipose tissue,sensitivity_plus_specificity_thr_05,1.659996255465368,1.638412564992905,1.680248737335205
+text,adipose tissue,accuracy_score_thr_validOpt,0.7212,0.70880001783371,0.733799993991852
+text,adipose tissue,f1_score_thr_validOpt,0.411814345991561,0.386725450307131,0.436409359425306
+text,adipose tissue,precision_score_thr_validOpt,0.261662198391421,0.24184764623642,0.281623152643442
+text,adipose tissue,recall_score_thr_validOpt,0.966336633663366,0.949473299086094,0.980892312526703
+text,adipose tissue,specificity_score_thr_validOpt,0.693659621802002,0.680017709732056,0.70753883421421
+text,adipose tissue,sensitivity_plus_specificity_thr_validOpt,1.659996255465368,1.638412564992905,1.680248737335205
+text,background elements,vaildOldLen,5000,nan,nan
+text,background elements,vaildNewLen,5000,nan,nan
+text,background elements,testOldLen,5000,nan,nan
+text,background elements,testNewLen,5000,nan,nan
+text,background elements,testAuroc,0.496863799283154,0.495212537795305,0.49843121394515
+text,background elements,vaildOptThreshold,0.95,nan,nan
+text,background elements,accuracy_score_thr_05,0.1098,0.101395002752542,0.118400000035763
+text,background elements,f1_score_thr_05,0.194097410827449,0.180225370079279,0.207913666963577
+text,background elements,precision_score_thr_05,0.107479446561059,0.099037195555866,0.116017661988735
+text,background elements,recall_score_thr_05,1.0,1.0,1.0
+text,background elements,specificity_score_thr_05,0.002912186379928,0.001350438920781,0.004658540384844
+text,background elements,sensitivity_plus_specificity_thr_05,1.002912186379928,1.001350402832031,1.004658496379852
+text,background elements,accuracy_score_thr_validOpt,0.1098,0.101395002752542,0.118400000035763
+text,background elements,f1_score_thr_validOpt,0.194097410827449,0.180225370079279,0.207913666963577
+text,background elements,precision_score_thr_validOpt,0.107479446561059,0.099037195555866,0.116017661988735
+text,background elements,recall_score_thr_validOpt,1.0,1.0,1.0
+text,background elements,specificity_score_thr_validOpt,0.002912186379928,0.001350438920781,0.004658540384844
+text,background elements,sensitivity_plus_specificity_thr_validOpt,1.002912186379928,1.001350402832031,1.004658496379852
+text,debris,vaildOldLen,5000,nan,nan
+text,debris,vaildNewLen,5000,nan,nan
+text,debris,testOldLen,5000,nan,nan
+text,debris,testNewLen,5000,nan,nan
+text,debris,testAuroc,0.672899919421369,0.651415878534317,0.693863785266876
+text,debris,vaildOptThreshold,0.95,nan,nan
+text,debris,accuracy_score_thr_05,0.7068,0.694000005722046,0.719205014407635
+text,debris,f1_score_thr_05,0.324423963133641,0.298394519835711,0.350023537129164
+text,debris,precision_score_thr_05,0.219178082191781,0.199004977941513,0.240048263221979
+text,debris,recall_score_thr_05,0.624113475177305,0.583608965575695,0.663911923766136
+text,debris,specificity_score_thr_05,0.717312894499549,0.703878057003021,0.730307154357433
+text,debris,sensitivity_plus_specificity_thr_05,1.341426369676854,1.298595270514488,1.383243706822395
+text,debris,accuracy_score_thr_validOpt,0.7152,0.702600002288818,0.72759997844696
+text,debris,f1_score_thr_validOpt,0.328301886792453,0.302129619568586,0.354234591126442
+text,debris,precision_score_thr_validOpt,0.223650385604113,0.203045346587896,0.244818992167711
+text,debris,recall_score_thr_validOpt,0.617021276595745,0.576012460887432,0.657243955135346
+text,debris,specificity_score_thr_validOpt,0.727682596934175,0.714316938817501,0.740541437268257
+text,debris,sensitivity_plus_specificity_thr_validOpt,1.34470387352992,1.301504585146904,1.386530330777168
+text,lymphocytes,vaildOldLen,5000,nan,nan
+text,lymphocytes,vaildNewLen,5000,nan,nan
+text,lymphocytes,testOldLen,5000,nan,nan
+text,lymphocytes,testNewLen,5000,nan,nan
+text,lymphocytes,testAuroc,0.882140438022127,0.875856365263462,0.888288529217243
+text,lymphocytes,vaildOptThreshold,0.95,nan,nan
+text,lymphocytes,accuracy_score_thr_05,0.7864,0.775195008516312,0.797599971294403
+text,lymphocytes,f1_score_thr_05,0.516742081447964,0.490774473547935,0.541328203678131
+text,lymphocytes,precision_score_thr_05,0.348383160463697,0.325182987749577,0.371110381186008
+text,lymphocytes,recall_score_thr_05,1.0,1.0,1.0
+text,lymphocytes,specificity_score_thr_05,0.75886204560849,0.746238216757774,0.771281635761261
+text,lymphocytes,sensitivity_plus_specificity_thr_05,1.75886204560849,1.746238216757774,1.771281635761261
+text,lymphocytes,accuracy_score_thr_validOpt,0.7912,0.77999497205019,0.802200019359589
+text,lymphocytes,f1_score_thr_validOpt,0.522415370539799,0.496439983695745,0.547040268778801
+text,lymphocytes,precision_score_thr_validOpt,0.353560371517028,0.330176366865635,0.376500633358955
+text,lymphocytes,recall_score_thr_validOpt,1.0,1.0,1.0
+text,lymphocytes,specificity_score_thr_validOpt,0.764280876044254,0.751712670922279,0.776577118039131
+text,lymphocytes,sensitivity_plus_specificity_thr_validOpt,1.764280876044254,1.751712730526924,1.776577058434486
+text,mucus,vaildOldLen,5000,nan,nan
+text,mucus,vaildNewLen,5000,nan,nan
+text,mucus,testOldLen,5000,nan,nan
+text,mucus,testNewLen,5000,nan,nan
+text,mucus,testAuroc,0.50210738063335,0.49978032708168,0.505622386932373
+text,mucus,vaildOptThreshold,0.95,nan,nan
+text,mucus,accuracy_score_thr_05,0.91,0.90200001001358,0.917800009250641
+text,mucus,f1_score_thr_05,0.008810572687225,0.0,0.022471910342574
+text,mucus,precision_score_thr_05,0.666666666666667,0.0,1.0
+text,mucus,recall_score_thr_05,0.004434589800443,0.0,0.011389521881938
+text,mucus,specificity_score_thr_05,0.999780171466256,0.999336302280426,1.0
+text,mucus,sensitivity_plus_specificity_thr_05,1.0042147612667,0.999560654163361,1.011244773864746
+text,mucus,accuracy_score_thr_validOpt,0.91,0.90200001001358,0.917800009250641
+text,mucus,f1_score_thr_validOpt,0.008810572687225,0.0,0.022471910342574
+text,mucus,precision_score_thr_validOpt,0.666666666666667,0.0,1.0
+text,mucus,recall_score_thr_validOpt,0.004434589800443,0.0,0.011389521881938
+text,mucus,specificity_score_thr_validOpt,0.999780171466256,0.999336302280426,1.0
+text,mucus,sensitivity_plus_specificity_thr_validOpt,1.0042147612667,0.999560654163361,1.011244773864746
+text,smooth muscle,vaildOldLen,5000,nan,nan
+text,smooth muscle,vaildNewLen,5000,nan,nan
+text,smooth muscle,testOldLen,5000,nan,nan
+text,smooth muscle,testNewLen,5000,nan,nan
+text,smooth muscle,testAuroc,0.577627242524917,0.561071503162384,0.594056932628155
+text,smooth muscle,vaildOptThreshold,0.95,nan,nan
+text,smooth muscle,accuracy_score_thr_05,0.3434,0.330399990081787,0.356599986553192
+text,smooth muscle,f1_score_thr_05,0.265712368597629,0.248260222002864,0.282603980600834
+text,smooth muscle,precision_score_thr_05,0.157517899761337,0.145740330964327,0.169122303277254
+text,smooth muscle,recall_score_thr_05,0.848571428571429,0.821482543647289,0.87447739392519
+text,smooth muscle,specificity_score_thr_05,0.261162790697674,0.248129055649042,0.274648345261812
+text,smooth muscle,sensitivity_plus_specificity_thr_05,1.109734219269103,1.079568895697594,1.138536250591278
+text,smooth muscle,accuracy_score_thr_validOpt,0.3454,0.332199990749359,0.358599990606308
+text,smooth muscle,f1_score_thr_validOpt,0.26630800268998,0.248876863718033,0.283256302773952
+text,smooth muscle,precision_score_thr_validOpt,0.157936718957724,0.146147644147277,0.169586104154587
+text,smooth muscle,recall_score_thr_validOpt,0.848571428571429,0.821482543647289,0.87447739392519
+text,smooth muscle,specificity_score_thr_validOpt,0.263488372093023,0.250408730655909,0.276991463452578
+text,smooth muscle,sensitivity_plus_specificity_thr_validOpt,1.112059800664452,1.081848925352097,1.140821951627731
+text,normal colon mucosa,vaildOldLen,5000,nan,nan
+text,normal colon mucosa,vaildNewLen,5000,nan,nan
+text,normal colon mucosa,testOldLen,5000,nan,nan
+text,normal colon mucosa,testNewLen,5000,nan,nan
+text,normal colon mucosa,testAuroc,0.697784615384615,0.67458997964859,0.720961117744446
+text,normal colon mucosa,vaildOptThreshold,0.95,nan,nan
+text,normal colon mucosa,accuracy_score_thr_05,0.7576,0.745800018310547,0.769200026988983
+text,normal colon mucosa,f1_score_thr_05,0.317567567567568,0.289566248655319,0.345299769192934
+text,normal colon mucosa,precision_score_thr_05,0.212669683257919,0.191208574920893,0.23449319601059
+text,normal colon mucosa,recall_score_thr_05,0.626666666666667,0.582221461832523,0.671431168913841
+text,normal colon mucosa,specificity_score_thr_05,0.770549450549451,0.758454084396362,0.782799506187439
+text,normal colon mucosa,sensitivity_plus_specificity_thr_05,1.397216117216117,1.350801184773445,1.443645685911179
+text,normal colon mucosa,accuracy_score_thr_validOpt,0.7576,0.745800018310547,0.769200026988983
+text,normal colon mucosa,f1_score_thr_validOpt,0.317567567567568,0.289566248655319,0.345299769192934
+text,normal colon mucosa,precision_score_thr_validOpt,0.212669683257919,0.191208574920893,0.23449319601059
+text,normal colon mucosa,recall_score_thr_validOpt,0.626666666666667,0.582221461832523,0.671431168913841
+text,normal colon mucosa,specificity_score_thr_validOpt,0.770549450549451,0.758454084396362,0.782799506187439
+text,normal colon mucosa,sensitivity_plus_specificity_thr_validOpt,1.397216117216117,1.350801184773445,1.443645685911179
+text,cancer-associated stroma,vaildOldLen,5000,nan,nan
+text,cancer-associated stroma,vaildNewLen,5000,nan,nan
+text,cancer-associated stroma,testOldLen,5000,nan,nan
+text,cancer-associated stroma,testNewLen,5000,nan,nan
+text,cancer-associated stroma,testAuroc,0.490879109507778,0.474643997102976,0.507747772336006
+text,cancer-associated stroma,vaildOptThreshold,0.1,nan,nan
+text,cancer-associated stroma,accuracy_score_thr_05,0.803,0.791800022125244,0.81360000371933
+text,cancer-associated stroma,f1_score_thr_05,0.046466602129719,0.02932479721494,0.064947799965739
+text,cancer-associated stroma,precision_score_thr_05,0.044859813084112,0.02816835292615,0.063197558373213
+text,cancer-associated stroma,recall_score_thr_05,0.048192771084337,0.030368654150516,0.067594431340694
+text,cancer-associated stroma,specificity_score_thr_05,0.886494891159485,0.877142155170441,0.895359218120575
+text,cancer-associated stroma,sensitivity_plus_specificity_thr_05,0.934687662243822,0.914431580901146,0.956323879957199
+text,cancer-associated stroma,accuracy_score_thr_validOpt,0.7958,0.784600019454956,0.806599974632263
+text,cancer-associated stroma,f1_score_thr_validOpt,0.136939983093829,0.110630944371223,0.163880295306444
+text,cancer-associated stroma,precision_score_thr_validOpt,0.118248175182482,0.094707518815994,0.143067851662636
+text,cancer-associated stroma,recall_score_thr_validOpt,0.162650602409639,0.131310620158911,0.195474405959249
+text,cancer-associated stroma,specificity_score_thr_validOpt,0.865837405597512,0.855740909278393,0.875502952933311
+text,cancer-associated stroma,sensitivity_plus_specificity_thr_validOpt,1.028488008007151,0.995496621727943,1.063015887141228
+text,colorectal adenocarcinoma epithelial cells,vaildOldLen,5000,nan,nan
+text,colorectal adenocarcinoma epithelial cells,vaildNewLen,5000,nan,nan
+text,colorectal adenocarcinoma epithelial cells,testOldLen,5000,nan,nan
+text,colorectal adenocarcinoma epithelial cells,testNewLen,5000,nan,nan
+text,colorectal adenocarcinoma epithelial cells,testAuroc,0.629093607582174,0.621319305896759,0.636742709577084
+text,colorectal adenocarcinoma epithelial cells,vaildOptThreshold,0.95,nan,nan
+text,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_05,0.3804,0.36719998717308,0.393799990415573
+text,colorectal adenocarcinoma epithelial cells,f1_score_thr_05,0.317019400352734,0.299531482905149,0.334717155992985
+text,colorectal adenocarcinoma epithelial cells,precision_score_thr_05,0.188664392547888,0.176423263177276,0.201314191892743
+text,colorectal adenocarcinoma epithelial cells,recall_score_thr_05,0.991724137931035,0.984658300876617,0.997315406799316
+text,colorectal adenocarcinoma epithelial cells,specificity_score_thr_05,0.27672514619883,0.26350399851799,0.290294300019741
+text,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_05,1.268449284129865,1.253647229075432,1.28332351744175
+text,colorectal adenocarcinoma epithelial cells,accuracy_score_thr_validOpt,0.3804,0.36719998717308,0.393799990415573
+text,colorectal adenocarcinoma epithelial cells,f1_score_thr_validOpt,0.317019400352734,0.299531482905149,0.334717155992985
+text,colorectal adenocarcinoma epithelial cells,precision_score_thr_validOpt,0.188664392547888,0.176423263177276,0.201314191892743
+text,colorectal adenocarcinoma epithelial cells,recall_score_thr_validOpt,0.991724137931035,0.984658300876617,0.997315406799316
+text,colorectal adenocarcinoma epithelial cells,specificity_score_thr_validOpt,0.27672514619883,0.26350399851799,0.290294300019741
+text,colorectal adenocarcinoma epithelial cells,sensitivity_plus_specificity_thr_validOpt,1.268449284129865,1.253647229075432,1.28332351744175
+norm,AVERAGE,auroc,0.7825003,0.776716905832291,0.788432382047176
+unnorm,AVERAGE,auroc,0.79576486,0.790146633982658,0.801388610899448
+text,AVERAGE,auroc,0.64228123,0.637617878615856,0.647049637138844
+comparison,norm_vs_unnorm,two_sided_p,0.000199980002,,
+comparison,norm_vs_unnorm,ci_diff,-0.013264508,-0.016396135091782,-0.010145898163319
+comparison,norm_vs_text,two_sided_p,0.000199980002,,
+comparison,norm_vs_text,ci_diff,0.14021906,0.135317370295525,0.145249113440514

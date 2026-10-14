@@ -1,0 +1,764 @@
+prob_type,label,metric,value,lower_95,upper_95
+norm,atelectasis,vaildOldLen,1808,nan,nan
+norm,atelectasis,vaildNewLen,1808,nan,nan
+norm,atelectasis,testOldLen,3269,nan,nan
+norm,atelectasis,testNewLen,3269,nan,nan
+norm,atelectasis,testAuroc,0.677109306529803,0.655858111381531,0.698216892778873
+norm,atelectasis,vaildOptThreshold,0.98201376,nan,nan
+norm,atelectasis,accuracy_score_thr_05,0.32425818293056,0.308351188898087,0.340471088886261
+norm,atelectasis,f1_score_thr_05,0.389272878075753,0.369178224354982,0.409115880727768
+norm,atelectasis,precision_score_thr_05,0.243936243936244,0.228541392087936,0.259632080793381
+norm,atelectasis,recall_score_thr_05,0.963064295485636,0.948824346065521,0.976065236330032
+norm,atelectasis,specificity_score_thr_05,0.14026792750197,0.126765387877822,0.154091196507215
+norm,atelectasis,sensitivity_plus_specificity_thr_05,1.103332222987606,1.084018841385841,1.122350504994392
+norm,atelectasis,accuracy_score_thr_validOpt,0.526766595289079,0.509330093860626,0.544203102588654
+norm,atelectasis,f1_score_thr_validOpt,0.436018957345972,0.412559248507023,0.459363967180252
+norm,atelectasis,precision_score_thr_validOpt,0.297216699801193,0.277390450239182,0.317507823556662
+norm,atelectasis,recall_score_thr_validOpt,0.818057455540356,0.789882551133633,0.845942199230194
+norm,atelectasis,specificity_score_thr_validOpt,0.442868400315209,0.423483371734619,0.461871144175529
+norm,atelectasis,sensitivity_plus_specificity_thr_validOpt,1.260925855855564,1.225968059897423,1.294627743959427
+norm,cardiomegaly,vaildOldLen,1808,nan,nan
+norm,cardiomegaly,vaildNewLen,1808,nan,nan
+norm,cardiomegaly,testOldLen,3269,nan,nan
+norm,cardiomegaly,testNewLen,3269,nan,nan
+norm,cardiomegaly,testAuroc,0.732805365502514,0.714227867126465,0.751109711825848
+norm,cardiomegaly,vaildOptThreshold,0.998675,nan,nan
+norm,cardiomegaly,accuracy_score_thr_05,0.520954420312022,0.503823816776276,0.538085043430328
+norm,cardiomegaly,f1_score_thr_05,0.499680511182109,0.477864458411932,0.520781172811985
+norm,cardiomegaly,precision_score_thr_05,0.345406360424028,0.325803392380476,0.364883229136467
+norm,cardiomegaly,recall_score_thr_05,0.903002309468822,0.883254706859589,0.922183845937252
+norm,cardiomegaly,specificity_score_thr_05,0.383270911360799,0.363826099038124,0.403048438578844
+norm,cardiomegaly,sensitivity_plus_specificity_thr_05,1.286273220829621,1.258656761050224,1.314208984375
+norm,cardiomegaly,accuracy_score_thr_validOpt,0.624349954114408,0.607831120491028,0.641174674034119
+norm,cardiomegaly,f1_score_thr_validOpt,0.524767801857585,0.500963352620602,0.547423626482487
+norm,cardiomegaly,precision_score_thr_validOpt,0.394644935972061,0.37149356752634,0.417476300150156
+norm,cardiomegaly,recall_score_thr_validOpt,0.782909930715935,0.755318880081177,0.80935684889555
+norm,cardiomegaly,specificity_score_thr_validOpt,0.567207657095298,0.547529412806034,0.587029278278351
+norm,cardiomegaly,sensitivity_plus_specificity_thr_validOpt,1.350117587811233,1.31678723692894,1.38354611992836
+norm,consolidation,vaildOldLen,1808,nan,nan
+norm,consolidation,vaildNewLen,1808,nan,nan
+norm,consolidation,testOldLen,3269,nan,nan
+norm,consolidation,testNewLen,3269,nan,nan
+norm,consolidation,testAuroc,0.641316825188586,0.602544637024403,0.678681646287441
+norm,consolidation,vaildOptThreshold,0.26894143,nan,nan
+norm,consolidation,accuracy_score_thr_05,0.714591618231875,0.699296414852142,0.730192720890045
+norm,consolidation,f1_score_thr_05,0.176522506619594,0.145890923216939,0.206834578886628
+norm,consolidation,precision_score_thr_05,0.109529025191676,0.089206358231604,0.130483686923981
+norm,consolidation,recall_score_thr_05,0.454545454545455,0.388126159459352,0.520179390907288
+norm,consolidation,specificity_score_thr_05,0.733355198425713,0.717746816575527,0.749186386168003
+norm,consolidation,sensitivity_plus_specificity_thr_05,1.187900652971168,1.119994819164276,1.255267578363419
+norm,consolidation,accuracy_score_thr_validOpt,0.675435913123279,0.659528911113739,0.691350539028644
+norm,consolidation,f1_score_thr_validOpt,0.175602175602176,0.147219020873308,0.203791739791632
+norm,consolidation,precision_score_thr_validOpt,0.105904404873477,0.087570297159255,0.124877135455608
+norm,consolidation,recall_score_thr_validOpt,0.513636363636364,0.447253820300102,0.580810722708702
+norm,consolidation,specificity_score_thr_validOpt,0.687110528041981,0.670599721372128,0.703376902639866
+norm,consolidation,sensitivity_plus_specificity_thr_validOpt,1.200746891678344,1.132483133673668,1.269210648536682
+norm,edema,vaildOldLen,1808,nan,nan
+norm,edema,vaildNewLen,1808,nan,nan
+norm,edema,testOldLen,3269,nan,nan
+norm,edema,testNewLen,3269,nan,nan
+norm,edema,testAuroc,0.778190991248065,0.759190762042999,0.796864548325539
+norm,edema,vaildOptThreshold,0.09534947,nan,nan
+norm,edema,accuracy_score_thr_05,0.720403793208932,0.704802691936493,0.735698997974396
+norm,edema,f1_score_thr_05,0.505411255411255,0.476714608818293,0.533123019337654
+norm,edema,precision_score_thr_05,0.400858369098712,0.372093021869659,0.428945121914148
+norm,edema,recall_score_thr_05,0.683748169838946,0.647845447063446,0.718432486057281
+norm,edema,specificity_score_thr_05,0.730085073472544,0.71279461979866,0.747157606482506
+norm,edema,sensitivity_plus_specificity_thr_05,1.41383324331149,1.374560177326202,1.452769792079926
+norm,edema,accuracy_score_thr_validOpt,0.676047721015601,0.659834802150726,0.691962379217148
+norm,edema,f1_score_thr_validOpt,0.501647058823529,0.475011587888002,0.527422797679901
+norm,edema,precision_score_thr_validOpt,0.369625520110957,0.344482983648777,0.394680558890104
+norm,edema,recall_score_thr_validOpt,0.780380673499268,0.748169296979904,0.811554312705994
+norm,edema,specificity_score_thr_validOpt,0.648491879350348,0.629957318305969,0.666796875
+norm,edema,sensitivity_plus_specificity_thr_validOpt,1.428872552849616,1.391608929634094,1.464568531513214
+norm,enlarged cardiomediastinum,vaildOldLen,1808,nan,nan
+norm,enlarged cardiomediastinum,vaildNewLen,1808,nan,nan
+norm,enlarged cardiomediastinum,testOldLen,3269,nan,nan
+norm,enlarged cardiomediastinum,testNewLen,3269,nan,nan
+norm,enlarged cardiomediastinum,testAuroc,0.488969198288935,0.442092497646809,0.536728429794311
+norm,enlarged cardiomediastinum,vaildOptThreshold,0.0021827163,nan,nan
+norm,enlarged cardiomediastinum,accuracy_score_thr_05,0.613337412052615,0.596818625926971,0.62985622882843
+norm,enlarged cardiomediastinum,f1_score_thr_05,0.081395348837209,0.061492807976902,0.102453105151653
+norm,enlarged cardiomediastinum,precision_score_thr_05,0.045714285714286,0.034223161730915,0.058158544730395
+norm,enlarged cardiomediastinum,recall_score_thr_05,0.370860927152318,0.29496171027422,0.449613709747791
+norm,enlarged cardiomediastinum,specificity_score_thr_05,0.625080179602309,0.608207106590271,0.642031337320805
+norm,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_05,0.995941106754627,0.918528443574905,1.075398796796799
+norm,enlarged cardiomediastinum,accuracy_score_thr_validOpt,0.273478127867849,0.258182942867279,0.289385139942169
+norm,enlarged cardiomediastinum,f1_score_thr_validOpt,0.084072502892403,0.069721210002899,0.099398201517761
+norm,enlarged cardiomediastinum,precision_score_thr_validOpt,0.044635544635545,0.036741052661091,0.053174496255815
+norm,enlarged cardiomediastinum,recall_score_thr_validOpt,0.721854304635762,0.649627907574177,0.79285717010498
+norm,enlarged cardiomediastinum,specificity_score_thr_validOpt,0.251763951250802,0.236345340684056,0.267264995723963
+norm,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_validOpt,0.973618255886563,0.90119142383337,1.045504066348076
+norm,fracture,vaildOldLen,1808,nan,nan
+norm,fracture,vaildNewLen,1808,nan,nan
+norm,fracture,testOldLen,3269,nan,nan
+norm,fracture,testNewLen,3269,nan,nan
+norm,fracture,testAuroc,0.645793583492333,0.588642790913582,0.700774022936821
+norm,fracture,vaildOptThreshold,0.000804086,nan,nan
+norm,fracture,accuracy_score_thr_05,0.957173447537473,0.950137674808502,0.963903307914734
+norm,fracture,f1_score_thr_05,0.027777777777778,0.0,0.071016484498978
+norm,fracture,precision_score_thr_05,0.036363636363636,0.0,0.096153847873211
+norm,fracture,recall_score_thr_05,0.02247191011236,0.0,0.058139536529779
+norm,fracture,specificity_score_thr_05,0.983333333333333,0.978750397264957,0.98768550157547
+norm,fracture,sensitivity_plus_specificity_thr_05,1.005805243445693,0.981191217899323,1.041988298296928
+norm,fracture,accuracy_score_thr_validOpt,0.412358519424901,0.395227909088135,0.428877323865891
+norm,fracture,f1_score_thr_validOpt,0.071532141130981,0.056447596941143,0.087416076660156
+norm,fracture,precision_score_thr_validOpt,0.037373737373737,0.029248613864183,0.046029498428106
+norm,fracture,recall_score_thr_validOpt,0.831460674157303,0.75,0.906666696071625
+norm,fracture,specificity_score_thr_validOpt,0.40062893081761,0.383286207914352,0.417269016057253
+norm,fracture,sensitivity_plus_specificity_thr_validOpt,1.232089604974914,1.148042929172516,1.308591222763061
+norm,lung lesion,vaildOldLen,1808,nan,nan
+norm,lung lesion,vaildNewLen,1808,nan,nan
+norm,lung lesion,testOldLen,3269,nan,nan
+norm,lung lesion,testNewLen,3269,nan,nan
+norm,lung lesion,testAuroc,0.660567813561162,0.607102705538273,0.711976696550846
+norm,lung lesion,vaildOptThreshold,0.13296424,nan,nan
+norm,lung lesion,accuracy_score_thr_05,0.847048026919547,0.834505975246429,0.859284162521362
+norm,lung lesion,f1_score_thr_05,0.137931034482759,0.100185362435877,0.175864085927606
+norm,lung lesion,precision_score_thr_05,0.087527352297593,0.0625,0.113895935937762
+norm,lung lesion,recall_score_thr_05,0.32520325203252,0.243897320702672,0.407407402992249
+norm,lung lesion,specificity_score_thr_05,0.867450731087095,0.855436766147614,0.879058128595352
+norm,lung lesion,sensitivity_plus_specificity_thr_05,1.192653983119615,1.110913515090942,1.27646886408329
+norm,lung lesion,accuracy_score_thr_validOpt,0.757112266748241,0.74242889881134,0.77148973941803
+norm,lung lesion,f1_score_thr_validOpt,0.129385964912281,0.100000001490116,0.159215345606208
+norm,lung lesion,precision_score_thr_validOpt,0.074778200253485,0.056994818150997,0.093481576070189
+norm,lung lesion,recall_score_thr_validOpt,0.479674796747967,0.391304343938828,0.56637167930603
+norm,lung lesion,specificity_score_thr_validOpt,0.767959313413859,0.753398549556732,0.782388658821583
+norm,lung lesion,sensitivity_plus_specificity_thr_validOpt,1.247634110161826,1.158052584528923,1.335627976059914
+norm,lung opacity,vaildOldLen,1808,nan,nan
+norm,lung opacity,vaildNewLen,1808,nan,nan
+norm,lung opacity,testOldLen,3269,nan,nan
+norm,lung opacity,testNewLen,3269,nan,nan
+norm,lung opacity,testAuroc,0.588783337608355,0.568823499977589,0.60931359231472
+norm,lung opacity,vaildOptThreshold,0.9998205,nan,nan
+norm,lung opacity,accuracy_score_thr_05,0.339247476292444,0.323340475559235,0.355766296386719
+norm,lung opacity,f1_score_thr_05,0.488878371982963,0.470136731863022,0.507455880939961
+norm,lung opacity,precision_score_thr_05,0.324027603513174,0.307884415984154,0.34053902849555
+norm,lung opacity,recall_score_thr_05,0.995183044315992,0.990539029240608,0.999035656452179
+norm,lung opacity,specificity_score_thr_05,0.034065441506051,0.026893770322204,0.041891891509295
+norm,lung opacity,sensitivity_plus_specificity_thr_05,1.029248485822043,1.020837777853012,1.037975853681564
+norm,lung opacity,accuracy_score_thr_validOpt,0.57418170694402,0.557357013225555,0.591312348842621
+norm,lung opacity,f1_score_thr_validOpt,0.43090760425184,0.40605284050107,0.455051831901073
+norm,lung opacity,precision_score_thr_validOpt,0.374289772727273,0.348923467099667,0.399157225340605
+norm,lung opacity,recall_score_thr_validOpt,0.507707129094412,0.47751197218895,0.538013154268265
+norm,lung opacity,specificity_score_thr_validOpt,0.605109816225908,0.584684488177299,0.62528118044138
+norm,lung opacity,sensitivity_plus_specificity_thr_validOpt,1.11281694532032,1.076391673088074,1.149597117304802
+norm,no finding,vaildOldLen,1808,nan,nan
+norm,no finding,vaildNewLen,1808,nan,nan
+norm,no finding,testOldLen,3269,nan,nan
+norm,no finding,testNewLen,3269,nan,nan
+norm,no finding,testAuroc,0.713850112895068,0.690311171114445,0.737096375226974
+norm,no finding,vaildOptThreshold,0.97068775,nan,nan
+norm,no finding,accuracy_score_thr_05,0.559804221474457,0.542673587799072,0.576934814453125
+norm,no finding,f1_score_thr_05,0.383197599657094,0.357930248230696,0.407499998807907
+norm,no finding,precision_score_thr_05,0.253257790368272,0.232860808447003,0.273504287004471
+norm,no finding,recall_score_thr_05,0.786971830985915,0.753063751757145,0.820469024777412
+norm,no finding,specificity_score_thr_05,0.512032580525731,0.493088950961828,0.531123973429203
+norm,no finding,sensitivity_plus_specificity_thr_05,1.299004411511646,1.259450328350067,1.337550809979439
+norm,no finding,accuracy_score_thr_validOpt,0.765677577240746,0.750688254833221,0.78036093711853
+norm,no finding,f1_score_thr_validOpt,0.388178913738019,0.353399686515331,0.4217056684196
+norm,no finding,precision_score_thr_validOpt,0.355263157894737,0.319026540219784,0.39093619287014
+norm,no finding,recall_score_thr_validOpt,0.427816901408451,0.386063782870769,0.468518525362015
+norm,no finding,specificity_score_thr_validOpt,0.836727138097001,0.822237893939018,0.850502073764801
+norm,no finding,sensitivity_plus_specificity_thr_validOpt,1.264544039505452,1.220867252349854,1.307591113448143
+norm,pleural effusion,vaildOldLen,1808,nan,nan
+norm,pleural effusion,vaildNewLen,1808,nan,nan
+norm,pleural effusion,testOldLen,3269,nan,nan
+norm,pleural effusion,testNewLen,3269,nan,nan
+norm,pleural effusion,testAuroc,0.823101004059505,0.80782422721386,0.83805685788393
+norm,pleural effusion,vaildOptThreshold,0.020332353,nan,nan
+norm,pleural effusion,accuracy_score_thr_05,0.758947690425206,0.744570195674896,0.773325204849243
+norm,pleural effusion,f1_score_thr_05,0.662959794696322,0.640238702297211,0.68474949747324
+norm,pleural effusion,precision_score_thr_05,0.613132911392405,0.586094807088375,0.640215800702572
+norm,pleural effusion,recall_score_thr_05,0.721601489757914,0.694548760354519,0.748538988828659
+norm,pleural effusion,specificity_score_thr_05,0.777220956719818,0.759870566427708,0.794483712315559
+norm,pleural effusion,sensitivity_plus_specificity_thr_05,1.498822446477732,1.466493356227875,1.530500131845474
+norm,pleural effusion,accuracy_score_thr_validOpt,0.725604160293668,0.710003077983856,0.740899384021759
+norm,pleural effusion,f1_score_thr_validOpt,0.669613259668508,0.648924222588539,0.690005533397198
+norm,pleural effusion,precision_score_thr_validOpt,0.553930530164534,0.529699847102165,0.577871626615524
+norm,pleural effusion,recall_score_thr_validOpt,0.846368715083799,0.824693220853806,0.867715808749199
+norm,pleural effusion,specificity_score_thr_validOpt,0.666514806378132,0.646898336708546,0.685805724561214
+norm,pleural effusion,sensitivity_plus_specificity_thr_validOpt,1.512883521461931,1.483295604586601,1.542194518446922
+norm,pleural other,vaildOldLen,1808,nan,nan
+norm,pleural other,vaildNewLen,1808,nan,nan
+norm,pleural other,testOldLen,3269,nan,nan
+norm,pleural other,testNewLen,3269,nan,nan
+norm,pleural other,testAuroc,0.539702343819624,0.466420934349298,0.613388398289681
+norm,pleural other,vaildOptThreshold,0.060086653,nan,nan
+norm,pleural other,accuracy_score_thr_05,0.744570204955644,0.729886829853058,0.759253621101379
+norm,pleural other,f1_score_thr_05,0.047890535917902,0.029344545584172,0.068650141358376
+norm,pleural other,precision_score_thr_05,0.025798525798526,0.01566218030639,0.037440316658467
+norm,pleural other,recall_score_thr_05,0.333333333333333,0.219999998807907,0.455882340669632
+norm,pleural other,specificity_score_thr_05,0.752651278852152,0.737745881080627,0.767384415864944
+norm,pleural other,sensitivity_plus_specificity_thr_05,1.085984612185486,0.971315452456474,1.209098407626152
+norm,pleural other,accuracy_score_thr_validOpt,0.454267360048945,0.437442630529404,0.471092075109482
+norm,pleural other,f1_score_thr_validOpt,0.040860215053763,0.028829984785989,0.053705861978233
+norm,pleural other,precision_score_thr_validOpt,0.021146355036171,0.014818677469157,0.027975964453071
+norm,pleural other,recall_score_thr_validOpt,0.603174603174603,0.483333319425583,0.724137902259827
+norm,pleural other,specificity_score_thr_validOpt,0.45134123518403,0.434346270561218,0.468350963294506
+norm,pleural other,sensitivity_plus_specificity_thr_validOpt,1.054515838358633,0.932435970008373,1.176350417733192
+norm,pneumonia,vaildOldLen,1808,nan,nan
+norm,pneumonia,vaildNewLen,1808,nan,nan
+norm,pneumonia,testOldLen,3269,nan,nan
+norm,pneumonia,testNewLen,3269,nan,nan
+norm,pneumonia,testAuroc,0.602799906398478,0.571460615098476,0.634482729434967
+norm,pneumonia,vaildOptThreshold,0.16451648,nan,nan
+norm,pneumonia,accuracy_score_thr_05,0.762312633832976,0.747629225254059,0.776690125465393
+norm,pneumonia,f1_score_thr_05,0.191467221644121,0.15817956738174,0.225967146828771
+norm,pneumonia,precision_score_thr_05,0.146964856230032,0.119658119976521,0.176372838020325
+norm,pneumonia,recall_score_thr_05,0.274626865671642,0.22726958617568,0.323989706486464
+norm,pneumonia,specificity_score_thr_05,0.81799591002045,0.803781977295876,0.831798096001148
+norm,pneumonia,sensitivity_plus_specificity_thr_05,1.092622775692092,1.042516416311264,1.143969708681106
+norm,pneumonia,accuracy_score_thr_validOpt,0.700520036708474,0.684918940067291,0.715815246105194
+norm,pneumonia,f1_score_thr_validOpt,0.208569118835893,0.178184012323618,0.239750696346164
+norm,pneumonia,precision_score_thr_validOpt,0.143015521064302,0.120613475516438,0.166842739656568
+norm,pneumonia,recall_score_thr_validOpt,0.385074626865672,0.332401832938194,0.438597632199526
+norm,pneumonia,specificity_score_thr_validOpt,0.73653715064758,0.720794628560543,0.752119797468185
+norm,pneumonia,sensitivity_plus_specificity_thr_validOpt,1.121611777513252,1.067577332258224,1.177730605006218
+norm,pneumothorax,vaildOldLen,1808,nan,nan
+norm,pneumothorax,vaildNewLen,1808,nan,nan
+norm,pneumothorax,testOldLen,3269,nan,nan
+norm,pneumothorax,testNewLen,3269,nan,nan
+norm,pneumothorax,testAuroc,0.745242997420698,0.691033139824867,0.796467769145966
+norm,pneumothorax,vaildOptThreshold,0.0019267343,nan,nan
+norm,pneumothorax,accuracy_score_thr_05,0.935148363413888,0.926277160644531,0.943407773971558
+norm,pneumothorax,f1_score_thr_05,0.27891156462585,0.210909083485603,0.345323741436005
+norm,pneumothorax,precision_score_thr_05,0.225274725274725,0.165775403380394,0.287235507369041
+norm,pneumothorax,recall_score_thr_05,0.366071428571429,0.2786885201931,0.457366412132978
+norm,pneumothorax,specificity_score_thr_05,0.955337345581248,0.947869899868965,0.962210397422314
+norm,pneumothorax,sensitivity_plus_specificity_thr_05,1.321408774152676,1.233643120527268,1.412765690684318
+norm,pneumothorax,accuracy_score_thr_validOpt,0.8176812480881,0.804221451282501,0.830835103988647
+norm,pneumothorax,f1_score_thr_validOpt,0.172222222222222,0.135446682572365,0.20927229039371
+norm,pneumothorax,precision_score_thr_validOpt,0.101973684210526,0.078671328723431,0.126354067027569
+norm,pneumothorax,recall_score_thr_validOpt,0.553571428571429,0.459677428007126,0.644867327809334
+norm,pneumothorax,specificity_score_thr_validOpt,0.827050997782705,0.813607174158096,0.840050408244133
+norm,pneumothorax,sensitivity_plus_specificity_thr_validOpt,1.380622426354134,1.28709369301796,1.473211884498596
+norm,support devices,vaildOldLen,1808,nan,nan
+norm,support devices,vaildNewLen,1808,nan,nan
+norm,support devices,testOldLen,3269,nan,nan
+norm,support devices,testNewLen,3269,nan,nan
+norm,support devices,testAuroc,0.783187810945274,0.767369556427002,0.798225776851177
+norm,support devices,vaildOptThreshold,0.99998105,nan,nan
+norm,support devices,accuracy_score_thr_05,0.449984704802692,0.43285408616066,0.467421233654022
+norm,support devices,f1_score_thr_05,0.55517070757051,0.536438184976578,0.573443849384785
+norm,support devices,precision_score_thr_05,0.384641755227974,0.366959262639284,0.402385405451059
+norm,support devices,recall_score_thr_05,0.997333333333333,0.993832588195801,1.0
+norm,support devices,specificity_score_thr_05,0.162779850746269,0.147236066684127,0.178622480481863
+norm,support devices,sensitivity_plus_specificity_thr_05,1.160113184079602,1.144287979602814,1.176056784391403
+norm,support devices,accuracy_score_thr_validOpt,0.614561027837259,0.597736299037933,0.631691634654999
+norm,support devices,f1_score_thr_validOpt,0.627218934911243,0.607761041820049,0.646209207177162
+norm,support devices,precision_score_thr_validOpt,0.470066518847007,0.449333003163338,0.491015810519457
+norm,support devices,recall_score_thr_validOpt,0.942222222222222,0.928569807112217,0.955616399645805
+norm,support devices,specificity_score_thr_validOpt,0.442630597014925,0.421421724557877,0.463481876254082
+norm,support devices,sensitivity_plus_specificity_thr_validOpt,1.384852819237148,1.358999890089035,1.409292224049568
+unnorm,atelectasis,vaildOldLen,1808,nan,nan
+unnorm,atelectasis,vaildNewLen,1808,nan,nan
+unnorm,atelectasis,testOldLen,3269,nan,nan
+unnorm,atelectasis,testNewLen,3269,nan,nan
+unnorm,atelectasis,testAuroc,0.675027408291372,0.653653360903263,0.695916803181171
+unnorm,atelectasis,vaildOptThreshold,0.898209,nan,nan
+unnorm,atelectasis,accuracy_score_thr_05,0.360966656469868,0.34444785118103,0.377485483884811
+unnorm,atelectasis,f1_score_thr_05,0.39815615096514,0.377855706959963,0.418605639785528
+unnorm,atelectasis,precision_score_thr_05,0.252189781021898,0.236283838748932,0.268548924475908
+unnorm,atelectasis,recall_score_thr_05,0.945280437756498,0.928471267223358,0.961373536288738
+unnorm,atelectasis,specificity_score_thr_05,0.192671394799054,0.177205309271812,0.208317390456796
+unnorm,atelectasis,sensitivity_plus_specificity_thr_05,1.137951832555552,1.115151435136795,1.16100586950779
+unnorm,atelectasis,accuracy_score_thr_validOpt,0.558886509635974,0.541449964046478,0.576017141342163
+unnorm,atelectasis,f1_score_thr_validOpt,0.435395458104933,0.411236822605133,0.459490800648928
+unnorm,atelectasis,precision_score_thr_validOpt,0.304991771804717,0.284090752154589,0.32647443190217
+unnorm,atelectasis,recall_score_thr_validOpt,0.760601915184679,0.729428172111511,0.790849912166596
+unnorm,atelectasis,specificity_score_thr_validOpt,0.500788022064618,0.481363319605589,0.520316477119923
+unnorm,atelectasis,sensitivity_plus_specificity_thr_validOpt,1.261389937249296,1.224703025817871,1.298112767934799
+unnorm,cardiomegaly,vaildOldLen,1808,nan,nan
+unnorm,cardiomegaly,vaildNewLen,1808,nan,nan
+unnorm,cardiomegaly,testOldLen,3269,nan,nan
+unnorm,cardiomegaly,testNewLen,3269,nan,nan
+unnorm,cardiomegaly,testAuroc,0.727840920558309,0.709154395759106,0.746271093189716
+unnorm,cardiomegaly,vaildOptThreshold,0.9040837,nan,nan
+unnorm,cardiomegaly,accuracy_score_thr_05,0.562863260936066,0.546038568019867,0.579695601761341
+unnorm,cardiomegaly,f1_score_thr_05,0.513117546848382,0.490618497133255,0.534907422959805
+unnorm,cardiomegaly,precision_score_thr_05,0.363943934267762,0.343075665831566,0.384766545891762
+unnorm,cardiomegaly,recall_score_thr_05,0.869515011547344,0.846590936183929,0.891429249942303
+unnorm,cardiomegaly,specificity_score_thr_05,0.452351227632126,0.432454188168049,0.472384929656982
+unnorm,cardiomegaly,sensitivity_plus_specificity_thr_05,1.321866239179471,1.291404631733894,1.351899108290672
+unnorm,cardiomegaly,accuracy_score_thr_validOpt,0.673294585500153,0.657081663608551,0.689507484436035
+unnorm,cardiomegaly,f1_score_thr_validOpt,0.522788203753351,0.496820785850286,0.547432780265808
+unnorm,cardiomegaly,precision_score_thr_validOpt,0.426384839650146,0.399581242352724,0.452415823936462
+unnorm,cardiomegaly,recall_score_thr_validOpt,0.675519630484988,0.64481493383646,0.706497468054295
+unnorm,cardiomegaly,specificity_score_thr_validOpt,0.672492717436538,0.653394818305969,0.691238403320312
+unnorm,cardiomegaly,sensitivity_plus_specificity_thr_validOpt,1.348012347921526,1.3116947889328,1.384586772322655
+unnorm,consolidation,vaildOldLen,1808,nan,nan
+unnorm,consolidation,vaildNewLen,1808,nan,nan
+unnorm,consolidation,testOldLen,3269,nan,nan
+unnorm,consolidation,testNewLen,3269,nan,nan
+unnorm,consolidation,testAuroc,0.642095769104625,0.603316083550453,0.679808615148067
+unnorm,consolidation,vaildOptThreshold,0.2122159,nan,nan
+unnorm,consolidation,accuracy_score_thr_05,0.737534414193943,0.722545146942139,0.752217829227448
+unnorm,consolidation,f1_score_thr_05,0.17816091954023,0.14634145796299,0.209946845471859
+unnorm,consolidation,precision_score_thr_05,0.112864077669903,0.091229821741581,0.135168954730034
+unnorm,consolidation,recall_score_thr_05,0.422727272727273,0.357466071844101,0.487605342268944
+unnorm,consolidation,specificity_score_thr_05,0.760249262053132,0.745008006691933,0.775273998081684
+unnorm,consolidation,sensitivity_plus_specificity_thr_05,1.182976534780405,1.11697883605957,1.250333669781685
+unnorm,consolidation,accuracy_score_thr_validOpt,0.681859895992658,0.665952861309052,0.697766900062561
+unnorm,consolidation,f1_score_thr_validOpt,0.17981072555205,0.150485060364008,0.20813859552145
+unnorm,consolidation,precision_score_thr_validOpt,0.108778625954198,0.089886827208102,0.128000198304653
+unnorm,consolidation,recall_score_thr_validOpt,0.518181818181818,0.452050499618053,0.584158420562744
+unnorm,consolidation,specificity_score_thr_validOpt,0.693670055755986,0.677355459332466,0.709993726015091
+unnorm,consolidation,sensitivity_plus_specificity_thr_validOpt,1.211851873937804,1.1442795753479,1.280320104956627
+unnorm,edema,vaildOldLen,1808,nan,nan
+unnorm,edema,vaildNewLen,1808,nan,nan
+unnorm,edema,testOldLen,3269,nan,nan
+unnorm,edema,testNewLen,3269,nan,nan
+unnorm,edema,testAuroc,0.776411219778988,0.757242701947689,0.795016011595726
+unnorm,edema,vaildOptThreshold,0.07716163,nan,nan
+unnorm,edema,accuracy_score_thr_05,0.73294585500153,0.717650651931763,0.747935175895691
+unnorm,edema,f1_score_thr_05,0.508169014084507,0.4789719581604,0.536532823741436
+unnorm,edema,precision_score_thr_05,0.413003663003663,0.383159875869751,0.442453237622976
+unnorm,edema,recall_score_thr_05,0.660322108345534,0.624440628290176,0.695588231086731
+unnorm,edema,specificity_score_thr_05,0.752126836813612,0.735428905487061,0.768417145311832
+unnorm,edema,sensitivity_plus_specificity_thr_05,1.412448945159146,1.373001256585121,1.451844748854637
+unnorm,edema,accuracy_score_thr_validOpt,0.677883144692566,0.661976158618927,0.693790137767792
+unnorm,edema,f1_score_thr_validOpt,0.503067484662577,0.476375979930162,0.528650641441345
+unnorm,edema,precision_score_thr_validOpt,0.37116991643454,0.345806526392698,0.396199852228165
+unnorm,edema,recall_score_thr_validOpt,0.780380673499268,0.74823169708252,0.811294132471085
+unnorm,edema,specificity_score_thr_validOpt,0.650812064965197,0.632431888580322,0.669109307229519
+unnorm,edema,sensitivity_plus_specificity_thr_validOpt,1.431192738464465,1.394263187050819,1.466752573847771
+unnorm,enlarged cardiomediastinum,vaildOldLen,1808,nan,nan
+unnorm,enlarged cardiomediastinum,vaildNewLen,1808,nan,nan
+unnorm,enlarged cardiomediastinum,testOldLen,3269,nan,nan
+unnorm,enlarged cardiomediastinum,testNewLen,3269,nan,nan
+unnorm,enlarged cardiomediastinum,testAuroc,0.494709208229082,0.447251706570387,0.542714792490006
+unnorm,enlarged cardiomediastinum,vaildOptThreshold,0.0025313296,nan,nan
+unnorm,enlarged cardiomediastinum,accuracy_score_thr_05,0.704496788008565,0.688895702362061,0.720097899436951
+unnorm,enlarged cardiomediastinum,f1_score_thr_05,0.076481835564054,0.054511278867722,0.099633030965924
+unnorm,enlarged cardiomediastinum,precision_score_thr_05,0.044692737430168,0.031556040048599,0.059016391634941
+unnorm,enlarged cardiomediastinum,recall_score_thr_05,0.264900662251656,0.19594594836235,0.33587935641408
+unnorm,enlarged cardiomediastinum,specificity_score_thr_05,0.72578576010263,0.71009349822998,0.741523270308971
+unnorm,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_05,0.990686422354286,0.920414313673973,1.064107564091682
+unnorm,enlarged cardiomediastinum,accuracy_score_thr_validOpt,0.308045273784032,0.292138278484344,0.324258178472519
+unnorm,enlarged cardiomediastinum,f1_score_thr_validOpt,0.081980519480519,0.067240670323372,0.097444553673267
+unnorm,enlarged cardiomediastinum,precision_score_thr_validOpt,0.043666234327713,0.035528330877423,0.05232086116448
+unnorm,enlarged cardiomediastinum,recall_score_thr_validOpt,0.66887417218543,0.592857122421265,0.743421077728271
+unnorm,enlarged cardiomediastinum,specificity_score_thr_validOpt,0.290570878768441,0.27421410754323,0.306602884829044
+unnorm,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_validOpt,0.959445050953872,0.882409237325191,1.035849502682686
+unnorm,fracture,vaildOldLen,1808,nan,nan
+unnorm,fracture,vaildNewLen,1808,nan,nan
+unnorm,fracture,testOldLen,3269,nan,nan
+unnorm,fracture,testNewLen,3269,nan,nan
+unnorm,fracture,testAuroc,0.635297858808565,0.577975329756737,0.689966921508312
+unnorm,fracture,vaildOptThreshold,0.00075848796,nan,nan
+unnorm,fracture,accuracy_score_thr_05,0.959620679106761,0.952890813350677,0.966350555419922
+unnorm,fracture,f1_score_thr_05,0.029411764705882,0.0,0.075757578015327
+unnorm,fracture,precision_score_thr_05,0.042553191489362,0.0,0.111111111938953
+unnorm,fracture,recall_score_thr_05,0.02247191011236,0.0,0.058139536529779
+unnorm,fracture,specificity_score_thr_05,0.985849056603774,0.98173216432333,0.98987340927124
+unnorm,fracture,sensitivity_plus_specificity_thr_05,1.008320966716133,0.983982384204865,1.04457049369812
+unnorm,fracture,accuracy_score_thr_validOpt,0.413276231263383,0.396145612001419,0.430100947618484
+unnorm,fracture,f1_score_thr_validOpt,0.072533849129594,0.057309304643422,0.088539101183414
+unnorm,fracture,precision_score_thr_validOpt,0.037897928246589,0.029693003743887,0.046627047937363
+unnorm,fracture,recall_score_thr_validOpt,0.842696629213483,0.764041039347649,0.914893627166748
+unnorm,fracture,specificity_score_thr_validOpt,0.40125786163522,0.384252823889256,0.418210503458977
+unnorm,fracture,sensitivity_plus_specificity_thr_validOpt,1.243954490848703,1.163962951302528,1.318661737442017
+unnorm,lung lesion,vaildOldLen,1808,nan,nan
+unnorm,lung lesion,vaildNewLen,1808,nan,nan
+unnorm,lung lesion,testOldLen,3269,nan,nan
+unnorm,lung lesion,testNewLen,3269,nan,nan
+unnorm,lung lesion,testAuroc,0.660087141240135,0.606865982711315,0.711447541415691
+unnorm,lung lesion,vaildOptThreshold,0.10530373,nan,nan
+unnorm,lung lesion,accuracy_score_thr_05,0.862037320281432,0.849801182746887,0.873967587947845
+unnorm,lung lesion,f1_score_thr_05,0.137667304015296,0.098231829702854,0.177858621254563
+unnorm,lung lesion,precision_score_thr_05,0.09,0.06279069930315,0.118329465389252
+unnorm,lung lesion,recall_score_thr_05,0.292682926829268,0.214814811944962,0.373831778764725
+unnorm,lung lesion,specificity_score_thr_05,0.884297520661157,0.872813859581947,0.895220054686069
+unnorm,lung lesion,sensitivity_plus_specificity_thr_05,1.176980447490425,1.09808537364006,1.259376007318497
+unnorm,lung lesion,accuracy_score_thr_validOpt,0.755582747017437,0.740899384021759,0.769960224628448
+unnorm,lung lesion,f1_score_thr_validOpt,0.128680479825518,0.099392536655068,0.15876516699791
+unnorm,lung lesion,precision_score_thr_validOpt,0.074307304785894,0.056489889137447,0.092995868995786
+unnorm,lung lesion,recall_score_thr_validOpt,0.479674796747967,0.391600786149502,0.566931189596653
+unnorm,lung lesion,specificity_score_thr_validOpt,0.766369993642721,0.751813988387585,0.780991964042187
+unnorm,lung lesion,sensitivity_plus_specificity_thr_validOpt,1.246044790390688,1.156049799919128,1.33421805202961
+unnorm,lung opacity,vaildOldLen,1808,nan,nan
+unnorm,lung opacity,vaildNewLen,1808,nan,nan
+unnorm,lung opacity,testOldLen,3269,nan,nan
+unnorm,lung opacity,testNewLen,3269,nan,nan
+unnorm,lung opacity,testAuroc,0.608434184969371,0.588347597420216,0.628780031204224
+unnorm,lung opacity,vaildOptThreshold,0.97622174,nan,nan
+unnorm,lung opacity,accuracy_score_thr_05,0.343836035484858,0.327623128890991,0.360354840755463
+unnorm,lung opacity,f1_score_thr_05,0.489650249821556,0.47089873328805,0.50845088660717
+unnorm,lung opacity,precision_score_thr_05,0.325118483412322,0.308809608221054,0.341765358299017
+unnorm,lung opacity,recall_score_thr_05,0.991329479768786,0.985465109348297,0.996244132518768
+unnorm,lung opacity,specificity_score_thr_05,0.042581801882564,0.034497821051627,0.051144070643932
+unnorm,lung opacity,sensitivity_plus_specificity_thr_05,1.03391128165135,1.024105393886566,1.044031602144241
+unnorm,lung opacity,accuracy_score_thr_validOpt,0.561639645151423,0.544203102588654,0.578464388847351
+unnorm,lung opacity,f1_score_thr_validOpt,0.469062615783624,0.44544423148036,0.492521531879902
+unnorm,lung opacity,precision_score_thr_validOpt,0.381095725466586,0.357579285651445,0.404963672161102
+unnorm,lung opacity,recall_score_thr_validOpt,0.609826589595376,0.58073096126318,0.639843080937862
+unnorm,lung opacity,specificity_score_thr_validOpt,0.539220080681309,0.517913600802422,0.5594293653965
+unnorm,lung opacity,sensitivity_plus_specificity_thr_validOpt,1.149046670276684,1.112953621149063,1.185594570636749
+unnorm,no finding,vaildOldLen,1808,nan,nan
+unnorm,no finding,vaildNewLen,1808,nan,nan
+unnorm,no finding,testOldLen,3269,nan,nan
+unnorm,no finding,testNewLen,3269,nan,nan
+unnorm,no finding,testAuroc,0.715570915310448,0.691745519638062,0.738834653794765
+unnorm,no finding,vaildOptThreshold,0.8723675,nan,nan
+unnorm,no finding,accuracy_score_thr_05,0.613337412052615,0.596206784248352,0.630162119865417
+unnorm,no finding,f1_score_thr_05,0.396946564885496,0.370043074339628,0.422757079452276
+unnorm,no finding,precision_score_thr_05,0.272251308900524,0.249996016547084,0.293845146894455
+unnorm,no finding,recall_score_thr_05,0.732394366197183,0.694793522357941,0.768501782417297
+unnorm,no finding,specificity_score_thr_05,0.58830062939652,0.569264322519302,0.607130080461502
+unnorm,no finding,sensitivity_plus_specificity_thr_05,1.320694995593703,1.278314107656479,1.361019000411034
+unnorm,no finding,accuracy_score_thr_validOpt,0.768430712756195,0.753441393375397,0.782808184623718
+unnorm,no finding,f1_score_thr_validOpt,0.38001638001638,0.344415761530399,0.414342966675758
+unnorm,no finding,precision_score_thr_validOpt,0.355283307810107,0.3177839204669,0.391785144805908
+unnorm,no finding,recall_score_thr_validOpt,0.408450704225352,0.367696332931519,0.449355996400118
+unnorm,no finding,specificity_score_thr_validOpt,0.844131803035913,0.829873821139336,0.85740742534399
+unnorm,no finding,sensitivity_plus_specificity_thr_validOpt,1.252582507261265,1.209769093990326,1.295110550522804
+unnorm,pleural effusion,vaildOldLen,1808,nan,nan
+unnorm,pleural effusion,vaildNewLen,1808,nan,nan
+unnorm,pleural effusion,testOldLen,3269,nan,nan
+unnorm,pleural effusion,testNewLen,3269,nan,nan
+unnorm,pleural effusion,testAuroc,0.823693810632765,0.808492949604988,0.838593566417694
+unnorm,pleural effusion,vaildOptThreshold,0.016523005,nan,nan
+unnorm,pleural effusion,accuracy_score_thr_05,0.760783114102172,0.746099710464478,0.775160610675812
+unnorm,pleural effusion,f1_score_thr_05,0.659407665505226,0.636734664440155,0.68183768838644
+unnorm,pleural effusion,precision_score_thr_05,0.619476268412439,0.591952772438526,0.646641230583191
+unnorm,pleural effusion,recall_score_thr_05,0.704841713221601,0.677208584547043,0.732194109261036
+unnorm,pleural effusion,specificity_score_thr_05,0.788154897494305,0.771155197918415,0.805430492758751
+unnorm,pleural effusion,sensitivity_plus_specificity_thr_05,1.492996610715907,1.460904780030251,1.525055596232414
+unnorm,pleural effusion,accuracy_score_thr_validOpt,0.724686448455185,0.709391236305237,0.739981651306152
+unnorm,pleural effusion,f1_score_thr_validOpt,0.670087976539589,0.649719178676605,0.69037588685751
+unnorm,pleural effusion,precision_score_thr_validOpt,0.552599758162031,0.528346855938435,0.576549489796162
+unnorm,pleural effusion,recall_score_thr_validOpt,0.851024208566108,0.829690337181091,0.872146452963352
+unnorm,pleural effusion,specificity_score_thr_validOpt,0.662870159453303,0.643375612795353,0.682191789150238
+unnorm,pleural effusion,sensitivity_plus_specificity_thr_validOpt,1.513894368019411,1.484800007939339,1.543089815974235
+unnorm,pleural other,vaildOldLen,1808,nan,nan
+unnorm,pleural other,vaildNewLen,1808,nan,nan
+unnorm,pleural other,testOldLen,3269,nan,nan
+unnorm,pleural other,testNewLen,3269,nan,nan
+unnorm,pleural other,testAuroc,0.53823683767539,0.465673077106476,0.611508210003376
+unnorm,pleural other,vaildOptThreshold,0.044885293,nan,nan
+unnorm,pleural other,accuracy_score_thr_05,0.79045579687978,0.776384234428406,0.804221451282501
+unnorm,pleural other,f1_score_thr_05,0.041958041958042,0.022471910342574,0.063128444179893
+unnorm,pleural other,precision_score_thr_05,0.023006134969325,0.012250680616125,0.03497638264671
+unnorm,pleural other,recall_score_thr_05,0.238095238095238,0.135593220591545,0.34884642586112
+unnorm,pleural other,specificity_score_thr_05,0.801310043668122,0.787233901023865,0.815000584721565
+unnorm,pleural other,sensitivity_plus_specificity_thr_05,1.03940528176336,0.936056287586689,1.150364425778389
+unnorm,pleural other,accuracy_score_thr_validOpt,0.444172529825635,0.427340161800385,0.460691332817078
+unnorm,pleural other,f1_score_thr_validOpt,0.041160949868074,0.029136064276099,0.05394256785512
+unnorm,pleural other,precision_score_thr_validOpt,0.021288209606987,0.014999932725914,0.028086984483525
+unnorm,pleural other,recall_score_thr_validOpt,0.619047619047619,0.5,0.740000009536743
+unnorm,pleural other,specificity_score_thr_validOpt,0.440736119775421,0.423691239953041,0.45743752270937
+unnorm,pleural other,sensitivity_plus_specificity_thr_validOpt,1.05978373882304,0.935538020730019,1.181427183747292
+unnorm,pneumonia,vaildOldLen,1808,nan,nan
+unnorm,pneumonia,vaildNewLen,1808,nan,nan
+unnorm,pneumonia,testOldLen,3269,nan,nan
+unnorm,pneumonia,testNewLen,3269,nan,nan
+unnorm,pneumonia,testAuroc,0.601592243282565,0.570203500986099,0.633158102631569
+unnorm,pneumonia,vaildOptThreshold,0.002650885,nan,nan
+unnorm,pneumonia,accuracy_score_thr_05,0.78709085347201,0.773019254207611,0.800856530666351
+unnorm,pneumonia,f1_score_thr_05,0.183098591549296,0.147697740793228,0.219146475195885
+unnorm,pneumonia,precision_score_thr_05,0.150870406189555,0.120300754904747,0.184324244782329
+unnorm,pneumonia,recall_score_thr_05,0.232835820895522,0.187918933108449,0.280242271721363
+unnorm,pneumonia,specificity_score_thr_05,0.850374914792093,0.837375764548778,0.863187323510647
+unnorm,pneumonia,sensitivity_plus_specificity_thr_05,1.083210735687615,1.035913580656052,1.132513803243637
+unnorm,pneumonia,accuracy_score_thr_validOpt,0.467421229733864,0.45090240240097,0.484857767820358
+unnorm,pneumonia,f1_score_thr_validOpt,0.216824111560954,0.194243532046676,0.240317076072097
+unnorm,pneumonia,precision_score_thr_validOpt,0.127648305084746,0.112961570546031,0.143310497328639
+unnorm,pneumonia,recall_score_thr_validOpt,0.719402985074627,0.670883177220821,0.767647087574005
+unnorm,pneumonia,specificity_score_thr_validOpt,0.438650306748466,0.421265655755997,0.456634422391653
+unnorm,pneumonia,sensitivity_plus_specificity_thr_validOpt,1.158053291823093,1.106491136550903,1.209413766860962
+unnorm,pneumothorax,vaildOldLen,1808,nan,nan
+unnorm,pneumothorax,vaildNewLen,1808,nan,nan
+unnorm,pneumothorax,testOldLen,3269,nan,nan
+unnorm,pneumothorax,testNewLen,3269,nan,nan
+unnorm,pneumothorax,testAuroc,0.74676455948233,0.692484940588474,0.797567015886307
+unnorm,pneumothorax,vaildOptThreshold,0.0017716567,nan,nan
+unnorm,pneumothorax,accuracy_score_thr_05,0.936066075252371,0.927194833755493,0.944325506687164
+unnorm,pneumothorax,f1_score_thr_05,0.27681660899654,0.208494201302528,0.34343433380127
+unnorm,pneumothorax,precision_score_thr_05,0.225988700564972,0.165745064988732,0.288235306739807
+unnorm,pneumothorax,recall_score_thr_05,0.357142857142857,0.271314554661512,0.449152529239655
+unnorm,pneumothorax,specificity_score_thr_05,0.956604371238518,0.949189926683903,0.963422417640686
+unnorm,pneumothorax,sensitivity_plus_specificity_thr_05,1.313747228381375,1.227236157655716,1.405797603726387
+unnorm,pneumothorax,accuracy_score_thr_validOpt,0.818904863872744,0.805445075035095,0.831760483980179
+unnorm,pneumothorax,f1_score_thr_validOpt,0.173184357541899,0.136496788263321,0.210382683947682
+unnorm,pneumothorax,precision_score_thr_validOpt,0.102649006622517,0.079257542081177,0.127148720249534
+unnorm,pneumothorax,recall_score_thr_validOpt,0.553571428571429,0.459677428007126,0.644867327809334
+unnorm,pneumothorax,specificity_score_thr_validOpt,0.828318023439975,0.814979338645935,0.841386391222477
+unnorm,pneumothorax,sensitivity_plus_specificity_thr_validOpt,1.381889452011403,1.288298565149307,1.474389672279358
+unnorm,support devices,vaildOldLen,1808,nan,nan
+unnorm,support devices,vaildNewLen,1808,nan,nan
+unnorm,support devices,testOldLen,3269,nan,nan
+unnorm,support devices,testNewLen,3269,nan,nan
+unnorm,support devices,testAuroc,0.60112728026534,0.582287938892841,0.620014244318008
+unnorm,support devices,vaildOptThreshold,0.95971394,nan,nan
+unnorm,support devices,accuracy_score_thr_05,0.450902416641175,0.433771789073944,0.468338936567307
+unnorm,support devices,f1_score_thr_05,0.555362893237553,0.536770284175873,0.573651240766048
+unnorm,support devices,precision_score_thr_05,0.384958791208791,0.367395406961441,0.402730609476566
+unnorm,support devices,recall_score_thr_05,0.996444444444444,0.992707371711731,0.999143838882446
+unnorm,support devices,specificity_score_thr_05,0.16464552238806,0.149003362283111,0.180458432435989
+unnorm,support devices,sensitivity_plus_specificity_thr_05,1.161089966832504,1.144975027441979,1.17715916633606
+unnorm,support devices,accuracy_score_thr_validOpt,0.487304986234322,0.470174372196198,0.504741489887238
+unnorm,support devices,f1_score_thr_validOpt,0.569373072970195,0.550420601665974,0.58784816712141
+unnorm,support devices,precision_score_thr_validOpt,0.400433682688833,0.382193217426538,0.418992500752211
+unnorm,support devices,recall_score_thr_validOpt,0.984888888888889,0.977558101713657,0.991438512504101
+unnorm,support devices,specificity_score_thr_validOpt,0.226212686567164,0.208586096763611,0.243781845271587
+unnorm,support devices,sensitivity_plus_specificity_thr_validOpt,1.211101575456053,1.192245706915855,1.229829114675522
+text,atelectasis,vaildOldLen,1808,nan,nan
+text,atelectasis,vaildNewLen,1808,nan,nan
+text,atelectasis,testOldLen,3269,nan,nan
+text,atelectasis,testNewLen,3269,nan,nan
+text,atelectasis,testAuroc,0.662255467913703,0.641914443671703,0.682375314831734
+text,atelectasis,vaildOptThreshold,0.3,nan,nan
+text,atelectasis,accuracy_score_thr_05,0.622208626491282,0.605689823627472,0.638727426528931
+text,atelectasis,f1_score_thr_05,0.421003281762775,0.394207825511694,0.44696327522397
+text,atelectasis,precision_score_thr_05,0.320256776034237,0.29608541727066,0.344876319169998
+text,atelectasis,recall_score_thr_05,0.614227086183311,0.578873217105865,0.649470925331116
+text,atelectasis,specificity_score_thr_05,0.624507486209614,0.605881996452808,0.643052871525288
+text,atelectasis,sensitivity_plus_specificity_thr_05,1.238734572392924,1.197514307498932,1.278498175740242
+text,atelectasis,accuracy_score_thr_validOpt,0.502906087488529,0.48608136177063,0.520036697387695
+text,atelectasis,f1_score_thr_validOpt,0.42962442962443,0.407104475051165,0.452282772213221
+text,atelectasis,precision_score_thr_validOpt,0.288951841359773,0.270104005932808,0.308607624471188
+text,atelectasis,recall_score_thr_validOpt,0.837209302325581,0.810511070489883,0.864068335294723
+text,atelectasis,specificity_score_thr_validOpt,0.40661938534279,0.38793758675456,0.425373136997223
+text,atelectasis,sensitivity_plus_specificity_thr_validOpt,1.243828687668371,1.211275726556778,1.276631057262421
+text,cardiomegaly,vaildOldLen,1808,nan,nan
+text,cardiomegaly,vaildNewLen,1808,nan,nan
+text,cardiomegaly,testOldLen,3269,nan,nan
+text,cardiomegaly,testNewLen,3269,nan,nan
+text,cardiomegaly,testAuroc,0.74367803332824,0.725487008690834,0.761628392338753
+text,cardiomegaly,vaildOptThreshold,0.45000002,nan,nan
+text,cardiomegaly,accuracy_score_thr_05,0.646375038237993,0.629550337791443,0.662587940692902
+text,cardiomegaly,f1_score_thr_05,0.539074960127592,0.514835381507874,0.562107029557228
+text,cardiomegaly,precision_score_thr_05,0.411693057247259,0.387115230411291,0.435158009827137
+text,cardiomegaly,recall_score_thr_05,0.780600461893764,0.752941191196442,0.807517862319946
+text,cardiomegaly,specificity_score_thr_05,0.598002496878901,0.578065803647041,0.61753683835268
+text,cardiomegaly,sensitivity_plus_specificity_thr_05,1.378602958772666,1.343653520941734,1.411437809467316
+text,cardiomegaly,accuracy_score_thr_validOpt,0.627714897522178,0.610890209674835,0.643927812576294
+text,cardiomegaly,f1_score_thr_validOpt,0.536027449485322,0.512280432879925,0.558451724052429
+text,cardiomegaly,precision_score_thr_validOpt,0.400113830392715,0.376802807301283,0.422727413475513
+text,cardiomegaly,recall_score_thr_validOpt,0.811778290993072,0.785377241671085,0.836711001396179
+text,cardiomegaly,specificity_score_thr_validOpt,0.561381606325427,0.54139064848423,0.581270888447762
+text,cardiomegaly,sensitivity_plus_specificity_thr_validOpt,1.373159897318498,1.339537835121155,1.405055183172226
+text,consolidation,vaildOldLen,1808,nan,nan
+text,consolidation,vaildNewLen,1808,nan,nan
+text,consolidation,testOldLen,3269,nan,nan
+text,consolidation,testNewLen,3269,nan,nan
+text,consolidation,testAuroc,0.652304034109544,0.612478865683079,0.690019246935844
+text,consolidation,vaildOptThreshold,0.15,nan,nan
+text,consolidation,accuracy_score_thr_05,0.816151728357296,0.802997887134552,0.829313236474991
+text,consolidation,f1_score_thr_05,0.197596795727637,0.158331342041492,0.235942161083221
+text,consolidation,precision_score_thr_05,0.139886578449905,0.110019155405462,0.170093461871147
+text,consolidation,recall_score_thr_05,0.336363636363636,0.273127764463425,0.400000005960464
+text,consolidation,specificity_score_thr_05,0.850770744506396,0.838148415088654,0.863533216714859
+text,consolidation,sensitivity_plus_specificity_thr_05,1.187134380870032,1.123066622018814,1.251220408082008
+text,consolidation,accuracy_score_thr_validOpt,0.708167635362496,0.692558866739273,0.723768711090088
+text,consolidation,f1_score_thr_validOpt,0.191525423728814,0.1606335606426,0.222046645358205
+text,consolidation,precision_score_thr_validOpt,0.117708333333333,0.097222223877907,0.138740658760071
+text,consolidation,recall_score_thr_validOpt,0.513636363636364,0.44690030887723,0.580487787723541
+text,consolidation,specificity_score_thr_validOpt,0.722204001311906,0.706230962276459,0.738032758235931
+text,consolidation,sensitivity_plus_specificity_thr_validOpt,1.235840364948269,1.166415348649025,1.304725047945976
+text,edema,vaildOldLen,1808,nan,nan
+text,edema,vaildNewLen,1808,nan,nan
+text,edema,testOldLen,3269,nan,nan
+text,edema,testNewLen,3269,nan,nan
+text,edema,testAuroc,0.785181272286068,0.767391419410706,0.803184370696545
+text,edema,vaildOptThreshold,0.1,nan,nan
+text,edema,accuracy_score_thr_05,0.78036096665647,0.766289412975311,0.794126629829407
+text,edema,f1_score_thr_05,0.457703927492447,0.423903794586658,0.490455210208893
+text,edema,precision_score_thr_05,0.472698907956318,0.433751138299704,0.51043421626091
+text,edema,recall_score_thr_05,0.443631039531479,0.405881284922361,0.481482859700918
+text,edema,specificity_score_thr_05,0.869296210363496,0.856201465427876,0.882011592388153
+text,edema,sensitivity_plus_specificity_thr_05,1.312927249894974,1.273528304696083,1.352321591973305
+text,edema,accuracy_score_thr_validOpt,0.72958091159376,0.714285731315613,0.744570195674896
+text,edema,f1_score_thr_validOpt,0.53717277486911,0.509362614154816,0.564372062683105
+text,edema,precision_score_thr_validOpt,0.418092909535452,0.390383034944534,0.446013762801886
+text,edema,recall_score_thr_validOpt,0.751098096632504,0.717947778105736,0.783506554365158
+text,edema,specificity_score_thr_validOpt,0.723897911832947,0.706589046120644,0.740970911085606
+text,edema,sensitivity_plus_specificity_thr_validOpt,1.47499600846545,1.437908139824867,1.512395745515823
+text,enlarged cardiomediastinum,vaildOldLen,1808,nan,nan
+text,enlarged cardiomediastinum,vaildNewLen,1808,nan,nan
+text,enlarged cardiomediastinum,testOldLen,3269,nan,nan
+text,enlarged cardiomediastinum,testNewLen,3269,nan,nan
+text,enlarged cardiomediastinum,testAuroc,0.470879405630201,0.425655753165483,0.517376793920994
+text,enlarged cardiomediastinum,vaildOptThreshold,0.1,nan,nan
+text,enlarged cardiomediastinum,accuracy_score_thr_05,0.812174977057204,0.799013476073742,0.825634777545929
+text,enlarged cardiomediastinum,f1_score_thr_05,0.066869300911854,0.041054563876241,0.094534710049629
+text,enlarged cardiomediastinum,precision_score_thr_05,0.043392504930966,0.026365349069238,0.061999998986721
+text,enlarged cardiomediastinum,recall_score_thr_05,0.145695364238411,0.091503269970417,0.204823018610477
+text,enlarged cardiomediastinum,specificity_score_thr_05,0.844451571520205,0.831835542619228,0.857006257772446
+text,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_05,0.990146935758616,0.934261825680733,1.050921621918678
+text,enlarged cardiomediastinum,accuracy_score_thr_validOpt,0.579993881921077,0.563169181346893,0.596826273202896
+text,enlarged cardiomediastinum,f1_score_thr_validOpt,0.075420875420875,0.057103986479342,0.095108828134835
+text,enlarged cardiomediastinum,precision_score_thr_validOpt,0.041979010494753,0.031460549402982,0.053531920723617
+text,enlarged cardiomediastinum,recall_score_thr_validOpt,0.370860927152318,0.293704910576344,0.449367076158524
+text,enlarged cardiomediastinum,specificity_score_thr_validOpt,0.59012187299551,0.572843432426453,0.607497873902321
+text,enlarged cardiomediastinum,sensitivity_plus_specificity_thr_validOpt,0.960982800147828,0.881620615720749,1.042050448060036
+text,fracture,vaildOldLen,1808,nan,nan
+text,fracture,vaildNewLen,1808,nan,nan
+text,fracture,testOldLen,3269,nan,nan
+text,fracture,testNewLen,3269,nan,nan
+text,fracture,testAuroc,0.496698113207547,0.495257637649775,0.497967497259378
+text,fracture,vaildOptThreshold,inf,nan,nan
+text,fracture,accuracy_score_thr_05,0.969103701437749,0.962985634803772,0.974915862083435
+text,fracture,f1_score_thr_05,0.0,0.0,0.0
+text,fracture,precision_score_thr_05,0.0,0.0,0.0
+text,fracture,recall_score_thr_05,0.0,0.0,0.0
+text,fracture,specificity_score_thr_05,0.99622641509434,0.994013845920563,0.99811851978302
+text,fracture,sensitivity_plus_specificity_thr_05,0.99622641509434,0.994013845920563,0.99811851978302
+text,fracture,accuracy_score_thr_validOpt,0.972774548791679,0.966962397098541,0.977974891662598
+text,fracture,f1_score_thr_validOpt,0.0,0.0,0.0
+text,fracture,precision_score_thr_validOpt,0.0,0.0,0.0
+text,fracture,recall_score_thr_validOpt,0.0,0.0,0.0
+text,fracture,specificity_score_thr_validOpt,1.0,1.0,1.0
+text,fracture,sensitivity_plus_specificity_thr_validOpt,1.0,1.0,1.0
+text,lung lesion,vaildOldLen,1808,nan,nan
+text,lung lesion,vaildNewLen,1808,nan,nan
+text,lung lesion,testOldLen,3269,nan,nan
+text,lung lesion,testNewLen,3269,nan,nan
+text,lung lesion,testAuroc,0.650079595201546,0.602037264406681,0.695966669917107
+text,lung lesion,vaildOptThreshold,0.15,nan,nan
+text,lung lesion,accuracy_score_thr_05,0.86815539920465,0.8562251329422,0.879481512308121
+text,lung lesion,f1_score_thr_05,0.107660455486542,0.070796459913254,0.14634380787611
+text,lung lesion,precision_score_thr_05,0.072222222222222,0.046701896004379,0.099730461835861
+text,lung lesion,recall_score_thr_05,0.211382113821138,0.141509428620338,0.286956518888474
+text,lung lesion,specificity_score_thr_05,0.893833439287985,0.882951676845551,0.90453390032053
+text,lung lesion,sensitivity_plus_specificity_thr_05,1.105215553109123,1.035159173607826,1.181063809990883
+text,lung lesion,accuracy_score_thr_validOpt,0.761089018048333,0.746711552143097,0.775466501712799
+text,lung lesion,f1_score_thr_validOpt,0.137016574585635,0.10663764923811,0.167432848364115
+text,lung lesion,precision_score_thr_validOpt,0.079283887468031,0.060685931239277,0.098405291885138
+text,lung lesion,recall_score_thr_validOpt,0.504065040650406,0.414414405822754,0.590909063816071
+text,lung lesion,specificity_score_thr_validOpt,0.771137952956135,0.756422053277493,0.785691559314728
+text,lung lesion,sensitivity_plus_specificity_thr_validOpt,1.275202993606541,1.184879457950592,1.363704496622085
+text,lung opacity,vaildOldLen,1808,nan,nan
+text,lung opacity,vaildNewLen,1808,nan,nan
+text,lung opacity,testOldLen,3269,nan,nan
+text,lung opacity,testNewLen,3269,nan,nan
+text,lung opacity,testAuroc,0.634383995357068,0.615098176896572,0.6538758456707
+text,lung opacity,vaildOptThreshold,0.156,nan,nan
+text,lung opacity,accuracy_score_thr_05,0.578464362190272,0.561639666557312,0.595595002174377
+text,lung opacity,f1_score_thr_05,0.494868035190616,0.471508383750916,0.518042570352554
+text,lung opacity,precision_score_thr_05,0.399408284023669,0.37598067522049,0.423190668970346
+text,lung opacity,recall_score_thr_05,0.65028901734104,0.621368120610714,0.679012358188629
+text,lung opacity,specificity_score_thr_05,0.545047064096818,0.52470259219408,0.566453199088574
+text,lung opacity,sensitivity_plus_specificity_thr_05,1.195336081437858,1.16000999212265,1.231509333848953
+text,lung opacity,accuracy_score_thr_validOpt,0.528602018966045,0.511777281761169,0.545732617378235
+text,lung opacity,f1_score_thr_validOpt,0.520087200249144,0.498898943513632,0.541140548884869
+text,lung opacity,precision_score_thr_validOpt,0.384261389783709,0.364131975919008,0.405207842588425
+text,lung opacity,recall_score_thr_validOpt,0.804431599229287,0.780119967460632,0.82840234041214
+text,lung opacity,specificity_score_thr_validOpt,0.4002689376961,0.380108520388603,0.420890013128519
+text,lung opacity,sensitivity_plus_specificity_thr_validOpt,1.204700536925388,1.173647817969322,1.236640417575836
+text,no finding,vaildOldLen,1808,nan,nan
+text,no finding,vaildNewLen,1808,nan,nan
+text,no finding,testOldLen,3269,nan,nan
+text,no finding,testNewLen,3269,nan,nan
+text,no finding,testAuroc,0.531120450954524,0.519562569260597,0.543058650195599
+text,no finding,vaildOptThreshold,1.0,nan,nan
+text,no finding,accuracy_score_thr_05,0.185989599265831,0.172835722565651,0.199143469333649
+text,no finding,f1_score_thr_05,0.298444503031901,0.27930446639657,0.317079544067383
+text,no finding,precision_score_thr_05,0.175503875968992,0.162422358989716,0.188586051017046
+text,no finding,recall_score_thr_05,0.996478873239437,0.990974724292755,1.0
+text,no finding,specificity_score_thr_05,0.015549796371714,0.011078286916018,0.020408352231607
+text,no finding,sensitivity_plus_specificity_thr_05,1.012028669611151,1.004727917909622,1.018445459008217
+text,no finding,accuracy_score_thr_validOpt,0.814928112572652,0.801468312740326,0.828081965446472
+text,no finding,f1_score_thr_validOpt,0.119359534206696,0.086818576604128,0.153191788122058
+text,no finding,precision_score_thr_validOpt,0.34453781512605,0.260869562625885,0.429826610535383
+text,no finding,recall_score_thr_validOpt,0.072183098591549,0.051812633685768,0.094374660030007
+text,no finding,specificity_score_thr_validOpt,0.971121806738245,0.964605093002319,0.977364251017571
+text,no finding,sensitivity_plus_specificity_thr_validOpt,1.043304905329794,1.021994778513908,1.065992227196694
+text,pleural effusion,vaildOldLen,1808,nan,nan
+text,pleural effusion,vaildNewLen,1808,nan,nan
+text,pleural effusion,testOldLen,3269,nan,nan
+text,pleural effusion,testNewLen,3269,nan,nan
+text,pleural effusion,testAuroc,0.818135427138876,0.803058852255344,0.832854253053665
+text,pleural effusion,vaildOptThreshold,0.1,nan,nan
+text,pleural effusion,accuracy_score_thr_05,0.774242887733252,0.760171294212341,0.788620352745056
+text,pleural effusion,f1_score_thr_05,0.649239543726236,0.625,0.673105175793171
+text,pleural effusion,precision_score_thr_05,0.663106796116505,0.634192943572998,0.691767767071724
+text,pleural effusion,recall_score_thr_05,0.635940409683426,0.606730519235134,0.664809902012348
+text,pleural effusion,specificity_score_thr_05,0.841913439635535,0.827070899307728,0.857010197639465
+text,pleural effusion,sensitivity_plus_specificity_thr_05,1.477853849318962,1.444842380285263,1.510698309540749
+text,pleural effusion,accuracy_score_thr_validOpt,0.739675741817069,0.724686443805695,0.754665017127991
+text,pleural effusion,f1_score_thr_validOpt,0.68210683601046,0.661275178194046,0.702307160198689
+text,pleural effusion,precision_score_thr_validOpt,0.569557080474111,0.544990338385105,0.593692472577095
+text,pleural effusion,recall_score_thr_validOpt,0.850093109869646,0.828440368175507,0.87126932144165
+text,pleural effusion,specificity_score_thr_validOpt,0.685649202733485,0.666515409946442,0.705082069337368
+text,pleural effusion,sensitivity_plus_specificity_thr_validOpt,1.535742312603131,1.506726157665253,1.564205256104469
+text,pleural other,vaildOldLen,1808,nan,nan
+text,pleural other,vaildNewLen,1808,nan,nan
+text,pleural other,testOldLen,3269,nan,nan
+text,pleural other,testNewLen,3269,nan,nan
+text,pleural other,testAuroc,0.550988226440503,0.478944171220064,0.623238502442837
+text,pleural other,vaildOptThreshold,0.05,nan,nan
+text,pleural other,accuracy_score_thr_05,0.786479045579688,0.772713363170624,0.799938797950745
+text,pleural other,f1_score_thr_05,0.043835616438356,0.023777973465621,0.065527159906924
+text,pleural other,precision_score_thr_05,0.023988005997001,0.012875191448256,0.036179940588772
+text,pleural other,recall_score_thr_05,0.253968253968254,0.147722608968616,0.365079373121262
+text,pleural other,specificity_score_thr_05,0.796943231441048,0.783488464355469,0.81065130084753
+text,pleural other,sensitivity_plus_specificity_thr_05,1.050911485409302,0.944309189915657,1.162630346417427
+text,pleural other,accuracy_score_thr_validOpt,0.232181095136127,0.217803612351418,0.247170388698578
+text,pleural other,f1_score_thr_validOpt,0.039050535987749,0.029051987454295,0.049524582363665
+text,pleural other,precision_score_thr_validOpt,0.020007846214202,0.014808897068724,0.025510705914348
+text,pleural other,recall_score_thr_validOpt,0.80952380952381,0.709662735462189,0.903846144676208
+text,pleural other,specificity_score_thr_validOpt,0.220835932626326,0.2065520118922,0.235625447332859
+text,pleural other,sensitivity_plus_specificity_thr_validOpt,1.030359742150135,0.927019768953323,1.125150707364082
+text,pneumonia,vaildOldLen,1808,nan,nan
+text,pneumonia,vaildNewLen,1808,nan,nan
+text,pneumonia,testOldLen,3269,nan,nan
+text,pneumonia,testNewLen,3269,nan,nan
+text,pneumonia,testAuroc,0.60647478354648,0.575799955427647,0.637715022265911
+text,pneumonia,vaildOptThreshold,0.15,nan,nan
+text,pneumonia,accuracy_score_thr_05,0.659528907922912,0.643315970897675,0.675741791725159
+text,pneumonia,f1_score_thr_05,0.217849613492621,0.189926688745618,0.247379816323519
+text,pneumonia,precision_score_thr_05,0.142463235294118,0.12271062284708,0.164233668893576
+text,pneumonia,recall_score_thr_05,0.462686567164179,0.409221887588501,0.517241358757019
+text,pneumonia,specificity_score_thr_05,0.68200408997955,0.665311565995216,0.698848247528076
+text,pneumonia,sensitivity_plus_specificity_thr_05,1.144690657143729,1.089297839999199,1.201328605413437
+text,pneumonia,accuracy_score_thr_validOpt,0.445396145610278,0.428571432828903,0.462832659482956
+text,pneumonia,f1_score_thr_validOpt,0.220885259991405,0.198789705336094,0.243037968873978
+text,pneumonia,precision_score_thr_validOpt,0.129016064257028,0.114737178571522,0.143787577748299
+text,pneumonia,recall_score_thr_validOpt,0.767164179104478,0.72108790576458,0.812680342793465
+text,pneumonia,specificity_score_thr_validOpt,0.40865712338105,0.391095539182425,0.42665784060955
+text,pneumonia,sensitivity_plus_specificity_thr_validOpt,1.175821302485527,1.126790404319763,1.224574685096741
+text,pneumothorax,vaildOldLen,1808,nan,nan
+text,pneumothorax,vaildNewLen,1808,nan,nan
+text,pneumothorax,testOldLen,3269,nan,nan
+text,pneumothorax,testNewLen,3269,nan,nan
+text,pneumothorax,testAuroc,0.617790963392009,0.576124727725983,0.660833783447742
+text,pneumothorax,vaildOptThreshold,0.05,nan,nan
+text,pneumothorax,accuracy_score_thr_05,0.951667176506577,0.944325506687164,0.959008872509003
+text,pneumothorax,f1_score_thr_05,0.177083333333333,0.104712039232254,0.250029069930315
+text,pneumothorax,precision_score_thr_05,0.2125,0.125,0.30588236451149
+text,pneumothorax,recall_score_thr_05,0.151785714285714,0.087710782513022,0.222222223877907
+text,pneumothorax,specificity_score_thr_05,0.980044345898004,0.974968115985394,0.984795689582825
+text,pneumothorax,sensitivity_plus_specificity_thr_05,1.131830060183719,1.067827409505844,1.201865929365158
+text,pneumothorax,accuracy_score_thr_validOpt,0.933924747629244,0.925053536891937,0.942184150218964
+text,pneumothorax,f1_score_thr_validOpt,0.223021582733813,0.156716421246529,0.288659781217575
+text,pneumothorax,precision_score_thr_validOpt,0.186746987951807,0.128650888055563,0.248448150604963
+text,pneumothorax,recall_score_thr_validOpt,0.276785714285714,0.194690272212029,0.361111104488373
+text,pneumothorax,specificity_score_thr_validOpt,0.957237884067152,0.949873070418835,0.964081917703152
+text,pneumothorax,sensitivity_plus_specificity_thr_validOpt,1.234023598352867,1.15103805065155,1.319425794482231
+text,support devices,vaildOldLen,1808,nan,nan
+text,support devices,vaildNewLen,1808,nan,nan
+text,support devices,testOldLen,3269,nan,nan
+text,support devices,testNewLen,3269,nan,nan
+text,support devices,testAuroc,0.826785655058043,0.813224387168884,0.839853082597256
+text,support devices,vaildOptThreshold,0.95,nan,nan
+text,support devices,accuracy_score_thr_05,0.613949219944937,0.597124516963959,0.631079852581024
+text,support devices,f1_score_thr_05,0.635470826112074,0.616359011828899,0.65424375385046
+text,support devices,precision_score_thr_05,0.47068891741549,0.450325231254101,0.49135734140873
+text,support devices,recall_score_thr_05,0.977777777777778,0.968805730342865,0.985964894294739
+text,support devices,specificity_score_thr_05,0.423041044776119,0.402056902647018,0.444338761270046
+text,support devices,sensitivity_plus_specificity_thr_05,1.400818822553897,1.378166556358337,1.423444643616676
+text,support devices,accuracy_score_thr_validOpt,0.690425206485164,0.674212276935577,0.706332206726074
+text,support devices,f1_score_thr_validOpt,0.668414154652687,0.648611171543598,0.687662874162197
+text,support devices,precision_score_thr_validOpt,0.529320186818889,0.506712102890015,0.551849901676178
+text,support devices,recall_score_thr_validOpt,0.906666666666667,0.889665700495243,0.923411762714386
+text,support devices,specificity_score_thr_validOpt,0.576958955223881,0.556176696717739,0.59767959266901
+text,support devices,sensitivity_plus_specificity_thr_validOpt,1.483625621890547,1.456118872761726,1.510518273711205
+norm,AVERAGE,auroc,0.6730162,0.662422285974026,0.68356692045927
+unnorm,AVERAGE,auroc,0.66054714,0.650052157044411,0.671032071113586
+text,AVERAGE,auroc,0.6462243,0.636999510228634,0.65525491386652
+comparison,norm_vs_unnorm,two_sided_p,0.000199980002,,
+comparison,norm_vs_unnorm,ci_diff,0.012469045,0.010071450471878,0.014862208068371
+comparison,norm_vs_text,two_sided_p,0.000199980002,,
+comparison,norm_vs_text,ci_diff,0.026791846,0.018711400032043,0.034670183062553

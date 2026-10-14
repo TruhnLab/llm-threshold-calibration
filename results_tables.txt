@@ -1,0 +1,50 @@
+['evalOutput/eval_MedGemma27B_MIMIC/eval_MedGemma27B_MIMIC_results.csv', 'evalOutput/eval_MedGemma27B_CheXpert/eval_MedGemma27B_CheXpert_results.csv', 'evalOutput/eval_MedGemma27B_HAM10000/eval_MedGemma27B_HAM10000_results.csv', 'evalOutput/eval_MedGemma27B_G1020/eval_MedGemma27B_G1020_results.csv', 'evalOutput/eval_MedGemma27B_DERM12345/eval_MedGemma27B_DERM12345_results.csv', 'evalOutput/eval_MedGemma27B_NCT_CRC_HE_100K_1000/eval_MedGemma27B_NCT_CRC_HE_100K_1000_results.csv']
+++++++++ TABLE 1 +++++++++_MedGemma27B_
+CheXpert & 0.819 [0.794, 0.845] & 0.777 [0.746, 0.807] & 0.743 [0.714, 0.772] \\
+DERM12345 & 0.701 [0.682, 0.719] & 0.637 [0.613, 0.662] & 0.547 [0.530, 0.566] \\
+G1020 & 0.494 [0.437, 0.551] & 0.489 [0.423, 0.555] & 0.487 [0.455, 0.519] \\
+HAM10000 & 0.654 [0.642, 0.666] & 0.607 [0.592, 0.621] & 0.542 [0.531, 0.554] \\
+MIMIC & 0.658 [0.647, 0.669] & 0.666 [0.655, 0.676] & 0.625 [0.616, 0.635] \\
+NCT-CRC-HE & 0.783 [0.777, 0.788] & 0.796 [0.790, 0.801] & 0.642 [0.638, 0.647] \\
+
+++++++++++
+++++++++ TABLE 2 +++++++++_MedGemma27B_
+\multirow{2}{*}{CheXpert} & \multirow{2}{*}{0.819} & \textbf{-0.043} & \multirow{2}{*}{$\mathbf{< .001}$} & \textbf{-0.077} & \multirow{2}{*}{$\mathbf{< .001}$} \\
+ &  & \textbf{[-0.057, -0.029]} &  & \textbf{[-0.095, -0.059]} &  \\
+\addlinespace
+\multirow{2}{*}{DERM12345} & \multirow{2}{*}{0.701} & \textbf{-0.064} & \multirow{2}{*}{$\mathbf{< .001}$} & \textbf{-0.154} & \multirow{2}{*}{$\mathbf{< .001}$} \\
+ &  & \textbf{[-0.086, -0.041]} &  & \textbf{[-0.175, -0.133]} &  \\
+\addlinespace
+\multirow{2}{*}{G1020} & \multirow{2}{*}{0.494} & -0.005 & \multirow{2}{*}{$.873$} & -0.007 & \multirow{2}{*}{$.783$} \\
+ &  & [-0.066, 0.054] &  & [-0.060, 0.046] &  \\
+\addlinespace
+\multirow{2}{*}{HAM10000} & \multirow{2}{*}{0.654} & \textbf{-0.047} & \multirow{2}{*}{$\mathbf{< .001}$} & \textbf{-0.111} & \multirow{2}{*}{$\mathbf{< .001}$} \\
+ &  & \textbf{[-0.058, -0.037]} &  & \textbf{[-0.123, -0.100]} &  \\
+\addlinespace
+\multirow{2}{*}{MIMIC} & \multirow{2}{*}{0.658} & \textbf{0.008} & \multirow{2}{*}{$\mathbf{.001}$} & \textbf{-0.033} & \multirow{2}{*}{$\mathbf{< .001}$} \\
+ &  & \textbf{[0.003, 0.013]} &  & \textbf{[-0.041, -0.024]} &  \\
+\addlinespace
+\multirow{2}{*}{NCT-CRC-HE} & \multirow{2}{*}{0.783} & \textbf{0.013} & \multirow{2}{*}{$\mathbf{< .001}$} & \textbf{-0.140} & \multirow{2}{*}{$\mathbf{< .001}$} \\
+ &  & \textbf{[0.010, 0.016]} &  & \textbf{[-0.145, -0.135]} &  \\
+
+++++++++++
+++++++++ TABLE 3 +++++++++
+\multirow{2}{*}{CheXpert} & 0.819 & 0.790 & 0.535 & 0.519 \\
+ & [0.794, 0.845] & [0.750, 0.827] & [0.496, 0.573] & [0.483, 0.557] \\
+\addlinespace
+\multirow{2}{*}{DERM12345} & 0.701 & 0.636 & 0.749 & 0.680 \\
+ & [0.682, 0.719] & [0.610, 0.671] & [0.730, 0.777] & [0.660, 0.704] \\
+\addlinespace
+\multirow{2}{*}{G1020} & 0.494 & 0.541 & 0.507 & 0.480 \\
+ & [0.437, 0.551] & [0.480, 0.603] & [0.446, 0.567] & [0.422, 0.538] \\
+\addlinespace
+\multirow{2}{*}{HAM10000} & 0.654 & 0.588 & 0.681 & 0.589 \\
+ & [0.642, 0.666] & [0.572, 0.603] & [0.669, 0.692] & [0.575, 0.602] \\
+\addlinespace
+\multirow{2}{*}{MIMIC} & 0.658 & 0.673 & 0.533 & 0.514 \\
+ & [0.647, 0.669] & [0.662, 0.684] & [0.522, 0.544] & [0.503, 0.525] \\
+\addlinespace
+\multirow{2}{*}{NCT-CRC-HE} & 0.783 & 0.817 & 0.769 & 0.687 \\
+ & [0.777, 0.788] & [0.811, 0.822] & [0.762, 0.775] & [0.680, 0.694] \\
+
+++++++++++

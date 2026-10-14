@@ -1,0 +1,980 @@
+prob_type,label,metric,value,lower_95,upper_95
+norm,a benign skin lesion,vaildOldLen,5000,nan,nan
+norm,a benign skin lesion,vaildNewLen,5000,nan,nan
+norm,a benign skin lesion,testOldLen,5000,nan,nan
+norm,a benign skin lesion,testNewLen,5000,nan,nan
+norm,a benign skin lesion,testAuroc,0.538545212502866,0.516446205973625,0.560672253370285
+norm,a benign skin lesion,vaildOptThreshold,5.1442188e-05,nan,nan
+norm,a benign skin lesion,accuracy_score_thr_05,0.2164,0.204799994826317,0.227799996733665
+norm,a benign skin lesion,f1_score_thr_05,0.070683111954459,0.059951679874212,0.081671950779855
+norm,a benign skin lesion,precision_score_thr_05,0.796791443850267,0.736835022270679,0.854838728904724
+norm,a benign skin lesion,recall_score_thr_05,0.036981881360139,0.031188119202852,0.042992047965527
+norm,a benign skin lesion,specificity_score_thr_05,0.96086508753862,0.948326946794987,0.9728884100914
+norm,a benign skin lesion,sensitivity_plus_specificity_thr_05,0.997846968898759,0.984019097685814,1.011418998241425
+norm,a benign skin lesion,accuracy_score_thr_validOpt,0.752,0.739799976348877,0.763999998569489
+norm,a benign skin lesion,f1_score_thr_validOpt,0.849951597289448,0.84145268201828,0.858173966407776
+norm,a benign skin lesion,precision_score_thr_validOpt,0.829279811097993,0.81777556091547,0.84088281840086
+norm,a benign skin lesion,recall_score_thr_validOpt,0.871680317696699,0.861295780539513,0.881959915161133
+norm,a benign skin lesion,specificity_score_thr_validOpt,0.255406797116375,0.22833798751235,0.282922320067883
+norm,a benign skin lesion,sensitivity_plus_specificity_thr_validOpt,1.127087114813074,1.098210403323173,1.156166145205498
+norm,a skin lesion with an indeterminate diagnosis,vaildOldLen,5000,nan,nan
+norm,a skin lesion with an indeterminate diagnosis,vaildNewLen,5000,nan,nan
+norm,a skin lesion with an indeterminate diagnosis,testOldLen,5000,nan,nan
+norm,a skin lesion with an indeterminate diagnosis,testNewLen,5000,nan,nan
+norm,a skin lesion with an indeterminate diagnosis,testAuroc,0.542085122516819,0.480061330646276,0.603655759990215
+norm,a skin lesion with an indeterminate diagnosis,vaildOptThreshold,0.9997695,nan,nan
+norm,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_05,0.0142,0.010999999940395,0.017599999904633
+norm,a skin lesion with an indeterminate diagnosis,f1_score_thr_05,0.027235050325636,0.020985944196582,0.033824976533651
+norm,a skin lesion with an indeterminate diagnosis,precision_score_thr_05,0.013805522208884,0.010604241862893,0.017203440889716
+norm,a skin lesion with an indeterminate diagnosis,recall_score_thr_05,1.0,1.0,1.0
+norm,a skin lesion with an indeterminate diagnosis,specificity_score_thr_05,0.000405597241939,0.0,0.001015022280626
+norm,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_05,1.000405597241939,1.0,1.001015067100525
+norm,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_validOpt,0.3722,0.358599990606308,0.385600000619888
+norm,a skin lesion with an indeterminate diagnosis,f1_score_thr_validOpt,0.029075162387875,0.021223470568657,0.037585007864982
+norm,a skin lesion with an indeterminate diagnosis,precision_score_thr_validOpt,0.014854614412137,0.010792392957956,0.019280294934288
+norm,a skin lesion with an indeterminate diagnosis,recall_score_thr_validOpt,0.681159420289855,0.569224162399769,0.791044771671295
+norm,a skin lesion with an indeterminate diagnosis,specificity_score_thr_validOpt,0.367876698438451,0.354191988706589,0.38108766078949
+norm,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_validOpt,1.049036118728306,0.935047867894173,1.158039489388466
+norm,a malignant skin lesion,vaildOldLen,5000,nan,nan
+norm,a malignant skin lesion,vaildNewLen,5000,nan,nan
+norm,a malignant skin lesion,testOldLen,5000,nan,nan
+norm,a malignant skin lesion,testNewLen,5000,nan,nan
+norm,a malignant skin lesion,testAuroc,0.661348242991281,0.641025546193123,0.681058688461781
+norm,a malignant skin lesion,vaildOptThreshold,0.9997695,nan,nan
+norm,a malignant skin lesion,accuracy_score_thr_05,0.3192,0.306400001049042,0.331999987363815
+norm,a malignant skin lesion,f1_score_thr_05,0.328864353312303,0.311611099541187,0.345326895266771
+norm,a malignant skin lesion,precision_score_thr_05,0.2,0.187663409486413,0.212179684266448
+norm,a malignant skin lesion,recall_score_thr_05,0.924611973392461,0.907079637050629,0.941371773183346
+norm,a malignant skin lesion,specificity_score_thr_05,0.185944363103953,0.174194185435772,0.197781256958842
+norm,a malignant skin lesion,sensitivity_plus_specificity_thr_05,1.110556336496414,1.089369031786919,1.131214159727097
+norm,a malignant skin lesion,accuracy_score_thr_validOpt,0.7098,0.697000026702881,0.722599983215332
+norm,a malignant skin lesion,f1_score_thr_validOpt,0.367755991285403,0.342139731347561,0.392964697629213
+norm,a malignant skin lesion,precision_score_thr_validOpt,0.302943287867911,0.278581114858389,0.327403232455254
+norm,a malignant skin lesion,recall_score_thr_validOpt,0.467849223946785,0.43537246286869,0.500562493503094
+norm,a malignant skin lesion,specificity_score_thr_validOpt,0.763055148853099,0.75,0.775964680314064
+norm,a malignant skin lesion,sensitivity_plus_specificity_thr_validOpt,1.230904372799884,1.195547571778298,1.266331219673157
+norm,benign epidermal proliferation,vaildOldLen,5000,nan,nan
+norm,benign epidermal proliferation,vaildNewLen,5000,nan,nan
+norm,benign epidermal proliferation,testOldLen,5000,nan,nan
+norm,benign epidermal proliferation,testNewLen,5000,nan,nan
+norm,benign epidermal proliferation,testAuroc,0.750548137644912,0.729682767391205,0.770899550616741
+norm,benign epidermal proliferation,vaildOptThreshold,0.060086623,nan,nan
+norm,benign epidermal proliferation,accuracy_score_thr_05,0.8204,0.809599995613098,0.830999970436096
+norm,benign epidermal proliferation,f1_score_thr_05,0.333827893175074,0.300774904340506,0.366316303610802
+norm,benign epidermal proliferation,precision_score_thr_05,0.28809218950064,0.255784064531326,0.320497285574675
+norm,benign epidermal proliferation,recall_score_thr_05,0.396825396825397,0.356320852041245,0.437288275361061
+norm,benign epidermal proliferation,specificity_score_thr_05,0.874577035867358,0.864663277566433,0.884234848618507
+norm,benign epidermal proliferation,sensitivity_plus_specificity_thr_05,1.271402432692755,1.22977177798748,1.312869143486023
+norm,benign epidermal proliferation,accuracy_score_thr_validOpt,0.6522,0.638999998569489,0.665600001811981
+norm,benign epidermal proliferation,f1_score_thr_validOpt,0.323609490470634,0.299760192632675,0.347063302993774
+norm,benign epidermal proliferation,precision_score_thr_validOpt,0.207584830339321,0.18980247862637,0.225471376627684
+norm,benign epidermal proliferation,recall_score_thr_validOpt,0.7336860670194,0.695499764382839,0.770154884457588
+norm,benign epidermal proliferation,specificity_score_thr_validOpt,0.641777577261448,0.627560873329639,0.656052555143833
+norm,benign epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,1.375463644280848,1.335131248831749,1.414547178149223
+norm,benign melanocytic proliferation,vaildOldLen,5000,nan,nan
+norm,benign melanocytic proliferation,vaildNewLen,5000,nan,nan
+norm,benign melanocytic proliferation,testOldLen,5000,nan,nan
+norm,benign melanocytic proliferation,testNewLen,5000,nan,nan
+norm,benign melanocytic proliferation,testAuroc,0.447709622101436,0.429855094850063,0.465400225669146
+norm,benign melanocytic proliferation,vaildOptThreshold,0.0017007207,nan,nan
+norm,benign melanocytic proliferation,accuracy_score_thr_05,0.367,0.35359999537468,0.38060000538826
+norm,benign melanocytic proliferation,f1_score_thr_05,0.293999553870176,0.276490928977728,0.311591158807278
+norm,benign melanocytic proliferation,precision_score_thr_05,0.564695801199657,0.536685475707054,0.593133689463139
+norm,benign melanocytic proliferation,recall_score_thr_05,0.198733413751508,0.185139610245824,0.212376151606441
+norm,benign melanocytic proliferation,specificity_score_thr_05,0.69833729216152,0.676417860388756,0.720263421535492
+norm,benign melanocytic proliferation,sensitivity_plus_specificity_thr_05,0.897070705913028,0.871719320118427,0.923119534552097
+norm,benign melanocytic proliferation,accuracy_score_thr_validOpt,0.6604,0.647599995136261,0.673600018024445
+norm,benign melanocytic proliferation,f1_score_thr_validOpt,0.783749363219562,0.773728063702583,0.793771681189537
+norm,benign melanocytic proliferation,precision_score_thr_validOpt,0.678350970017637,0.66491208076477,0.691933718323708
+norm,benign melanocytic proliferation,recall_score_thr_validOpt,0.927925211097708,0.919023358821869,0.936713027954102
+norm,benign melanocytic proliferation,specificity_score_thr_validOpt,0.133610451306413,0.117542744614184,0.150183751806617
+norm,benign melanocytic proliferation,sensitivity_plus_specificity_thr_validOpt,1.061535662404122,1.043115964531899,1.080205968022347
+norm,benign fibro-histiocytic proliferation,vaildOldLen,5000,nan,nan
+norm,benign fibro-histiocytic proliferation,vaildNewLen,5000,nan,nan
+norm,benign fibro-histiocytic proliferation,testOldLen,5000,nan,nan
+norm,benign fibro-histiocytic proliferation,testNewLen,5000,nan,nan
+norm,benign fibro-histiocytic proliferation,testAuroc,0.764802038239538,0.713781607151031,0.813488078117371
+norm,benign fibro-histiocytic proliferation,vaildOptThreshold,0.005220121,nan,nan
+norm,benign fibro-histiocytic proliferation,accuracy_score_thr_05,0.9494,0.94339502453804,0.955399990081787
+norm,benign fibro-histiocytic proliferation,f1_score_thr_05,0.099644128113879,0.053639847785234,0.149152547121048
+norm,benign fibro-histiocytic proliferation,precision_score_thr_05,0.066985645933014,0.035532996058464,0.102566965669393
+norm,benign fibro-histiocytic proliferation,recall_score_thr_05,0.194444444444444,0.107692308723927,0.289473682641983
+norm,benign fibro-histiocytic proliferation,specificity_score_thr_05,0.960430194805195,0.954903770983219,0.965692396461964
+norm,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_05,1.154874639249639,1.068191236257553,1.249822843074799
+norm,benign fibro-histiocytic proliferation,accuracy_score_thr_validOpt,0.502,0.487800002098083,0.515999972820282
+norm,benign fibro-histiocytic proliferation,f1_score_thr_validOpt,0.04743687834736,0.036322340741754,0.059287202358246
+norm,benign fibro-histiocytic proliferation,precision_score_thr_validOpt,0.024390243902439,0.018569576367736,0.030674907937646
+norm,benign fibro-histiocytic proliferation,recall_score_thr_validOpt,0.861111111111111,0.774999976158142,0.936708867549896
+norm,benign fibro-histiocytic proliferation,specificity_score_thr_validOpt,0.496753246753247,0.482695265114307,0.510785630345345
+norm,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_validOpt,1.357864357864358,1.270650959014893,1.43451112806797
+norm,benign vascular proliferation,vaildOldLen,5000,nan,nan
+norm,benign vascular proliferation,vaildNewLen,5000,nan,nan
+norm,benign vascular proliferation,testOldLen,5000,nan,nan
+norm,benign vascular proliferation,testNewLen,5000,nan,nan
+norm,benign vascular proliferation,testAuroc,0.773420954450187,0.720438891649246,0.824235960841179
+norm,benign vascular proliferation,vaildOptThreshold,0.11920292,nan,nan
+norm,benign vascular proliferation,accuracy_score_thr_05,0.7298,0.717400014400482,0.742200016975403
+norm,benign vascular proliferation,f1_score_thr_05,0.071477663230241,0.053423816338181,0.0903405174613
+norm,benign vascular proliferation,precision_score_thr_05,0.037653874004345,0.027923341514543,0.048084484413266
+norm,benign vascular proliferation,recall_score_thr_05,0.702702702702703,0.594936728477478,0.805194795131683
+norm,benign vascular proliferation,specificity_score_thr_05,0.73020706455542,0.717668057978153,0.742602348327637
+norm,benign vascular proliferation,sensitivity_plus_specificity_thr_05,1.432909767258123,1.324553987383843,1.535137972235679
+norm,benign vascular proliferation,accuracy_score_thr_validOpt,0.5984,0.584999978542328,0.611999988555908
+norm,benign vascular proliferation,f1_score_thr_validOpt,0.055503292568203,0.041984555125237,0.06954887509346
+norm,benign vascular proliferation,precision_score_thr_validOpt,0.028752436647173,0.021589793264866,0.036284664832056
+norm,benign vascular proliferation,recall_score_thr_validOpt,0.797297297297297,0.701298713684082,0.885714292526245
+norm,benign vascular proliferation,specificity_score_thr_validOpt,0.595412099066179,0.581814433634281,0.609083533287048
+norm,benign vascular proliferation,sensitivity_plus_specificity_thr_validOpt,1.392709396363477,1.295090955495834,1.48271940946579
+norm,indeterminate epidermal proliferation requiring further evaluation,vaildOldLen,5000,nan,nan
+norm,indeterminate epidermal proliferation requiring further evaluation,vaildNewLen,5000,nan,nan
+norm,indeterminate epidermal proliferation requiring further evaluation,testOldLen,5000,nan,nan
+norm,indeterminate epidermal proliferation requiring further evaluation,testNewLen,5000,nan,nan
+norm,indeterminate epidermal proliferation requiring further evaluation,testAuroc,0.623545507716635,0.567413158714771,0.676951131224632
+norm,indeterminate epidermal proliferation requiring further evaluation,vaildOptThreshold,0.99752736,nan,nan
+norm,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_05,0.0628,0.056200001388788,0.069600000977516
+norm,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_05,0.028606965174129,0.022074135020375,0.035449482593685
+norm,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_05,0.014511041009464,0.011160244233906,0.018044575722888
+norm,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_05,1.0,1.0,1.0
+norm,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_05,0.049685662137497,0.043768998235464,0.055826485808939
+norm,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_05,1.049685662137498,1.043769001960754,1.055826446413994
+norm,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_validOpt,0.5102,0.496199995279312,0.524200022220612
+norm,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_validOpt,0.035447026388342,0.025568875204772,0.045736435800791
+norm,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_validOpt,0.018218623481781,0.013084796327166,0.023650386556983
+norm,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_validOpt,0.652173913043478,0.537313461303711,0.764705896377563
+norm,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_validOpt,0.50821334414926,0.494027016311884,0.522364656627178
+norm,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_validOpt,1.160387257192738,1.044237786531448,1.273666116595268
+norm,malignant follicular adnexal epithelial proliferation,vaildOldLen,5000,nan,nan
+norm,malignant follicular adnexal epithelial proliferation,vaildNewLen,5000,nan,nan
+norm,malignant follicular adnexal epithelial proliferation,testOldLen,5000,nan,nan
+norm,malignant follicular adnexal epithelial proliferation,testNewLen,5000,nan,nan
+norm,malignant follicular adnexal epithelial proliferation,testAuroc,0.741288278775079,0.71326035708189,0.768349921703339
+norm,malignant follicular adnexal epithelial proliferation,vaildOptThreshold,0.0011695103,nan,nan
+norm,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_05,0.932,0.925000011920929,0.939000010490417
+norm,malignant follicular adnexal epithelial proliferation,f1_score_thr_05,0.086021505376344,0.048000000417233,0.126214820891619
+norm,malignant follicular adnexal epithelial proliferation,precision_score_thr_05,0.149532710280374,0.084745764732361,0.220004586130381
+norm,malignant follicular adnexal epithelial proliferation,recall_score_thr_05,0.060377358490566,0.033472413662821,0.090566039085388
+norm,malignant follicular adnexal epithelial proliferation,specificity_score_thr_05,0.98078141499472,0.976646304130554,0.984605750441551
+norm,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_05,1.041158773485286,1.013743305206299,1.071272796392441
+norm,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_validOpt,0.6714,0.658394999802113,0.68419998884201
+norm,malignant follicular adnexal epithelial proliferation,f1_score_thr_validOpt,0.181365221723966,0.158663509786129,0.204162995889783
+norm,malignant follicular adnexal epithelial proliferation,precision_score_thr_validOpt,0.104477611940299,0.090330049395561,0.118978522717953
+norm,malignant follicular adnexal epithelial proliferation,recall_score_thr_validOpt,0.686792452830189,0.629629611968994,0.742958123981953
+norm,malignant follicular adnexal epithelial proliferation,specificity_score_thr_validOpt,0.670538542766632,0.657094445824623,0.683584630489349
+norm,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_validOpt,1.35733099559682,1.298922103643417,1.415115576982498
+norm,malignant epidermal proliferation,vaildOldLen,5000,nan,nan
+norm,malignant epidermal proliferation,vaildNewLen,5000,nan,nan
+norm,malignant epidermal proliferation,testOldLen,5000,nan,nan
+norm,malignant epidermal proliferation,testNewLen,5000,nan,nan
+norm,malignant epidermal proliferation,testAuroc,0.522281661187777,0.46949001699686,0.576330001652241
+norm,malignant epidermal proliferation,vaildOptThreshold,0.99752736,nan,nan
+norm,malignant epidermal proliferation,accuracy_score_thr_05,0.337,0.32379999756813,0.350199997425079
+norm,malignant epidermal proliferation,f1_score_thr_05,0.037735849056604,0.029171528294683,0.046780331712216
+norm,malignant epidermal proliferation,precision_score_thr_05,0.019397194867204,0.014920827932656,0.024167403578758
+norm,malignant epidermal proliferation,recall_score_thr_05,0.691489361702128,0.595238089561462,0.783505141735077
+norm,malignant epidermal proliferation,specificity_score_thr_05,0.330207908683245,0.316968692094088,0.343463182449341
+norm,malignant epidermal proliferation,sensitivity_plus_specificity_thr_05,1.021697270385373,0.92423183619976,1.115046492218971
+norm,malignant epidermal proliferation,accuracy_score_thr_validOpt,0.8018,0.790799975395203,0.812799990177155
+norm,malignant epidermal proliferation,f1_score_thr_validOpt,0.023645320197044,0.01163862189278,0.037657006923109
+norm,malignant epidermal proliferation,precision_score_thr_validOpt,0.013029315960912,0.006355763843749,0.020856201648712
+norm,malignant epidermal proliferation,recall_score_thr_validOpt,0.127659574468085,0.063636362552643,0.200000002980232
+norm,malignant epidermal proliferation,specificity_score_thr_validOpt,0.814716673461068,0.803821600973606,0.825671255588531
+norm,malignant epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,0.942376247929153,0.87714983522892,1.016029047966003
+norm,malignant melanocytic proliferation (melanoma),vaildOldLen,5000,nan,nan
+norm,malignant melanocytic proliferation (melanoma),vaildNewLen,5000,nan,nan
+norm,malignant melanocytic proliferation (melanoma),testOldLen,5000,nan,nan
+norm,malignant melanocytic proliferation (melanoma),testNewLen,5000,nan,nan
+norm,malignant melanocytic proliferation (melanoma),testAuroc,0.736575527725336,0.714369875192642,0.757753698527813
+norm,malignant melanocytic proliferation (melanoma),vaildOptThreshold,0.93991333,nan,nan
+norm,malignant melanocytic proliferation (melanoma),accuracy_score_thr_05,0.5636,0.549995011091232,0.577199995517731
+norm,malignant melanocytic proliferation (melanoma),f1_score_thr_05,0.280343007915567,0.259106051176786,0.301181602478027
+norm,malignant melanocytic proliferation (melanoma),precision_score_thr_05,0.170751305745279,0.15602510869503,0.185612198337913
+norm,malignant melanocytic proliferation (melanoma),recall_score_thr_05,0.78268876611418,0.747272230684757,0.817073687911034
+norm,malignant melanocytic proliferation (melanoma),specificity_score_thr_05,0.536908234238277,0.522454281151295,0.551724326610565
+norm,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_05,1.319597000352457,1.281371361017227,1.356444856524467
+norm,malignant melanocytic proliferation (melanoma),accuracy_score_thr_validOpt,0.7004,0.687600016593933,0.712800025939941
+norm,malignant melanocytic proliferation (melanoma),f1_score_thr_validOpt,0.307123034227567,0.281621970236301,0.332204492390156
+norm,malignant melanocytic proliferation (melanoma),precision_score_thr_validOpt,0.205064854848672,0.185534309223294,0.224761371687055
+norm,malignant melanocytic proliferation (melanoma),recall_score_thr_validOpt,0.611418047882136,0.56972049921751,0.652324107289314
+norm,malignant melanocytic proliferation (melanoma),specificity_score_thr_validOpt,0.71124074489567,0.698015220463276,0.724246707558632
+norm,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_validOpt,1.322658792777806,1.279025796055794,1.365550127625465
+norm,basal cell carcinoma,vaildOldLen,5000,nan,nan
+norm,basal cell carcinoma,vaildNewLen,5000,nan,nan
+norm,basal cell carcinoma,testOldLen,5000,nan,nan
+norm,basal cell carcinoma,testNewLen,5000,nan,nan
+norm,basal cell carcinoma,testAuroc,0.811529955569724,0.788755384087563,0.83307168930769
+norm,basal cell carcinoma,vaildOptThreshold,0.0031726798,nan,nan
+norm,basal cell carcinoma,accuracy_score_thr_05,0.8798,0.870599985122681,0.888800024986267
+norm,basal cell carcinoma,f1_score_thr_05,0.234394904458599,0.19429737329483,0.273504287004471
+norm,basal cell carcinoma,precision_score_thr_05,0.176923076923077,0.14450317248702,0.210340736061335
+norm,basal cell carcinoma,recall_score_thr_05,0.347169811320755,0.289388779550791,0.406130254268646
+norm,basal cell carcinoma,specificity_score_thr_05,0.90960929250264,0.90137265920639,0.917724558711052
+norm,basal cell carcinoma,sensitivity_plus_specificity_thr_05,1.256779103823395,1.199109134078026,1.315303727984428
+norm,basal cell carcinoma,accuracy_score_thr_validOpt,0.7172,0.704599976539612,0.729804986715317
+norm,basal cell carcinoma,f1_score_thr_validOpt,0.229007633587786,0.20333287268877,0.254069552570581
+norm,basal cell carcinoma,precision_score_thr_validOpt,0.133843212237094,0.117027699202299,0.150517314299941
+norm,basal cell carcinoma,recall_score_thr_validOpt,0.792452830188679,0.7433962225914,0.839861196279526
+norm,basal cell carcinoma,specificity_score_thr_validOpt,0.7129883843717,0.70002114623785,0.725990815460682
+norm,basal cell carcinoma,sensitivity_plus_specificity_thr_validOpt,1.50544121456038,1.455121946334839,1.554367199540138
+norm,dermatofibroma,vaildOldLen,5000,nan,nan
+norm,dermatofibroma,vaildNewLen,5000,nan,nan
+norm,dermatofibroma,testOldLen,5000,nan,nan
+norm,dermatofibroma,testNewLen,5000,nan,nan
+norm,dermatofibroma,testAuroc,0.589759199134199,0.517498189210892,0.661118623614311
+norm,dermatofibroma,vaildOptThreshold,0.62245935,nan,nan
+norm,dermatofibroma,accuracy_score_thr_05,0.4758,0.462199985980988,0.489800006151199
+norm,dermatofibroma,f1_score_thr_05,0.032484311554079,0.023564064875245,0.042019903659821
+norm,dermatofibroma,precision_score_thr_05,0.016685627607129,0.012047965684906,0.021673183562234
+norm,dermatofibroma,recall_score_thr_05,0.611111111111111,0.5,0.722222208976746
+norm,dermatofibroma,specificity_score_thr_05,0.473823051948052,0.460072559863329,0.487710744142532
+norm,dermatofibroma,sensitivity_plus_specificity_thr_05,1.084934163059163,0.972470213472843,1.196159580349922
+norm,dermatofibroma,accuracy_score_thr_validOpt,0.515,0.500999987125397,0.528800010681152
+norm,dermatofibroma,f1_score_thr_validOpt,0.032708416433985,0.023405736824498,0.042670879513025
+norm,dermatofibroma,precision_score_thr_validOpt,0.016837782340862,0.011998097132891,0.022076860070229
+norm,dermatofibroma,recall_score_thr_validOpt,0.569444444444444,0.45613388940692,0.683333337306976
+norm,dermatofibroma,specificity_score_thr_validOpt,0.514204545454545,0.500101386010647,0.52808314114809
+norm,dermatofibroma,sensitivity_plus_specificity_thr_validOpt,1.08364898989899,0.969264195859432,1.199310195446014
+norm,"melanoma, not otherwise specified",vaildOldLen,5000,nan,nan
+norm,"melanoma, not otherwise specified",vaildNewLen,5000,nan,nan
+norm,"melanoma, not otherwise specified",testOldLen,5000,nan,nan
+norm,"melanoma, not otherwise specified",testNewLen,5000,nan,nan
+norm,"melanoma, not otherwise specified",testAuroc,0.739026407856369,0.717160283029079,0.760006237030029
+norm,"melanoma, not otherwise specified",vaildOptThreshold,0.9241418,nan,nan
+norm,"melanoma, not otherwise specified",accuracy_score_thr_05,0.5286,0.514800012111664,0.542400002479553
+norm,"melanoma, not otherwise specified",f1_score_thr_05,0.275883256528418,0.255492433160543,0.295934036374092
+norm,"melanoma, not otherwise specified",precision_score_thr_05,0.165560471976401,0.151593523100019,0.179583089798689
+norm,"melanoma, not otherwise specified",recall_score_thr_05,0.826887661141805,0.793950855731964,0.858223080635071
+norm,"melanoma, not otherwise specified",specificity_score_thr_05,0.492259367287413,0.477638048678637,0.507039365172386
+norm,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.319147028429218,1.28318487405777,1.353789311647415
+norm,"melanoma, not otherwise specified",accuracy_score_thr_validOpt,0.667,0.653999984264374,0.680199980735779
+norm,"melanoma, not otherwise specified",f1_score_thr_validOpt,0.303638644918444,0.279270799458027,0.327476139366627
+norm,"melanoma, not otherwise specified",precision_score_thr_validOpt,0.196428571428571,0.178669601678848,0.214724421128631
+norm,"melanoma, not otherwise specified",recall_score_thr_validOpt,0.668508287292818,0.627818493545055,0.707231044769287
+norm,"melanoma, not otherwise specified",specificity_score_thr_validOpt,0.666816244110388,0.653243479132652,0.680803415179253
+norm,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.335324531403206,1.293025290966034,1.375895810127258
+norm,a nevus (melanocytic nevus),vaildOldLen,5000,nan,nan
+norm,a nevus (melanocytic nevus),vaildNewLen,5000,nan,nan
+norm,a nevus (melanocytic nevus),testOldLen,5000,nan,nan
+norm,a nevus (melanocytic nevus),testNewLen,5000,nan,nan
+norm,a nevus (melanocytic nevus),testAuroc,0.549908276004344,0.532641491293907,0.567100486159325
+norm,a nevus (melanocytic nevus),vaildOptThreshold,0.37754068,nan,nan
+norm,a nevus (melanocytic nevus),accuracy_score_thr_05,0.591,0.577400028705597,0.604399979114532
+norm,a nevus (melanocytic nevus),f1_score_thr_05,0.693724726673656,0.681218412518501,0.705987215042114
+norm,a nevus (melanocytic nevus),precision_score_thr_05,0.689080630764653,0.673317432403564,0.704411886632442
+norm,a nevus (melanocytic nevus),recall_score_thr_05,0.698431845597105,0.682977931201458,0.714109696447849
+norm,a nevus (melanocytic nevus),specificity_score_thr_05,0.379453681710214,0.355963017046452,0.402762126922607
+norm,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_05,1.077885527307319,1.049885028600693,1.105670833587646
+norm,a nevus (melanocytic nevus),accuracy_score_thr_validOpt,0.5996,0.586394973099232,0.612999975681305
+norm,a nevus (melanocytic nevus),f1_score_thr_validOpt,0.705501618122977,0.693393392860889,0.717643789947033
+norm,a nevus (melanocytic nevus),precision_score_thr_validOpt,0.688684663986215,0.673375055193901,0.703703701496124
+norm,a nevus (melanocytic nevus),recall_score_thr_validOpt,0.723160434258142,0.708345001935959,0.738536992669106
+norm,a nevus (melanocytic nevus),specificity_score_thr_validOpt,0.356294536817102,0.333333343267441,0.379291281849146
+norm,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_validOpt,1.079454971075245,1.051887851953506,1.106710976362228
+norm,pigmented benign keratosis (seborrheic keratosis),vaildOldLen,5000,nan,nan
+norm,pigmented benign keratosis (seborrheic keratosis),vaildNewLen,5000,nan,nan
+norm,pigmented benign keratosis (seborrheic keratosis),testOldLen,5000,nan,nan
+norm,pigmented benign keratosis (seborrheic keratosis),testNewLen,5000,nan,nan
+norm,pigmented benign keratosis (seborrheic keratosis),testAuroc,0.786814539502712,0.766401152312756,0.806213562190533
+norm,pigmented benign keratosis (seborrheic keratosis),vaildOptThreshold,0.6791787,nan,nan
+norm,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_05,0.6898,0.676800012588501,0.702405028045177
+norm,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_05,0.364083640836408,0.339219494909048,0.388477651774883
+norm,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_05,0.237179487179487,0.217894519120455,0.256641872227192
+norm,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_05,0.783068783068783,0.748147797584534,0.817007786035538
+norm,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_05,0.677870516580194,0.664044784009457,0.691386410593987
+norm,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_05,1.460939299648977,1.423349878191948,1.497407069802284
+norm,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_validOpt,0.7124,0.699599981307983,0.724605016410351
+norm,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_validOpt,0.374782608695652,0.348981118947268,0.400000005960464
+norm,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_validOpt,0.248701673398731,0.228265890106559,0.269320125877857
+norm,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_validOpt,0.760141093474427,0.723947460949421,0.795494927465916
+norm,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_validOpt,0.706293706293706,0.692704360187054,0.719397066533565
+norm,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_validOpt,1.466434799768133,1.427834895253181,1.503973019123077
+norm,solar or actinic keratosis,vaildOldLen,5000,nan,nan
+norm,solar or actinic keratosis,vaildNewLen,5000,nan,nan
+norm,solar or actinic keratosis,testOldLen,5000,nan,nan
+norm,solar or actinic keratosis,testNewLen,5000,nan,nan
+norm,solar or actinic keratosis,testAuroc,0.865247664141971,0.83130090534687,0.895553712546825
+norm,solar or actinic keratosis,vaildOptThreshold,0.01798621,nan,nan
+norm,solar or actinic keratosis,accuracy_score_thr_05,0.8768,0.86760002374649,0.885999977588654
+norm,solar or actinic keratosis,f1_score_thr_05,0.117478510028653,0.0847451236099,0.15079365670681
+norm,solar or actinic keratosis,precision_score_thr_05,0.065182829888712,0.046203962247819,0.085201972723007
+norm,solar or actinic keratosis,recall_score_thr_05,0.594202898550725,0.474989400804043,0.709090888500214
+norm,solar or actinic keratosis,specificity_score_thr_05,0.880754410870006,0.871649086475372,0.889833970367908
+norm,solar or actinic keratosis,sensitivity_plus_specificity_thr_05,1.474957309420731,1.354859504103661,1.589357560873031
+norm,solar or actinic keratosis,accuracy_score_thr_validOpt,0.7598,0.748000025749207,0.771600008010864
+norm,solar or actinic keratosis,f1_score_thr_validOpt,0.089461713419257,0.068642742931843,0.111441418714821
+norm,solar or actinic keratosis,precision_score_thr_validOpt,0.0472,0.035829942580312,0.05943775177002
+norm,solar or actinic keratosis,recall_score_thr_validOpt,0.855072463768116,0.768115937709808,0.933333337306976
+norm,solar or actinic keratosis,specificity_score_thr_validOpt,0.758466842425472,0.746558445692062,0.770495116710663
+norm,solar or actinic keratosis,sensitivity_plus_specificity_thr_validOpt,1.613539306193588,1.524325594305992,1.692300030589104
+norm,"squamous cell carcinoma, not otherwise specified",vaildOldLen,5000,nan,nan
+norm,"squamous cell carcinoma, not otherwise specified",vaildNewLen,5000,nan,nan
+norm,"squamous cell carcinoma, not otherwise specified",testOldLen,5000,nan,nan
+norm,"squamous cell carcinoma, not otherwise specified",testNewLen,5000,nan,nan
+norm,"squamous cell carcinoma, not otherwise specified",testAuroc,0.807546772948452,0.771204051375389,0.840908960998058
+norm,"squamous cell carcinoma, not otherwise specified",vaildOptThreshold,0.001032231,nan,nan
+norm,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_05,0.924,0.916400015354156,0.93120002746582
+norm,"squamous cell carcinoma, not otherwise specified",f1_score_thr_05,0.095238095238095,0.058111380785704,0.134491209313273
+norm,"squamous cell carcinoma, not otherwise specified",precision_score_thr_05,0.061349693251534,0.036809303984046,0.088328078389168
+norm,"squamous cell carcinoma, not otherwise specified",recall_score_thr_05,0.212765957446809,0.133333340287209,0.300000011920929
+norm,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_05,0.937627395026498,0.930572028458118,0.944331169128418
+norm,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.150393352473307,1.069959223270416,1.237647998332977
+norm,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_validOpt,0.6322,0.618799984455109,0.645399987697601
+norm,"squamous cell carcinoma, not otherwise specified",f1_score_thr_validOpt,0.082793017456359,0.066198231838644,0.099949536286294
+norm,"squamous cell carcinoma, not otherwise specified",precision_score_thr_validOpt,0.043432757718472,0.034445218555629,0.05284984940663
+norm,"squamous cell carcinoma, not otherwise specified",recall_score_thr_validOpt,0.882978723404255,0.813725471496582,0.942536935210228
+norm,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_validOpt,0.627395026498166,0.613849180936813,0.640780875086784
+norm,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.510373749902421,1.439483115077019,1.572474271059036
+unnorm,a benign skin lesion,vaildOldLen,5000,nan,nan
+unnorm,a benign skin lesion,vaildNewLen,5000,nan,nan
+unnorm,a benign skin lesion,testOldLen,5000,nan,nan
+unnorm,a benign skin lesion,testNewLen,5000,nan,nan
+unnorm,a benign skin lesion,testAuroc,0.481582420346412,0.459419860690832,0.503644567728043
+unnorm,a benign skin lesion,vaildOptThreshold,3.9295e-11,nan,nan
+unnorm,a benign skin lesion,accuracy_score_thr_05,0.1942,0.183200001716614,0.205400004982948
+unnorm,a benign skin lesion,f1_score_thr_05,0.0,0.0,0.0
+unnorm,a benign skin lesion,precision_score_thr_05,0.0,0.0,0.0
+unnorm,a benign skin lesion,recall_score_thr_05,0.0,0.0,0.0
+unnorm,a benign skin lesion,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,a benign skin lesion,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,a benign skin lesion,accuracy_score_thr_validOpt,0.727,0.714399993419647,0.739600002765656
+unnorm,a benign skin lesion,f1_score_thr_validOpt,0.83452539701782,0.825593666732311,0.843271911144257
+unnorm,a benign skin lesion,precision_score_thr_validOpt,0.81563981042654,0.803755879402161,0.827480475604534
+unnorm,a benign skin lesion,recall_score_thr_validOpt,0.854306279473815,0.843098166584969,0.86514378041029
+unnorm,a benign skin lesion,specificity_score_thr_validOpt,0.198764160659114,0.173911901190877,0.22395832836628
+unnorm,a benign skin lesion,sensitivity_plus_specificity_thr_validOpt,1.053070440132929,1.025354355573654,1.080491280555725
+unnorm,a skin lesion with an indeterminate diagnosis,vaildOldLen,5000,nan,nan
+unnorm,a skin lesion with an indeterminate diagnosis,vaildNewLen,5000,nan,nan
+unnorm,a skin lesion with an indeterminate diagnosis,testOldLen,5000,nan,nan
+unnorm,a skin lesion with an indeterminate diagnosis,testNewLen,5000,nan,nan
+unnorm,a skin lesion with an indeterminate diagnosis,testAuroc,0.697370083970385,0.635462073981762,0.757142682373524
+unnorm,a skin lesion with an indeterminate diagnosis,vaildOptThreshold,0.009867151,nan,nan
+unnorm,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_05,0.9856,0.982200026512146,0.98879998922348
+unnorm,a skin lesion with an indeterminate diagnosis,f1_score_thr_05,0.0,0.0,0.0
+unnorm,a skin lesion with an indeterminate diagnosis,precision_score_thr_05,0.0,0.0,0.0
+unnorm,a skin lesion with an indeterminate diagnosis,recall_score_thr_05,0.0,0.0,0.0
+unnorm,a skin lesion with an indeterminate diagnosis,specificity_score_thr_05,0.999391604137092,0.998581290245056,1.0
+unnorm,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_05,0.999391604137092,0.998581290245056,1.0
+unnorm,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_validOpt,0.5386,0.524399995803833,0.55239999294281
+unnorm,a skin lesion with an indeterminate diagnosis,f1_score_thr_validOpt,0.043928719436386,0.032773445174098,0.055600999109447
+unnorm,a skin lesion with an indeterminate diagnosis,precision_score_thr_validOpt,0.022610921501706,0.016766982153058,0.028804814442992
+unnorm,a skin lesion with an indeterminate diagnosis,recall_score_thr_validOpt,0.768115942028985,0.662162184715271,0.864872476458549
+unnorm,a skin lesion with an indeterminate diagnosis,specificity_score_thr_validOpt,0.535388359359156,0.521255019307137,0.549381716549396
+unnorm,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_validOpt,1.303504301388142,1.19724315404892,1.401951798796654
+unnorm,a malignant skin lesion,vaildOldLen,5000,nan,nan
+unnorm,a malignant skin lesion,vaildNewLen,5000,nan,nan
+unnorm,a malignant skin lesion,testOldLen,5000,nan,nan
+unnorm,a malignant skin lesion,testNewLen,5000,nan,nan
+unnorm,a malignant skin lesion,testAuroc,0.685806526140597,0.666640231013298,0.704367865622044
+unnorm,a malignant skin lesion,vaildOptThreshold,1.4299678e-07,nan,nan
+unnorm,a malignant skin lesion,accuracy_score_thr_05,0.8196,0.808799982070923,0.830404990911484
+unnorm,a malignant skin lesion,f1_score_thr_05,0.0,0.0,0.0
+unnorm,a malignant skin lesion,precision_score_thr_05,0.0,0.0,0.0
+unnorm,a malignant skin lesion,recall_score_thr_05,0.0,0.0,0.0
+unnorm,a malignant skin lesion,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,a malignant skin lesion,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,a malignant skin lesion,accuracy_score_thr_validOpt,0.6272,0.6137949898839,0.640200018882751
+unnorm,a malignant skin lesion,f1_score_thr_validOpt,0.391644908616188,0.369430580735207,0.413439989089966
+unnorm,a malignant skin lesion,precision_score_thr_validOpt,0.277520814061055,0.258416073024273,0.296551734209061
+unnorm,a malignant skin lesion,recall_score_thr_validOpt,0.665188470066519,0.633752039074898,0.696009807288647
+unnorm,a malignant skin lesion,specificity_score_thr_validOpt,0.618838457784285,0.603857432305813,0.633673195540905
+unnorm,a malignant skin lesion,sensitivity_plus_specificity_thr_validOpt,1.284026927850804,1.248753768205643,1.317348879575729
+unnorm,benign epidermal proliferation,vaildOldLen,5000,nan,nan
+unnorm,benign epidermal proliferation,vaildNewLen,5000,nan,nan
+unnorm,benign epidermal proliferation,testOldLen,5000,nan,nan
+unnorm,benign epidermal proliferation,testNewLen,5000,nan,nan
+unnorm,benign epidermal proliferation,testAuroc,0.724322073784439,0.703470824658871,0.744220785796642
+unnorm,benign epidermal proliferation,vaildOptThreshold,1.02569e-06,nan,nan
+unnorm,benign epidermal proliferation,accuracy_score_thr_05,0.8866,0.877799987792969,0.89520001411438
+unnorm,benign epidermal proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,benign epidermal proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,benign epidermal proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,benign epidermal proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,benign epidermal proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,benign epidermal proliferation,accuracy_score_thr_validOpt,0.5672,0.553600013256073,0.580799996852875
+unnorm,benign epidermal proliferation,f1_score_thr_validOpt,0.291421087098887,0.269782572239637,0.312142407149076
+unnorm,benign epidermal proliferation,precision_score_thr_validOpt,0.178930438279051,0.16368693113327,0.193939511850476
+unnorm,benign epidermal proliferation,recall_score_thr_validOpt,0.784832451499118,0.750433191657066,0.817679584026337
+unnorm,benign epidermal proliferation,specificity_score_thr_validOpt,0.539363861944507,0.524819374084473,0.553794173896313
+unnorm,benign epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,1.324196313443626,1.286445799469948,1.360260567069054
+unnorm,benign melanocytic proliferation,vaildOldLen,5000,nan,nan
+unnorm,benign melanocytic proliferation,vaildNewLen,5000,nan,nan
+unnorm,benign melanocytic proliferation,testOldLen,5000,nan,nan
+unnorm,benign melanocytic proliferation,testNewLen,5000,nan,nan
+unnorm,benign melanocytic proliferation,testAuroc,0.376350609869659,0.359745648503304,0.393575951457024
+unnorm,benign melanocytic proliferation,vaildOptThreshold,4.0123802e-10,nan,nan
+unnorm,benign melanocytic proliferation,accuracy_score_thr_05,0.3368,0.323599994182587,0.349999994039536
+unnorm,benign melanocytic proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,benign melanocytic proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,benign melanocytic proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,benign melanocytic proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,benign melanocytic proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,benign melanocytic proliferation,accuracy_score_thr_validOpt,0.6582,0.64520001411438,0.671400010585785
+unnorm,benign melanocytic proliferation,f1_score_thr_validOpt,0.791559946334919,0.781871743500233,0.801207739114761
+unnorm,benign melanocytic proliferation,precision_score_thr_validOpt,0.66455048126152,0.651309911906719,0.677970008552074
+unnorm,benign melanocytic proliferation,recall_score_thr_validOpt,0.978588661037395,0.973612982034683,0.983413842320442
+unnorm,benign melanocytic proliferation,specificity_score_thr_validOpt,0.027315914489311,0.019772197213024,0.035335843265057
+unnorm,benign melanocytic proliferation,sensitivity_plus_specificity_thr_validOpt,1.005904575526706,0.997012931108475,1.015436464548111
+unnorm,benign fibro-histiocytic proliferation,vaildOldLen,5000,nan,nan
+unnorm,benign fibro-histiocytic proliferation,vaildNewLen,5000,nan,nan
+unnorm,benign fibro-histiocytic proliferation,testOldLen,5000,nan,nan
+unnorm,benign fibro-histiocytic proliferation,testNewLen,5000,nan,nan
+unnorm,benign fibro-histiocytic proliferation,testAuroc,0.681642034181097,0.623072002828121,0.738051402568817
+unnorm,benign fibro-histiocytic proliferation,vaildOptThreshold,8.7499174e-08,nan,nan
+unnorm,benign fibro-histiocytic proliferation,accuracy_score_thr_05,0.9856,0.982200026512146,0.98879998922348
+unnorm,benign fibro-histiocytic proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,benign fibro-histiocytic proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,benign fibro-histiocytic proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,benign fibro-histiocytic proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,benign fibro-histiocytic proliferation,accuracy_score_thr_validOpt,0.6604,0.647199988365173,0.673399984836578
+unnorm,benign fibro-histiocytic proliferation,f1_score_thr_validOpt,0.049272116461366,0.035632185637951,0.063758388161659
+unnorm,benign fibro-histiocytic proliferation,precision_score_thr_validOpt,0.025670945157526,0.01843311120756,0.033451078552753
+unnorm,benign fibro-histiocytic proliferation,recall_score_thr_validOpt,0.611111111111111,0.5,0.725012278556824
+unnorm,benign fibro-histiocytic proliferation,specificity_score_thr_validOpt,0.66112012987013,0.647944629192352,0.674244332313538
+unnorm,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_validOpt,1.272231240981241,1.157697322964668,1.385380858182907
+unnorm,benign vascular proliferation,vaildOldLen,5000,nan,nan
+unnorm,benign vascular proliferation,vaildNewLen,5000,nan,nan
+unnorm,benign vascular proliferation,testOldLen,5000,nan,nan
+unnorm,benign vascular proliferation,testNewLen,5000,nan,nan
+unnorm,benign vascular proliferation,testAuroc,0.740102160625912,0.684818804264069,0.791932748258114
+unnorm,benign vascular proliferation,vaildOptThreshold,1.7347991e-06,nan,nan
+unnorm,benign vascular proliferation,accuracy_score_thr_05,0.9852,0.981599986553192,0.988399982452393
+unnorm,benign vascular proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,benign vascular proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,benign vascular proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,benign vascular proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,benign vascular proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,benign vascular proliferation,accuracy_score_thr_validOpt,0.5372,0.523400008678436,0.550800025463104
+unnorm,benign vascular proliferation,f1_score_thr_validOpt,0.050861361771944,0.038960903510451,0.063610363379121
+unnorm,benign vascular proliferation,precision_score_thr_validOpt,0.026226734348562,0.019983139587566,0.033009587414563
+unnorm,benign vascular proliferation,recall_score_thr_validOpt,0.837837837837838,0.75,0.916666686534882
+unnorm,benign vascular proliferation,specificity_score_thr_validOpt,0.532683719041819,0.51857076138258,0.546322691440582
+unnorm,benign vascular proliferation,sensitivity_plus_specificity_thr_validOpt,1.370521556879657,1.281803593039513,1.450916749238968
+unnorm,indeterminate epidermal proliferation requiring further evaluation,vaildOldLen,5000,nan,nan
+unnorm,indeterminate epidermal proliferation requiring further evaluation,vaildNewLen,5000,nan,nan
+unnorm,indeterminate epidermal proliferation requiring further evaluation,testOldLen,5000,nan,nan
+unnorm,indeterminate epidermal proliferation requiring further evaluation,testNewLen,5000,nan,nan
+unnorm,indeterminate epidermal proliferation requiring further evaluation,testAuroc,0.657110149042291,0.600554952025414,0.712585327029228
+unnorm,indeterminate epidermal proliferation requiring further evaluation,vaildOptThreshold,0.0009528893,nan,nan
+unnorm,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_05,0.9862,0.982800006866455,0.989400029182434
+unnorm,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_validOpt,0.4616,0.447800010442734,0.475400000810623
+unnorm,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_validOpt,0.03925767309065,0.029275259003043,0.049598975945264
+unnorm,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_validOpt,0.020124405415295,0.014930940559134,0.025565051520243
+unnorm,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_validOpt,0.797101449275362,0.698412716388702,0.888888895511627
+unnorm,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_validOpt,0.456905293044007,0.442961020767689,0.470766752958298
+unnorm,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_validOpt,1.25400674231937,1.154179811477661,1.346473208069801
+unnorm,malignant follicular adnexal epithelial proliferation,vaildOldLen,5000,nan,nan
+unnorm,malignant follicular adnexal epithelial proliferation,vaildNewLen,5000,nan,nan
+unnorm,malignant follicular adnexal epithelial proliferation,testOldLen,5000,nan,nan
+unnorm,malignant follicular adnexal epithelial proliferation,testNewLen,5000,nan,nan
+unnorm,malignant follicular adnexal epithelial proliferation,testAuroc,0.736634854854456,0.708576747775078,0.763301917910576
+unnorm,malignant follicular adnexal epithelial proliferation,vaildOptThreshold,7.4802303e-10,nan,nan
+unnorm,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_05,0.947,0.94080001115799,0.953199982643127
+unnorm,malignant follicular adnexal epithelial proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,malignant follicular adnexal epithelial proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,malignant follicular adnexal epithelial proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,malignant follicular adnexal epithelial proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_validOpt,0.4832,0.469399988651276,0.496800005435944
+unnorm,malignant follicular adnexal epithelial proliferation,f1_score_thr_validOpt,0.151674326986211,0.134223479032516,0.168977752327919
+unnorm,malignant follicular adnexal epithelial proliferation,precision_score_thr_validOpt,0.083063646170442,0.072818987257779,0.093481478840113
+unnorm,malignant follicular adnexal epithelial proliferation,recall_score_thr_validOpt,0.871698113207547,0.83018687069416,0.911017318069935
+unnorm,malignant follicular adnexal epithelial proliferation,specificity_score_thr_validOpt,0.461457233368532,0.447163045406342,0.475379128754139
+unnorm,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_validOpt,1.33315534657608,1.288790956139565,1.374450078606606
+unnorm,malignant epidermal proliferation,vaildOldLen,5000,nan,nan
+unnorm,malignant epidermal proliferation,vaildNewLen,5000,nan,nan
+unnorm,malignant epidermal proliferation,testOldLen,5000,nan,nan
+unnorm,malignant epidermal proliferation,testNewLen,5000,nan,nan
+unnorm,malignant epidermal proliferation,testAuroc,0.606643189841358,0.553061003983021,0.658890169858932
+unnorm,malignant epidermal proliferation,vaildOptThreshold,1.7265879e-06,nan,nan
+unnorm,malignant epidermal proliferation,accuracy_score_thr_05,0.9812,0.977199971675873,0.984799981117249
+unnorm,malignant epidermal proliferation,f1_score_thr_05,0.0,0.0,0.0
+unnorm,malignant epidermal proliferation,precision_score_thr_05,0.0,0.0,0.0
+unnorm,malignant epidermal proliferation,recall_score_thr_05,0.0,0.0,0.0
+unnorm,malignant epidermal proliferation,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,malignant epidermal proliferation,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,malignant epidermal proliferation,accuracy_score_thr_validOpt,0.747,0.734799981117249,0.759199976921082
+unnorm,malignant epidermal proliferation,f1_score_thr_validOpt,0.053851907255049,0.037499269563705,0.07095343619585
+unnorm,malignant epidermal proliferation,precision_score_thr_validOpt,0.028962188254224,0.020015612384304,0.038493037223816
+unnorm,malignant epidermal proliferation,recall_score_thr_validOpt,0.382978723404255,0.284311158210039,0.483870953321457
+unnorm,malignant epidermal proliferation,specificity_score_thr_validOpt,0.753974724826743,0.741915492713451,0.766048491001129
+unnorm,malignant epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,1.136953448230998,1.037519669532776,1.237731698155403
+unnorm,malignant melanocytic proliferation (melanoma),vaildOldLen,5000,nan,nan
+unnorm,malignant melanocytic proliferation (melanoma),vaildNewLen,5000,nan,nan
+unnorm,malignant melanocytic proliferation (melanoma),testOldLen,5000,nan,nan
+unnorm,malignant melanocytic proliferation (melanoma),testNewLen,5000,nan,nan
+unnorm,malignant melanocytic proliferation (melanoma),testAuroc,0.73433785743121,0.713046665489674,0.755280090868473
+unnorm,malignant melanocytic proliferation (melanoma),vaildOptThreshold,3.0972654e-08,nan,nan
+unnorm,malignant melanocytic proliferation (melanoma),accuracy_score_thr_05,0.8914,0.882799983024597,0.899999976158142
+unnorm,malignant melanocytic proliferation (melanoma),f1_score_thr_05,0.0,0.0,0.0
+unnorm,malignant melanocytic proliferation (melanoma),precision_score_thr_05,0.0,0.0,0.0
+unnorm,malignant melanocytic proliferation (melanoma),recall_score_thr_05,0.0,0.0,0.0
+unnorm,malignant melanocytic proliferation (melanoma),specificity_score_thr_05,1.0,1.0,1.0
+unnorm,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,malignant melanocytic proliferation (melanoma),accuracy_score_thr_validOpt,0.6454,0.63239997625351,0.658599972724915
+unnorm,malignant melanocytic proliferation (melanoma),f1_score_thr_validOpt,0.302791977978765,0.279605236649513,0.326173850893974
+unnorm,malignant melanocytic proliferation (melanoma),precision_score_thr_validOpt,0.1925,0.175599607825279,0.210119032114744
+unnorm,malignant melanocytic proliferation (melanoma),recall_score_thr_validOpt,0.70902394106814,0.66975794583559,0.746765848994255
+unnorm,malignant melanocytic proliferation (melanoma),specificity_score_thr_validOpt,0.637648642584698,0.623612755537033,0.651735861599445
+unnorm,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_validOpt,1.346672583652838,1.305216082930565,1.386764997243881
+unnorm,basal cell carcinoma,vaildOldLen,5000,nan,nan
+unnorm,basal cell carcinoma,vaildNewLen,5000,nan,nan
+unnorm,basal cell carcinoma,testOldLen,5000,nan,nan
+unnorm,basal cell carcinoma,testNewLen,5000,nan,nan
+unnorm,basal cell carcinoma,testAuroc,0.797030144846686,0.772882486879826,0.819673274457455
+unnorm,basal cell carcinoma,vaildOptThreshold,2.038925e-09,nan,nan
+unnorm,basal cell carcinoma,accuracy_score_thr_05,0.947,0.94080001115799,0.953199982643127
+unnorm,basal cell carcinoma,f1_score_thr_05,0.0,0.0,0.0
+unnorm,basal cell carcinoma,precision_score_thr_05,0.0,0.0,0.0
+unnorm,basal cell carcinoma,recall_score_thr_05,0.0,0.0,0.0
+unnorm,basal cell carcinoma,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,basal cell carcinoma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,basal cell carcinoma,accuracy_score_thr_validOpt,0.6906,0.677799999713898,0.703599989414215
+unnorm,basal cell carcinoma,f1_score_thr_validOpt,0.216708860759494,0.192143600806594,0.240326408669353
+unnorm,basal cell carcinoma,precision_score_thr_validOpt,0.125146198830409,0.109440265037119,0.140652460977435
+unnorm,basal cell carcinoma,recall_score_thr_validOpt,0.807547169811321,0.759689095616341,0.853147545456886
+unnorm,basal cell carcinoma,specificity_score_thr_validOpt,0.684054910242872,0.670674972236156,0.697321236133575
+unnorm,basal cell carcinoma,sensitivity_plus_specificity_thr_validOpt,1.491602080054193,1.44167605638504,1.538511228561401
+unnorm,dermatofibroma,vaildOldLen,5000,nan,nan
+unnorm,dermatofibroma,vaildNewLen,5000,nan,nan
+unnorm,dermatofibroma,testOldLen,5000,nan,nan
+unnorm,dermatofibroma,testNewLen,5000,nan,nan
+unnorm,dermatofibroma,testAuroc,0.639451152146465,0.575257420539856,0.7033362403512
+unnorm,dermatofibroma,vaildOptThreshold,4.743512e-06,nan,nan
+unnorm,dermatofibroma,accuracy_score_thr_05,0.9856,0.982200026512146,0.98879998922348
+unnorm,dermatofibroma,f1_score_thr_05,0.0,0.0,0.0
+unnorm,dermatofibroma,precision_score_thr_05,0.0,0.0,0.0
+unnorm,dermatofibroma,recall_score_thr_05,0.0,0.0,0.0
+unnorm,dermatofibroma,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,dermatofibroma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,dermatofibroma,accuracy_score_thr_validOpt,0.6006,0.587199985980988,0.61379998922348
+unnorm,dermatofibroma,f1_score_thr_validOpt,0.043124101581217,0.031280547380447,0.055659272987396
+unnorm,dermatofibroma,precision_score_thr_validOpt,0.022332506203474,0.016096578910947,0.028985692048445
+unnorm,dermatofibroma,recall_score_thr_validOpt,0.625,0.512812528014183,0.736842095851898
+unnorm,dermatofibroma,specificity_score_thr_validOpt,0.600243506493506,0.586688087880611,0.613761238753796
+unnorm,dermatofibroma,sensitivity_plus_specificity_thr_validOpt,1.225243506493506,1.110561749339104,1.336559516191482
+unnorm,"melanoma, not otherwise specified",vaildOldLen,5000,nan,nan
+unnorm,"melanoma, not otherwise specified",vaildNewLen,5000,nan,nan
+unnorm,"melanoma, not otherwise specified",testOldLen,5000,nan,nan
+unnorm,"melanoma, not otherwise specified",testNewLen,5000,nan,nan
+unnorm,"melanoma, not otherwise specified",testAuroc,0.724942782495803,0.703298251330853,0.746015347540379
+unnorm,"melanoma, not otherwise specified",vaildOptThreshold,3.5335667e-08,nan,nan
+unnorm,"melanoma, not otherwise specified",accuracy_score_thr_05,0.8914,0.882799983024597,0.899999976158142
+unnorm,"melanoma, not otherwise specified",f1_score_thr_05,0.0,0.0,0.0
+unnorm,"melanoma, not otherwise specified",precision_score_thr_05,0.0,0.0,0.0
+unnorm,"melanoma, not otherwise specified",recall_score_thr_05,0.0,0.0,0.0
+unnorm,"melanoma, not otherwise specified",specificity_score_thr_05,1.0,1.0,1.0
+unnorm,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,"melanoma, not otherwise specified",accuracy_score_thr_validOpt,0.649,0.635800004005432,0.662400007247925
+unnorm,"melanoma, not otherwise specified",f1_score_thr_validOpt,0.297156587905487,0.273683784902096,0.320872709900141
+unnorm,"melanoma, not otherwise specified",precision_score_thr_validOpt,0.189866939611054,0.172485664486885,0.207548139989376
+unnorm,"melanoma, not otherwise specified",recall_score_thr_validOpt,0.683241252302026,0.64363586306572,0.722222208976746
+unnorm,"melanoma, not otherwise specified",specificity_score_thr_validOpt,0.64482835988333,0.630702647566795,0.65875506401062
+unnorm,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.328069612185356,1.285679391026497,1.370175814628601
+unnorm,a nevus (melanocytic nevus),vaildOldLen,5000,nan,nan
+unnorm,a nevus (melanocytic nevus),vaildNewLen,5000,nan,nan
+unnorm,a nevus (melanocytic nevus),testOldLen,5000,nan,nan
+unnorm,a nevus (melanocytic nevus),testNewLen,5000,nan,nan
+unnorm,a nevus (melanocytic nevus),testAuroc,0.492520697890312,0.475818424671888,0.509356561303139
+unnorm,a nevus (melanocytic nevus),vaildOptThreshold,4.014747e-08,nan,nan
+unnorm,a nevus (melanocytic nevus),accuracy_score_thr_05,0.3378,0.324600011110306,0.351000010967255
+unnorm,a nevus (melanocytic nevus),f1_score_thr_05,0.005407029137879,0.002378828357905,0.009118818631396
+unnorm,a nevus (melanocytic nevus),precision_score_thr_05,0.692307692307692,0.416666656732559,0.928571403026581
+unnorm,a nevus (melanocytic nevus),recall_score_thr_05,0.002714113389626,0.001192250405438,0.004587225953583
+unnorm,a nevus (melanocytic nevus),specificity_score_thr_05,0.997624703087886,0.995151519775391,0.999418914318085
+unnorm,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_05,1.000338816477512,0.997370707988739,1.003232824802399
+unnorm,a nevus (melanocytic nevus),accuracy_score_thr_validOpt,0.658,0.644800007343292,0.671400010585785
+unnorm,a nevus (melanocytic nevus),f1_score_thr_validOpt,0.791412539643816,0.781710922718048,0.801161825656891
+unnorm,a nevus (melanocytic nevus),precision_score_thr_validOpt,0.664481769766489,0.651095993816853,0.677907572686672
+unnorm,a nevus (melanocytic nevus),recall_score_thr_validOpt,0.978287092882992,0.9732307061553,0.983076709508896
+unnorm,a nevus (melanocytic nevus),specificity_score_thr_validOpt,0.027315914489311,0.019772319123149,0.035232069063932
+unnorm,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_validOpt,1.005603007372303,0.996585404872894,1.014792349934578
+unnorm,pigmented benign keratosis (seborrheic keratosis),vaildOldLen,5000,nan,nan
+unnorm,pigmented benign keratosis (seborrheic keratosis),vaildNewLen,5000,nan,nan
+unnorm,pigmented benign keratosis (seborrheic keratosis),testOldLen,5000,nan,nan
+unnorm,pigmented benign keratosis (seborrheic keratosis),testNewLen,5000,nan,nan
+unnorm,pigmented benign keratosis (seborrheic keratosis),testAuroc,0.761451610913976,0.74116545021534,0.780545949935913
+unnorm,pigmented benign keratosis (seborrheic keratosis),vaildOptThreshold,4.7312683e-06,nan,nan
+unnorm,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_05,0.8868,0.877799987792969,0.895399987697601
+unnorm,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_05,0.027491408934708,0.010416666977108,0.048027444630861
+unnorm,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_05,0.533333333333333,0.272727280855179,0.789473712444305
+unnorm,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_05,0.014109347442681,0.005291005130857,0.024955436587334
+unnorm,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_05,0.998420933904805,0.997085213661194,0.999545875191689
+unnorm,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_05,1.012530281347486,1.003635874390602,1.023312866687775
+unnorm,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_validOpt,0.6104,0.596599996089935,0.624000012874603
+unnorm,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_validOpt,0.317449194113525,0.295070658624172,0.33957165107131
+unnorm,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_validOpt,0.19807608220376,0.181777918338776,0.214532331004739
+unnorm,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_validOpt,0.798941798941799,0.765266337990761,0.831482951343059
+unnorm,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_validOpt,0.586284683058877,0.571621127426624,0.600766544044018
+unnorm,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_validOpt,1.385226482000676,1.348911875486374,1.420417281985283
+unnorm,solar or actinic keratosis,vaildOldLen,5000,nan,nan
+unnorm,solar or actinic keratosis,vaildNewLen,5000,nan,nan
+unnorm,solar or actinic keratosis,testOldLen,5000,nan,nan
+unnorm,solar or actinic keratosis,testNewLen,5000,nan,nan
+unnorm,solar or actinic keratosis,testAuroc,0.893948077674811,0.869649539887905,0.917261315882206
+unnorm,solar or actinic keratosis,vaildOptThreshold,3.7008838e-06,nan,nan
+unnorm,solar or actinic keratosis,accuracy_score_thr_05,0.9862,0.982800006866455,0.989400029182434
+unnorm,solar or actinic keratosis,f1_score_thr_05,0.0,0.0,0.0
+unnorm,solar or actinic keratosis,precision_score_thr_05,0.0,0.0,0.0
+unnorm,solar or actinic keratosis,recall_score_thr_05,0.0,0.0,0.0
+unnorm,solar or actinic keratosis,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,solar or actinic keratosis,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,solar or actinic keratosis,accuracy_score_thr_validOpt,0.7674,0.755599975585938,0.778999984264374
+unnorm,solar or actinic keratosis,f1_score_thr_validOpt,0.093530787217459,0.072042754665017,0.115590241737664
+unnorm,solar or actinic keratosis,precision_score_thr_validOpt,0.049423393739703,0.037642128858715,0.0618303922005
+unnorm,solar or actinic keratosis,recall_score_thr_validOpt,0.869565217391304,0.784615397453308,0.943661987781525
+unnorm,solar or actinic keratosis,specificity_score_thr_validOpt,0.765970391401338,0.754164488613606,0.777597725391388
+unnorm,solar or actinic keratosis,sensitivity_plus_specificity_thr_validOpt,1.635535608792643,1.550789824128151,1.710140374302864
+unnorm,"squamous cell carcinoma, not otherwise specified",vaildOldLen,5000,nan,nan
+unnorm,"squamous cell carcinoma, not otherwise specified",vaildNewLen,5000,nan,nan
+unnorm,"squamous cell carcinoma, not otherwise specified",testOldLen,5000,nan,nan
+unnorm,"squamous cell carcinoma, not otherwise specified",testNewLen,5000,nan,nan
+unnorm,"squamous cell carcinoma, not otherwise specified",testAuroc,0.742184992757457,0.692771197855473,0.788824519515038
+unnorm,"squamous cell carcinoma, not otherwise specified",vaildOptThreshold,2.020393e-09,nan,nan
+unnorm,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_05,0.9812,0.977199971675873,0.984799981117249
+unnorm,"squamous cell carcinoma, not otherwise specified",f1_score_thr_05,0.0,0.0,0.0
+unnorm,"squamous cell carcinoma, not otherwise specified",precision_score_thr_05,0.0,0.0,0.0
+unnorm,"squamous cell carcinoma, not otherwise specified",recall_score_thr_05,0.0,0.0,0.0
+unnorm,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_05,1.0,1.0,1.0
+unnorm,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_validOpt,0.6094,0.59579998254776,0.62279999256134
+unnorm,"squamous cell carcinoma, not otherwise specified",f1_score_thr_validOpt,0.067780429594272,0.052940663136542,0.083097330294549
+unnorm,"squamous cell carcinoma, not otherwise specified",precision_score_thr_validOpt,0.035482258870565,0.027513510733843,0.043864081427455
+unnorm,"squamous cell carcinoma, not otherwise specified",recall_score_thr_validOpt,0.75531914893617,0.663712657988071,0.841466405987739
+unnorm,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_validOpt,0.606604158173665,0.592743390798569,0.620065294206142
+unnorm,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.361923307109835,1.269353970885277,1.4487568795681
+text,a benign skin lesion,vaildOldLen,5000,nan,nan
+text,a benign skin lesion,vaildNewLen,5000,nan,nan
+text,a benign skin lesion,testOldLen,5000,nan,nan
+text,a benign skin lesion,testNewLen,5000,nan,nan
+text,a benign skin lesion,testAuroc,0.604860257469085,0.587036241590977,0.622477844357491
+text,a benign skin lesion,vaildOptThreshold,0.75,nan,nan
+text,a benign skin lesion,accuracy_score_thr_05,0.795,0.783599972724915,0.806400001049042
+text,a benign skin lesion,f1_score_thr_05,0.882089037156333,0.87482512742281,0.889346458017826
+text,a benign skin lesion,precision_score_thr_05,0.822041166380789,0.81071809977293,0.833118267357349
+text,a benign skin lesion,recall_score_thr_05,0.951600893521966,0.944842812418938,0.958085559308529
+text,a benign skin lesion,specificity_score_thr_05,0.145211122554068,0.123188027925789,0.167359773814678
+text,a benign skin lesion,sensitivity_plus_specificity_thr_05,1.096812016076034,1.073713088035583,1.11975679397583
+text,a benign skin lesion,accuracy_score_thr_validOpt,0.6626,0.649200022220612,0.675800025463104
+text,a benign skin lesion,f1_score_thr_validOpt,0.773526647872198,0.762665927410126,0.783902327716351
+text,a benign skin lesion,precision_score_thr_validOpt,0.842397660818713,0.830026254057884,0.854582846164703
+text,a benign skin lesion,recall_score_thr_validOpt,0.715065773144701,0.701144853234291,0.729131254553795
+text,a benign skin lesion,specificity_score_thr_validOpt,0.444902162718846,0.41372544541955,0.475855314731598
+text,a benign skin lesion,sensitivity_plus_specificity_thr_validOpt,1.159967935863548,1.125651583075523,1.194143092632294
+text,a skin lesion with an indeterminate diagnosis,vaildOldLen,5000,nan,nan
+text,a skin lesion with an indeterminate diagnosis,vaildNewLen,5000,nan,nan
+text,a skin lesion with an indeterminate diagnosis,testOldLen,5000,nan,nan
+text,a skin lesion with an indeterminate diagnosis,testNewLen,5000,nan,nan
+text,a skin lesion with an indeterminate diagnosis,testAuroc,0.563001302025929,0.50623649507761,0.619420011341572
+text,a skin lesion with an indeterminate diagnosis,vaildOptThreshold,0.85,nan,nan
+text,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_05,0.0142,0.010999999940395,0.017599999904633
+text,a skin lesion with an indeterminate diagnosis,f1_score_thr_05,0.027235050325636,0.020985944196582,0.033824976533651
+text,a skin lesion with an indeterminate diagnosis,precision_score_thr_05,0.013805522208884,0.010604241862893,0.017203440889716
+text,a skin lesion with an indeterminate diagnosis,recall_score_thr_05,1.0,1.0,1.0
+text,a skin lesion with an indeterminate diagnosis,specificity_score_thr_05,0.000405597241939,0.0,0.001015022280626
+text,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_05,1.000405597241939,1.0,1.001015067100525
+text,a skin lesion with an indeterminate diagnosis,accuracy_score_thr_validOpt,0.4062,0.392599999904633,0.419999986886978
+text,a skin lesion with an indeterminate diagnosis,f1_score_thr_validOpt,0.033213936828395,0.024531849753112,0.042387041356415
+text,a skin lesion with an indeterminate diagnosis,precision_score_thr_validOpt,0.016988674217189,0.012495886557736,0.021775543689728
+text,a skin lesion with an indeterminate diagnosis,recall_score_thr_validOpt,0.739130434782609,0.632911384105682,0.838709652423859
+text,a skin lesion with an indeterminate diagnosis,specificity_score_thr_validOpt,0.401541269519367,0.387841939926147,0.415328405052423
+text,a skin lesion with an indeterminate diagnosis,sensitivity_plus_specificity_thr_validOpt,1.140671704301976,1.033976697921753,1.242239445447922
+text,a malignant skin lesion,vaildOldLen,5000,nan,nan
+text,a malignant skin lesion,vaildNewLen,5000,nan,nan
+text,a malignant skin lesion,testOldLen,5000,nan,nan
+text,a malignant skin lesion,testNewLen,5000,nan,nan
+text,a malignant skin lesion,testAuroc,0.610728666517332,0.593144235014915,0.628212258219719
+text,a malignant skin lesion,vaildOptThreshold,0.75,nan,nan
+text,a malignant skin lesion,accuracy_score_thr_05,0.2766,0.264200001955032,0.288800001144409
+text,a malignant skin lesion,f1_score_thr_05,0.322024367385192,0.305601419508457,0.338239654153585
+text,a malignant skin lesion,precision_score_thr_05,0.193773967967516,0.182063340768218,0.205525851622224
+text,a malignant skin lesion,recall_score_thr_05,0.952328159645233,0.937992799282074,0.965593819320202
+text,a malignant skin lesion,specificity_score_thr_05,0.127867252318204,0.117819271981716,0.137973748520017
+text,a malignant skin lesion,sensitivity_plus_specificity_thr_05,1.080195411963437,1.062440675497055,1.097113648056984
+text,a malignant skin lesion,accuracy_score_thr_validOpt,0.5068,0.492995000630617,0.520799994468689
+text,a malignant skin lesion,f1_score_thr_validOpt,0.345193839617631,0.325480353087187,0.365080311149359
+text,a malignant skin lesion,precision_score_thr_validOpt,0.22695530726257,0.211685713380575,0.242691262438893
+text,a malignant skin lesion,recall_score_thr_validOpt,0.720620842572062,0.691029290854931,0.750006531178951
+text,a malignant skin lesion,specificity_score_thr_validOpt,0.459736456808199,0.444389137625694,0.475120979547501
+text,a malignant skin lesion,sensitivity_plus_specificity_thr_validOpt,1.180357299380261,1.14682143330574,1.213718017935753
+text,benign epidermal proliferation,vaildOldLen,5000,nan,nan
+text,benign epidermal proliferation,vaildNewLen,5000,nan,nan
+text,benign epidermal proliferation,testOldLen,5000,nan,nan
+text,benign epidermal proliferation,testNewLen,5000,nan,nan
+text,benign epidermal proliferation,testAuroc,0.592508845197017,0.570831449329853,0.613597699999809
+text,benign epidermal proliferation,vaildOptThreshold,0.85,nan,nan
+text,benign epidermal proliferation,accuracy_score_thr_05,0.1378,0.128394997864962,0.147599995136261
+text,benign epidermal proliferation,f1_score_thr_05,0.207099503402612,0.192663740739226,0.221531747281551
+text,benign epidermal proliferation,precision_score_thr_05,0.115605749486653,0.106710105203092,0.124665707349777
+text,benign epidermal proliferation,recall_score_thr_05,0.99294532627866,0.985293427109718,0.99830801486969
+text,benign epidermal proliferation,specificity_score_thr_05,0.028423189713512,0.023652394209057,0.033446515910327
+text,benign epidermal proliferation,sensitivity_plus_specificity_thr_05,1.021368515992172,1.012355402112007,1.029205331206322
+text,benign epidermal proliferation,accuracy_score_thr_validOpt,0.7264,0.71399998664856,0.738600015640259
+text,benign epidermal proliferation,f1_score_thr_validOpt,0.250821467688938,0.224411338567734,0.277364492416382
+text,benign epidermal proliferation,precision_score_thr_validOpt,0.181890389197776,0.160755796730518,0.203676053509116
+text,benign epidermal proliferation,recall_score_thr_validOpt,0.403880070546737,0.362693837285042,0.444444447755814
+text,benign epidermal proliferation,specificity_score_thr_validOpt,0.767651703135574,0.755124355852604,0.779923836886883
+text,benign epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,1.171531773682311,1.128422889113426,1.21339907348156
+text,benign melanocytic proliferation,vaildOldLen,5000,nan,nan
+text,benign melanocytic proliferation,vaildNewLen,5000,nan,nan
+text,benign melanocytic proliferation,testOldLen,5000,nan,nan
+text,benign melanocytic proliferation,testNewLen,5000,nan,nan
+text,benign melanocytic proliferation,testAuroc,0.538699396004115,0.523787455260754,0.553501050174236
+text,benign melanocytic proliferation,vaildOptThreshold,0.75,nan,nan
+text,benign melanocytic proliferation,accuracy_score_thr_05,0.672,0.658999979496002,0.685000002384186
+text,benign melanocytic proliferation,f1_score_thr_05,0.795969146553869,0.78628805577755,0.805566091835499
+text,benign melanocytic proliferation,precision_score_thr_05,0.677467174925879,0.664186975359917,0.691005675494671
+text,benign melanocytic proliferation,recall_score_thr_05,0.964716525934861,0.958434408903122,0.970905922353268
+text,benign melanocytic proliferation,specificity_score_thr_05,0.095605700712589,0.081817918270826,0.109837055206299
+text,benign melanocytic proliferation,sensitivity_plus_specificity_thr_05,1.06032222664745,1.045578414201736,1.0758022159338
+text,benign melanocytic proliferation,accuracy_score_thr_validOpt,0.675,0.662400007247925,0.688199996948242
+text,benign melanocytic proliferation,f1_score_thr_validOpt,0.796442440185394,0.786839465796948,0.806085880100727
+text,benign melanocytic proliferation,precision_score_thr_validOpt,0.681165631026355,0.667880058288574,0.694658142328262
+text,benign melanocytic proliferation,recall_score_thr_validOpt,0.958685162846803,0.95186847448349,0.965370626747608
+text,benign melanocytic proliferation,specificity_score_thr_validOpt,0.116389548693587,0.101354941911995,0.131986021995544
+text,benign melanocytic proliferation,sensitivity_plus_specificity_thr_validOpt,1.07507471154039,1.058838024735451,1.09221705198288
+text,benign fibro-histiocytic proliferation,vaildOldLen,5000,nan,nan
+text,benign fibro-histiocytic proliferation,vaildNewLen,5000,nan,nan
+text,benign fibro-histiocytic proliferation,testOldLen,5000,nan,nan
+text,benign fibro-histiocytic proliferation,testNewLen,5000,nan,nan
+text,benign fibro-histiocytic proliferation,testAuroc,0.523933531746032,0.498874650895596,0.543434143066406
+text,benign fibro-histiocytic proliferation,vaildOptThreshold,0.85,nan,nan
+text,benign fibro-histiocytic proliferation,accuracy_score_thr_05,0.083,0.075199998915195,0.090999998152256
+text,benign fibro-histiocytic proliferation,f1_score_thr_05,0.030040194626613,0.023309775581583,0.036998302489519
+text,benign fibro-histiocytic proliferation,precision_score_thr_05,0.015252416756176,0.011792389815673,0.018851858004928
+text,benign fibro-histiocytic proliferation,recall_score_thr_05,0.986111111111111,0.953125,1.0
+text,benign fibro-histiocytic proliferation,specificity_score_thr_05,0.069805194805195,0.062678047083318,0.077064215019345
+text,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_05,1.055916305916306,1.021803456544876,1.075334468483925
+text,benign fibro-histiocytic proliferation,accuracy_score_thr_validOpt,0.9774,0.973200023174286,0.981400012969971
+text,benign fibro-histiocytic proliferation,f1_score_thr_validOpt,0.0,0.0,0.0
+text,benign fibro-histiocytic proliferation,precision_score_thr_validOpt,0.0,0.0,0.0
+text,benign fibro-histiocytic proliferation,recall_score_thr_validOpt,0.0,0.0,0.0
+text,benign fibro-histiocytic proliferation,specificity_score_thr_validOpt,0.991680194805195,0.989039957523346,0.994115233421326
+text,benign fibro-histiocytic proliferation,sensitivity_plus_specificity_thr_validOpt,0.991680194805195,0.989039957523346,0.994115233421326
+text,benign vascular proliferation,vaildOldLen,5000,nan,nan
+text,benign vascular proliferation,vaildNewLen,5000,nan,nan
+text,benign vascular proliferation,testOldLen,5000,nan,nan
+text,benign vascular proliferation,testNewLen,5000,nan,nan
+text,benign vascular proliferation,testAuroc,0.765166353930057,0.711539794504642,0.81487428098917
+text,benign vascular proliferation,vaildOptThreshold,0.85,nan,nan
+text,benign vascular proliferation,accuracy_score_thr_05,0.1426,0.133000001311302,0.152199998497963
+text,benign vascular proliferation,f1_score_thr_05,0.032498307379824,0.025345100089908,0.040205778740346
+text,benign vascular proliferation,precision_score_thr_05,0.01652513197154,0.012841017893516,0.020525948237628
+text,benign vascular proliferation,recall_score_thr_05,0.972972972972973,0.930555582046509,1.0
+text,benign vascular proliferation,specificity_score_thr_05,0.130125862768981,0.12065813690424,0.139525458216667
+text,benign vascular proliferation,sensitivity_plus_specificity_thr_05,1.103098835741954,1.059591725468636,1.134603834152222
+text,benign vascular proliferation,accuracy_score_thr_validOpt,0.7924,0.781199991703033,0.803205005824566
+text,benign vascular proliferation,f1_score_thr_validOpt,0.092657342657343,0.070025622844696,0.116472542285919
+text,benign vascular proliferation,precision_score_thr_validOpt,0.049532710280374,0.037001063674688,0.063088738918304
+text,benign vascular proliferation,recall_score_thr_validOpt,0.716216216216216,0.611093066632748,0.816901385784149
+text,benign vascular proliferation,specificity_score_thr_validOpt,0.793544457978076,0.782211865484715,0.804600176215172
+text,benign vascular proliferation,sensitivity_plus_specificity_thr_validOpt,1.509760674194292,1.40376692712307,1.60986193716526
+text,indeterminate epidermal proliferation requiring further evaluation,vaildOldLen,5000,nan,nan
+text,indeterminate epidermal proliferation requiring further evaluation,vaildNewLen,5000,nan,nan
+text,indeterminate epidermal proliferation requiring further evaluation,testOldLen,5000,nan,nan
+text,indeterminate epidermal proliferation requiring further evaluation,testNewLen,5000,nan,nan
+text,indeterminate epidermal proliferation requiring further evaluation,testAuroc,0.560902777165463,0.516056968271732,0.607123200595379
+text,indeterminate epidermal proliferation requiring further evaluation,vaildOptThreshold,0.85,nan,nan
+text,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_05,0.017,0.013600000180304,0.020600000396371
+text,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_05,0.027310508608747,0.0210484508425,0.033905155397952
+text,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_05,0.01384430176565,0.010636162944138,0.017244922788814
+text,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_05,1.0,1.0,1.0
+text,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_05,0.00324477793551,0.001823338679969,0.004865193739533
+text,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_05,1.00324477793551,1.001823306083679,1.004865169525146
+text,indeterminate epidermal proliferation requiring further evaluation,accuracy_score_thr_validOpt,0.9218,0.914200007915497,0.929199993610382
+text,indeterminate epidermal proliferation requiring further evaluation,f1_score_thr_validOpt,0.053268765133172,0.024691358208656,0.084510177560151
+text,indeterminate epidermal proliferation requiring further evaluation,precision_score_thr_validOpt,0.031976744186047,0.014662756584585,0.051671732217073
+text,indeterminate epidermal proliferation requiring further evaluation,recall_score_thr_validOpt,0.159420289855072,0.076923079788685,0.25
+text,indeterminate epidermal proliferation requiring further evaluation,specificity_score_thr_validOpt,0.932468059217197,0.925384858250618,0.939295974373817
+text,indeterminate epidermal proliferation requiring further evaluation,sensitivity_plus_specificity_thr_validOpt,1.09188834907227,1.009294998645782,1.181627154350281
+text,malignant follicular adnexal epithelial proliferation,vaildOldLen,5000,nan,nan
+text,malignant follicular adnexal epithelial proliferation,vaildNewLen,5000,nan,nan
+text,malignant follicular adnexal epithelial proliferation,testOldLen,5000,nan,nan
+text,malignant follicular adnexal epithelial proliferation,testNewLen,5000,nan,nan
+text,malignant follicular adnexal epithelial proliferation,testAuroc,0.672612619792393,0.643055824935436,0.701924952864647
+text,malignant follicular adnexal epithelial proliferation,vaildOptThreshold,0.2,nan,nan
+text,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_05,0.7572,0.745400011539459,0.769200026988983
+text,malignant follicular adnexal epithelial proliferation,f1_score_thr_05,0.167352537722908,0.140917542204261,0.193130986765027
+text,malignant follicular adnexal epithelial proliferation,precision_score_thr_05,0.102263202011735,0.085088461637497,0.119636960327625
+text,malignant follicular adnexal epithelial proliferation,recall_score_thr_05,0.460377358490566,0.399267063289881,0.520164619386196
+text,malignant follicular adnexal epithelial proliferation,specificity_score_thr_05,0.773812038014784,0.76181476265192,0.785608775913715
+text,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_05,1.23418939650535,1.172156921029091,1.294756126403809
+text,malignant follicular adnexal epithelial proliferation,accuracy_score_thr_validOpt,0.7124,0.699999988079071,0.724799990653992
+text,malignant follicular adnexal epithelial proliferation,f1_score_thr_validOpt,0.186651583710407,0.161815409362316,0.211180298030376
+text,malignant follicular adnexal epithelial proliferation,precision_score_thr_validOpt,0.109780439121756,0.093999996781349,0.125748500227928
+text,malignant follicular adnexal epithelial proliferation,recall_score_thr_validOpt,0.622641509433962,0.56326415091753,0.681652212142944
+text,malignant follicular adnexal epithelial proliferation,specificity_score_thr_validOpt,0.717423442449842,0.704550026357174,0.729988008737564
+text,malignant follicular adnexal epithelial proliferation,sensitivity_plus_specificity_thr_validOpt,1.340064951883804,1.279603764414787,1.401076829433441
+text,malignant epidermal proliferation,vaildOldLen,5000,nan,nan
+text,malignant epidermal proliferation,vaildNewLen,5000,nan,nan
+text,malignant epidermal proliferation,testOldLen,5000,nan,nan
+text,malignant epidermal proliferation,testNewLen,5000,nan,nan
+text,malignant epidermal proliferation,testAuroc,0.575196676236653,0.532130095362663,0.615674492716789
+text,malignant epidermal proliferation,vaildOptThreshold,0.85,nan,nan
+text,malignant epidermal proliferation,accuracy_score_thr_05,0.1296,0.120399996638298,0.138999998569489
+text,malignant epidermal proliferation,f1_score_thr_05,0.039717563989409,0.03191489353776,0.047922882158309
+text,malignant epidermal proliferation,precision_score_thr_05,0.020279405137449,0.016230838373303,0.024571825470775
+text,malignant epidermal proliferation,recall_score_thr_05,0.957446808510638,0.912500023841858,0.990291237831116
+text,malignant epidermal proliferation,specificity_score_thr_05,0.113738279657562,0.105080061219633,0.122628129832447
+text,malignant epidermal proliferation,sensitivity_plus_specificity_thr_05,1.071185088168201,1.025824004411697,1.10844624042511
+text,malignant epidermal proliferation,accuracy_score_thr_validOpt,0.9516,0.945599973201752,0.957599997520447
+text,malignant epidermal proliferation,f1_score_thr_validOpt,0.032,0.007575757801533,0.065693430602551
+text,malignant epidermal proliferation,precision_score_thr_validOpt,0.025641025641026,0.005917159840465,0.053571429103613
+text,malignant epidermal proliferation,recall_score_thr_validOpt,0.042553191489362,0.009708737954497,0.0879120901227
+text,malignant epidermal proliferation,specificity_score_thr_validOpt,0.969017529555646,0.964074313640594,0.973753944039345
+text,malignant epidermal proliferation,sensitivity_plus_specificity_thr_validOpt,1.011570721045008,0.976565930247307,1.057158094644546
+text,malignant melanocytic proliferation (melanoma),vaildOldLen,5000,nan,nan
+text,malignant melanocytic proliferation (melanoma),vaildNewLen,5000,nan,nan
+text,malignant melanocytic proliferation (melanoma),testOldLen,5000,nan,nan
+text,malignant melanocytic proliferation (melanoma),testNewLen,5000,nan,nan
+text,malignant melanocytic proliferation (melanoma),testAuroc,0.673654247193667,0.655940176546574,0.691260178387165
+text,malignant melanocytic proliferation (melanoma),vaildOptThreshold,0.75,nan,nan
+text,malignant melanocytic proliferation (melanoma),accuracy_score_thr_05,0.2876,0.275000005960464,0.300000011920929
+text,malignant melanocytic proliferation (melanoma),f1_score_thr_05,0.226660877116804,0.210593751817942,0.242490500584245
+text,malignant melanocytic proliferation (melanoma),precision_score_thr_05,0.128476495200591,0.118298015743494,0.138758403435349
+text,malignant melanocytic proliferation (melanoma),recall_score_thr_05,0.961325966850829,0.944444417953491,0.976577620208263
+text,malignant melanocytic proliferation (melanoma),specificity_score_thr_05,0.205519407673323,0.193620111048222,0.217401374131441
+text,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_05,1.166845374524152,1.145822289586067,1.186127656698227
+text,malignant melanocytic proliferation (melanoma),accuracy_score_thr_validOpt,0.4688,0.455000013113022,0.482600003480911
+text,malignant melanocytic proliferation (melanoma),f1_score_thr_validOpt,0.260990539788536,0.241899199038744,0.280044123530388
+text,malignant melanocytic proliferation (melanoma),precision_score_thr_validOpt,0.153720091773189,0.141058968007565,0.166613787412643
+text,malignant melanocytic proliferation (melanoma),recall_score_thr_validOpt,0.863720073664825,0.834600746631622,0.892116758227348
+text,malignant melanocytic proliferation (melanoma),specificity_score_thr_validOpt,0.420686560466682,0.406419455260038,0.434989100694656
+text,malignant melanocytic proliferation (melanoma),sensitivity_plus_specificity_thr_validOpt,1.284406634131506,1.251378825306892,1.316237983107567
+text,basal cell carcinoma,vaildOldLen,5000,nan,nan
+text,basal cell carcinoma,vaildNewLen,5000,nan,nan
+text,basal cell carcinoma,testOldLen,5000,nan,nan
+text,basal cell carcinoma,testNewLen,5000,nan,nan
+text,basal cell carcinoma,testAuroc,0.740502879002212,0.712793704867363,0.766905298829079
+text,basal cell carcinoma,vaildOptThreshold,0.65,nan,nan
+text,basal cell carcinoma,accuracy_score_thr_05,0.6804,0.667599976062775,0.693400025367737
+text,basal cell carcinoma,f1_score_thr_05,0.187182095625636,0.163765892013907,0.210578352212906
+text,basal cell carcinoma,precision_score_thr_05,0.108171663727219,0.093452111445367,0.123102917335927
+text,basal cell carcinoma,recall_score_thr_05,0.694339622641509,0.638376355171204,0.75
+text,basal cell carcinoma,specificity_score_thr_05,0.679619852164731,0.666525717079639,0.69305477887392
+text,basal cell carcinoma,sensitivity_plus_specificity_thr_05,1.37395947480624,1.316633924841881,1.430803459882736
+text,basal cell carcinoma,accuracy_score_thr_validOpt,0.6804,0.667599976062775,0.693400025367737
+text,basal cell carcinoma,f1_score_thr_validOpt,0.187182095625636,0.163765892013907,0.210578352212906
+text,basal cell carcinoma,precision_score_thr_validOpt,0.108171663727219,0.093452111445367,0.123102917335927
+text,basal cell carcinoma,recall_score_thr_validOpt,0.694339622641509,0.638376355171204,0.75
+text,basal cell carcinoma,specificity_score_thr_validOpt,0.679619852164731,0.666525717079639,0.69305477887392
+text,basal cell carcinoma,sensitivity_plus_specificity_thr_validOpt,1.37395947480624,1.316633924841881,1.430803459882736
+text,dermatofibroma,vaildOldLen,5000,nan,nan
+text,dermatofibroma,vaildNewLen,5000,nan,nan
+text,dermatofibroma,testOldLen,5000,nan,nan
+text,dermatofibroma,testNewLen,5000,nan,nan
+text,dermatofibroma,testAuroc,0.513516865079365,0.444921811670065,0.580800859630108
+text,dermatofibroma,vaildOptThreshold,0.85,nan,nan
+text,dermatofibroma,accuracy_score_thr_05,0.116,0.10700000077486,0.125
+text,dermatofibroma,f1_score_thr_05,0.027288732394366,0.020672857761383,0.034173243679106
+text,dermatofibroma,precision_score_thr_05,0.01386404293381,0.010469979979098,0.017422381788492
+text,dermatofibroma,recall_score_thr_05,0.861111111111111,0.776119410991669,0.936708867549896
+text,dermatofibroma,specificity_score_thr_05,0.105113636363636,0.096558355167508,0.113895746134222
+text,dermatofibroma,sensitivity_plus_specificity_thr_05,0.966224747474748,0.880538734793663,1.042269888520241
+text,dermatofibroma,accuracy_score_thr_validOpt,0.7726,0.760999977588654,0.783999979496002
+text,dermatofibroma,f1_score_thr_validOpt,0.037256562235394,0.022847101092339,0.053097712155432
+text,dermatofibroma,precision_score_thr_validOpt,0.019837691614067,0.012081784196198,0.028466483578086
+text,dermatofibroma,recall_score_thr_validOpt,0.305555555555556,0.200000002980232,0.411779871582985
+text,dermatofibroma,specificity_score_thr_validOpt,0.779423701298701,0.767744180560112,0.79082071185112
+text,dermatofibroma,sensitivity_plus_specificity_thr_validOpt,1.084979256854257,0.980631931126118,1.191775000095368
+text,"melanoma, not otherwise specified",vaildOldLen,5000,nan,nan
+text,"melanoma, not otherwise specified",vaildNewLen,5000,nan,nan
+text,"melanoma, not otherwise specified",testOldLen,5000,nan,nan
+text,"melanoma, not otherwise specified",testNewLen,5000,nan,nan
+text,"melanoma, not otherwise specified",testAuroc,0.688732231997094,0.669765356183052,0.707742232084274
+text,"melanoma, not otherwise specified",vaildOptThreshold,0.75,nan,nan
+text,"melanoma, not otherwise specified",accuracy_score_thr_05,0.3128,0.29999501183629,0.325599998235703
+text,"melanoma, not otherwise specified",f1_score_thr_05,0.230975828111012,0.214716494828463,0.247051101922989
+text,"melanoma, not otherwise specified",precision_score_thr_05,0.131464968152866,0.121036701463163,0.141894069686532
+text,"melanoma, not otherwise specified",recall_score_thr_05,0.950276243093923,0.931860029697418,0.967864751815796
+text,"melanoma, not otherwise specified",specificity_score_thr_05,0.235135741530177,0.222570622712374,0.247453134134412
+text,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.1854119846241,1.162894448637962,1.206833970546722
+text,"melanoma, not otherwise specified",accuracy_score_thr_validOpt,0.571,0.557200014591217,0.58459997177124
+text,"melanoma, not otherwise specified",f1_score_thr_validOpt,0.281407035175879,0.260013411939144,0.302588474005461
+text,"melanoma, not otherwise specified",precision_score_thr_validOpt,0.171990171990172,0.157166123390198,0.187117998301983
+text,"melanoma, not otherwise specified",recall_score_thr_validOpt,0.773480662983425,0.737614040076733,0.807692289352417
+text,"melanoma, not otherwise specified",specificity_score_thr_validOpt,0.54633161319273,0.531604753434658,0.560937654972076
+text,"melanoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.319812276176156,1.281057396531105,1.357276928424835
+text,a nevus (melanocytic nevus),vaildOldLen,5000,nan,nan
+text,a nevus (melanocytic nevus),vaildNewLen,5000,nan,nan
+text,a nevus (melanocytic nevus),testOldLen,5000,nan,nan
+text,a nevus (melanocytic nevus),testNewLen,5000,nan,nan
+text,a nevus (melanocytic nevus),testAuroc,0.568520797457945,0.55491649210453,0.582288758456707
+text,a nevus (melanocytic nevus),vaildOptThreshold,0.95,nan,nan
+text,a nevus (melanocytic nevus),accuracy_score_thr_05,0.6626,0.649399995803833,0.675999999046326
+text,a nevus (melanocytic nevus),f1_score_thr_05,0.792266962196774,0.782424679398537,0.802047820389271
+text,a nevus (melanocytic nevus),precision_score_thr_05,0.669510926118626,0.65609347820282,0.682977975904942
+text,a nevus (melanocytic nevus),recall_score_thr_05,0.970144752714113,0.964166185259819,0.975851479172707
+text,a nevus (melanocytic nevus),specificity_score_thr_05,0.057007125890736,0.045915324240923,0.068436800315976
+text,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_05,1.02715187860485,1.014721709489822,1.039907109737396
+text,a nevus (melanocytic nevus),accuracy_score_thr_validOpt,0.634,0.620999991893768,0.64740002155304
+text,a nevus (melanocytic nevus),f1_score_thr_validOpt,0.737897450587224,0.726504042744637,0.749538315832615
+text,a nevus (melanocytic nevus),precision_score_thr_validOpt,0.702673213311511,0.688130336999893,0.717517291009426
+text,a nevus (melanocytic nevus),recall_score_thr_validOpt,0.776839565741858,0.762803012132645,0.790919959545135
+text,a nevus (melanocytic nevus),specificity_score_thr_validOpt,0.352731591448931,0.330346062034369,0.376155143231153
+text,a nevus (melanocytic nevus),sensitivity_plus_specificity_thr_validOpt,1.129571157190789,1.103005608916283,1.156677937507629
+text,pigmented benign keratosis (seborrheic keratosis),vaildOldLen,5000,nan,nan
+text,pigmented benign keratosis (seborrheic keratosis),vaildNewLen,5000,nan,nan
+text,pigmented benign keratosis (seborrheic keratosis),testOldLen,5000,nan,nan
+text,pigmented benign keratosis (seborrheic keratosis),testNewLen,5000,nan,nan
+text,pigmented benign keratosis (seborrheic keratosis),testAuroc,0.718032664269223,0.697231782972813,0.738282316923142
+text,pigmented benign keratosis (seborrheic keratosis),vaildOptThreshold,0.85,nan,nan
+text,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_05,0.1778,0.167400002479553,0.18860000371933
+text,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_05,0.214408561054844,0.199693352356553,0.229270228743553
+text,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_05,0.120231461637377,0.111087373271585,0.129641844332218
+text,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_05,0.989417989417989,0.980215847492218,0.996598660945892
+text,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_05,0.073990525603429,0.066364346072078,0.081863805279136
+text,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_05,1.063408515021418,1.051329955458641,1.074482154846191
+text,pigmented benign keratosis (seborrheic keratosis),accuracy_score_thr_validOpt,0.7424,0.730199992656708,0.754199981689453
+text,pigmented benign keratosis (seborrheic keratosis),f1_score_thr_validOpt,0.357926221335992,0.330804065614939,0.38472980260849
+text,pigmented benign keratosis (seborrheic keratosis),precision_score_thr_validOpt,0.249478804725504,0.227271944284439,0.27178506180644
+text,pigmented benign keratosis (seborrheic keratosis),recall_score_thr_validOpt,0.6331569664903,0.592936813831329,0.67256635427475
+text,pigmented benign keratosis (seborrheic keratosis),specificity_score_thr_validOpt,0.756372659598466,0.743885736167431,0.768811199069023
+text,pigmented benign keratosis (seborrheic keratosis),sensitivity_plus_specificity_thr_validOpt,1.389529626088766,1.347290399670601,1.430648368597031
+text,solar or actinic keratosis,vaildOldLen,5000,nan,nan
+text,solar or actinic keratosis,vaildNewLen,5000,nan,nan
+text,solar or actinic keratosis,testOldLen,5000,nan,nan
+text,solar or actinic keratosis,testNewLen,5000,nan,nan
+text,solar or actinic keratosis,testAuroc,0.758618206613586,0.715730713307858,0.798810058832169
+text,solar or actinic keratosis,vaildOptThreshold,0.75,nan,nan
+text,solar or actinic keratosis,accuracy_score_thr_05,0.3712,0.358000010251999,0.384799987077713
+text,solar or actinic keratosis,f1_score_thr_05,0.04029304029304,0.031078284000978,0.049984765145928
+text,solar or actinic keratosis,precision_score_thr_05,0.020579981290926,0.015789431892335,0.025657465914264
+text,solar or actinic keratosis,recall_score_thr_05,0.956521739130435,0.904109597206116,1.0
+text,solar or actinic keratosis,specificity_score_thr_05,0.363009531535186,0.349544078111649,0.376647084951401
+text,solar or actinic keratosis,sensitivity_plus_specificity_thr_05,1.31953127066562,1.266354727745056,1.363104274868965
+text,solar or actinic keratosis,accuracy_score_thr_validOpt,0.5778,0.564000010490417,0.591199994087219
+text,solar or actinic keratosis,f1_score_thr_validOpt,0.053787539220081,0.04113328224048,0.067150637507439
+text,solar or actinic keratosis,precision_score_thr_validOpt,0.027752081406105,0.021087160333991,0.034862512163818
+text,solar or actinic keratosis,recall_score_thr_validOpt,0.869565217391304,0.784810125827789,0.943661987781525
+text,solar or actinic keratosis,specificity_score_thr_validOpt,0.573717298722369,0.559918442368507,0.587375700473785
+text,solar or actinic keratosis,sensitivity_plus_specificity_thr_validOpt,1.443282516113673,1.358607658743858,1.519248196482658
+text,"squamous cell carcinoma, not otherwise specified",vaildOldLen,5000,nan,nan
+text,"squamous cell carcinoma, not otherwise specified",vaildNewLen,5000,nan,nan
+text,"squamous cell carcinoma, not otherwise specified",testOldLen,5000,nan,nan
+text,"squamous cell carcinoma, not otherwise specified",testNewLen,5000,nan,nan
+text,"squamous cell carcinoma, not otherwise specified",testAuroc,0.777734168321899,0.738022105395794,0.81489142626524
+text,"squamous cell carcinoma, not otherwise specified",vaildOptThreshold,0.65,nan,nan
+text,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_05,0.6922,0.679400026798248,0.704599976539612
+text,"squamous cell carcinoma, not otherwise specified",f1_score_thr_05,0.085561497326203,0.067457784339786,0.104182165302336
+text,"squamous cell carcinoma, not otherwise specified",precision_score_thr_05,0.045311516677155,0.035398229956627,0.055729698762298
+text,"squamous cell carcinoma, not otherwise specified",recall_score_thr_05,0.765957446808511,0.679001334309578,0.848837196826935
+text,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_05,0.690786791683653,0.677800247073174,0.703492312133312
+text,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_05,1.456744238492164,1.368047833442688,1.540535581111908
+text,"squamous cell carcinoma, not otherwise specified",accuracy_score_thr_validOpt,0.6922,0.679400026798248,0.704599976539612
+text,"squamous cell carcinoma, not otherwise specified",f1_score_thr_validOpt,0.085561497326203,0.067457784339786,0.104182165302336
+text,"squamous cell carcinoma, not otherwise specified",precision_score_thr_validOpt,0.045311516677155,0.035398229956627,0.055729698762298
+text,"squamous cell carcinoma, not otherwise specified",recall_score_thr_validOpt,0.765957446808511,0.679001334309578,0.848837196826935
+text,"squamous cell carcinoma, not otherwise specified",specificity_score_thr_validOpt,0.690786791683653,0.677800247073174,0.703492312133312
+text,"squamous cell carcinoma, not otherwise specified",sensitivity_plus_specificity_thr_validOpt,1.456744238492164,1.368047833442688,1.540535581111908
+norm,AVERAGE,auroc,0.68067205,0.669207367300987,0.691913132369518
+unnorm,AVERAGE,auroc,0.6763011,0.664730921387672,0.687831838428974
+text,AVERAGE,auroc,0.6359465,0.625792783498764,0.645884649455547
+comparison,norm_vs_unnorm,two_sided_p,0.336566343365663,,
+comparison,norm_vs_unnorm,ci_diff,0.004370944,-0.004836364090443,0.013106721639633
+comparison,norm_vs_text,two_sided_p,0.000199980002,,
+comparison,norm_vs_text,ci_diff,0.04472553,0.036446368694305,0.053127409517765

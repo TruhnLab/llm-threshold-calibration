@@ -1,0 +1,116 @@
+prob_type,label,metric,value,lower_95,upper_95
+norm,glaucoma,vaildOldLen,816,nan,nan
+norm,glaucoma,vaildNewLen,816,nan,nan
+norm,glaucoma,testOldLen,204,nan,nan
+norm,glaucoma,testNewLen,204,nan,nan
+norm,glaucoma,testAuroc,0.522092343658679,0.438161885738373,0.603098072111607
+norm,glaucoma,vaildOptThreshold,0.00027803084,nan,nan
+norm,glaucoma,accuracy_score_thr_05,0.71078431372549,0.647058844566345,0.769607841968536
+norm,glaucoma,f1_score_thr_05,0.0,0.0,0.0
+norm,glaucoma,precision_score_thr_05,0.0,0.0,0.0
+norm,glaucoma,recall_score_thr_05,0.0,0.0,0.0
+norm,glaucoma,specificity_score_thr_05,1.0,1.0,1.0
+norm,glaucoma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+norm,glaucoma,accuracy_score_thr_validOpt,0.392156862745098,0.323529422283173,0.460784316062927
+norm,glaucoma,f1_score_thr_validOpt,0.474576271186441,0.393013089895248,0.550000011920929
+norm,glaucoma,precision_score_thr_validOpt,0.31638418079096,0.248648643493652,0.385484728217125
+norm,glaucoma,recall_score_thr_validOpt,0.949152542372881,0.884615361690521,1.0
+norm,glaucoma,specificity_score_thr_validOpt,0.16551724137931,0.106374921649694,0.228187918663025
+norm,glaucoma,sensitivity_plus_specificity_thr_validOpt,1.114669783752192,1.027561622858048,1.194180464744568
+norm,a normal eye,vaildOldLen,816,nan,nan
+norm,a normal eye,vaildNewLen,816,nan,nan
+norm,a normal eye,testOldLen,204,nan,nan
+norm,a normal eye,testNewLen,204,nan,nan
+norm,a normal eye,testAuroc,0.466744593804792,0.382715712487698,0.548632448911667
+norm,a normal eye,vaildOptThreshold,0.9553191,nan,nan
+norm,a normal eye,accuracy_score_thr_05,0.573529411764706,0.504901945590973,0.642156839370728
+norm,a normal eye,f1_score_thr_05,0.712871287128713,0.650684952735901,0.767295598983765
+norm,a normal eye,precision_score_thr_05,0.683544303797468,0.610062897205353,0.754838705062866
+norm,a normal eye,recall_score_thr_05,0.744827586206897,0.673199491202831,0.814814805984497
+norm,a normal eye,specificity_score_thr_05,0.152542372881356,0.064498968608677,0.25
+norm,a normal eye,sensitivity_plus_specificity_thr_05,0.897369959088253,0.783298179507256,1.014887094497681
+norm,a normal eye,accuracy_score_thr_validOpt,0.524509803921569,0.455882340669632,0.593137264251709
+norm,a normal eye,f1_score_thr_validOpt,0.649819494584838,0.579925656318665,0.71378093957901
+norm,a normal eye,precision_score_thr_validOpt,0.681818181818182,0.600000023841858,0.760571028292179
+norm,a normal eye,recall_score_thr_validOpt,0.620689655172414,0.539007067680359,0.70063800662756
+norm,a normal eye,specificity_score_thr_validOpt,0.288135593220339,0.173913046717644,0.405797094106674
+norm,a normal eye,sensitivity_plus_specificity_thr_validOpt,0.908825248392753,0.768744771182537,1.052271565794945
+unnorm,glaucoma,vaildOldLen,816,nan,nan
+unnorm,glaucoma,vaildNewLen,816,nan,nan
+unnorm,glaucoma,testOldLen,204,nan,nan
+unnorm,glaucoma,testNewLen,204,nan,nan
+unnorm,glaucoma,testAuroc,0.5062536528346,0.419340244680643,0.5914695084095
+unnorm,glaucoma,vaildOptThreshold,1.3431621e-06,nan,nan
+unnorm,glaucoma,accuracy_score_thr_05,0.71078431372549,0.647058844566345,0.769607841968536
+unnorm,glaucoma,f1_score_thr_05,0.0,0.0,0.0
+unnorm,glaucoma,precision_score_thr_05,0.0,0.0,0.0
+unnorm,glaucoma,recall_score_thr_05,0.0,0.0,0.0
+unnorm,glaucoma,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,glaucoma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,glaucoma,accuracy_score_thr_validOpt,0.397058823529412,0.333210793882609,0.4656862616539
+unnorm,glaucoma,f1_score_thr_validOpt,0.411483253588517,0.324873089790344,0.495412856340408
+unnorm,glaucoma,precision_score_thr_validOpt,0.286666666666667,0.215686276555061,0.361452192813158
+unnorm,glaucoma,recall_score_thr_validOpt,0.728813559322034,0.60869562625885,0.841269850730896
+unnorm,glaucoma,specificity_score_thr_validOpt,0.262068965517241,0.19178082048893,0.33576922044158
+unnorm,glaucoma,sensitivity_plus_specificity_thr_validOpt,0.990882524839275,0.851570762693882,1.127647987008095
+unnorm,a normal eye,vaildOldLen,816,nan,nan
+unnorm,a normal eye,vaildNewLen,816,nan,nan
+unnorm,a normal eye,testOldLen,204,nan,nan
+unnorm,a normal eye,testNewLen,204,nan,nan
+unnorm,a normal eye,testAuroc,0.471420222092344,0.388112410157919,0.555707763135433
+unnorm,a normal eye,vaildOptThreshold,0.019816145,nan,nan
+unnorm,a normal eye,accuracy_score_thr_05,0.28921568627451,0.230392158031464,0.352941185235977
+unnorm,a normal eye,f1_score_thr_05,0.0,0.0,0.0
+unnorm,a normal eye,precision_score_thr_05,0.0,0.0,0.0
+unnorm,a normal eye,recall_score_thr_05,0.0,0.0,0.0
+unnorm,a normal eye,specificity_score_thr_05,1.0,1.0,1.0
+unnorm,a normal eye,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+unnorm,a normal eye,accuracy_score_thr_validOpt,0.5,0.431372553110123,0.5686274766922
+unnorm,a normal eye,f1_score_thr_validOpt,0.581967213114754,0.504273533821106,0.652892589569092
+unnorm,a normal eye,precision_score_thr_validOpt,0.717171717171717,0.625,0.806122422218323
+unnorm,a normal eye,recall_score_thr_validOpt,0.489655172413793,0.407142847776413,0.570422530174255
+unnorm,a normal eye,specificity_score_thr_validOpt,0.525423728813559,0.396226406097412,0.653846144676208
+unnorm,a normal eye,sensitivity_plus_specificity_thr_validOpt,1.015078901227352,0.861092457175255,1.167341804504394
+text,glaucoma,vaildOldLen,816,nan,nan
+text,glaucoma,vaildNewLen,816,nan,nan
+text,glaucoma,testOldLen,204,nan,nan
+text,glaucoma,testNewLen,204,nan,nan
+text,glaucoma,testAuroc,0.5,0.5,0.5
+text,glaucoma,vaildOptThreshold,inf,nan,nan
+text,glaucoma,accuracy_score_thr_05,0.71078431372549,0.647058844566345,0.769607841968536
+text,glaucoma,f1_score_thr_05,0.0,0.0,0.0
+text,glaucoma,precision_score_thr_05,0.0,0.0,0.0
+text,glaucoma,recall_score_thr_05,0.0,0.0,0.0
+text,glaucoma,specificity_score_thr_05,1.0,1.0,1.0
+text,glaucoma,sensitivity_plus_specificity_thr_05,1.0,1.0,1.0
+text,glaucoma,accuracy_score_thr_validOpt,0.71078431372549,0.647058844566345,0.769607841968536
+text,glaucoma,f1_score_thr_validOpt,0.0,0.0,0.0
+text,glaucoma,precision_score_thr_validOpt,0.0,0.0,0.0
+text,glaucoma,recall_score_thr_validOpt,0.0,0.0,0.0
+text,glaucoma,specificity_score_thr_validOpt,1.0,1.0,1.0
+text,glaucoma,sensitivity_plus_specificity_thr_validOpt,1.0,1.0,1.0
+text,a normal eye,vaildOldLen,816,nan,nan
+text,a normal eye,vaildNewLen,816,nan,nan
+text,a normal eye,testOldLen,204,nan,nan
+text,a normal eye,testNewLen,204,nan,nan
+text,a normal eye,testAuroc,0.473407364114553,0.410231649875641,0.537735490500927
+text,a normal eye,vaildOptThreshold,0.1,nan,nan
+text,a normal eye,accuracy_score_thr_05,0.57843137254902,0.509803950786591,0.647058844566345
+text,a normal eye,f1_score_thr_05,0.711409395973154,0.649810168147087,0.766362944245338
+text,a normal eye,precision_score_thr_05,0.69281045751634,0.618749976158142,0.764331221580505
+text,a normal eye,recall_score_thr_05,0.731034482758621,0.656704746186733,0.801526725292206
+text,a normal eye,specificity_score_thr_05,0.203389830508475,0.103448279201984,0.311475396156311
+text,a normal eye,sensitivity_plus_specificity_thr_05,0.934424313267095,0.808568127453327,1.0625
+text,a normal eye,accuracy_score_thr_validOpt,0.583333333333333,0.514705896377563,0.651960790157318
+text,a normal eye,f1_score_thr_validOpt,0.71571906354515,0.652777791023254,0.770700633525848
+text,a normal eye,precision_score_thr_validOpt,0.694805194805195,0.620915055274963,0.765822768211365
+text,a normal eye,recall_score_thr_validOpt,0.737931034482759,0.664335668087006,0.80916029214859
+text,a normal eye,specificity_score_thr_validOpt,0.203389830508475,0.103448279201984,0.311475396156311
+text,a normal eye,sensitivity_plus_specificity_thr_validOpt,0.941320864991233,0.816666662693024,1.068911275267601
+norm,AVERAGE,auroc,0.49389374,0.436546460539103,0.551321187615395
+unnorm,AVERAGE,auroc,0.4886209,0.423020995408297,0.554680354893207
+text,AVERAGE,auroc,0.4865646,0.45511582493782,0.518867716193199
+comparison,norm_vs_unnorm,two_sided_p,0.873312668733127,,
+comparison,norm_vs_unnorm,ci_diff,0.005272844,-0.053824634850025,0.06563575938344
+comparison,norm_vs_text,two_sided_p,0.783321667833217,,
+comparison,norm_vs_text,ci_diff,0.007329112,-0.046193293482065,0.060294924676418

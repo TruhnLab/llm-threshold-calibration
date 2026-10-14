@@ -8,7 +8,7 @@ This repository contains the implementation and evaluation code for the paper _"
 A multimodal large language model is asked a yes/no question about an image (e.g. _"Does the imaging show cardiomegaly?"_). Instead of reading the generated answer, we take the probabilities of the tokens "yes" and "no" from a single forward pass and normalize them to a continuous decision score. Like the output of a conventional classifier, this score can be thresholded at any operating point. We compare it with the raw (unnormalized) "yes" probability and with a probability that the model states as text.
 
 ## Requirements
-**Note:** we used Linux, Python 3.12.3 and [`uv`](https://docs.astral.sh/uv/) (all packages are pinned in [`requirements.txt`](requirements.txt)). Inference was run on a single NVIDIA H100 GPU (94 GB). The evaluation runs on the CPU.
+**Note:** we used Linux, Python 3.12.3 and [`uv`](https://docs.astral.sh/uv/) (all packages are pinned in [`requirements.txt`](requirements.txt)). Inference was run on a single NVIDIA H100 GPU. The evaluation runs on the CPU.
 
 **Setup Instructions:**
 
